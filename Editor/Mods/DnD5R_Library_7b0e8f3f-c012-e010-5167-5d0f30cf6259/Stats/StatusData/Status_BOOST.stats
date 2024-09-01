@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="267f079e-681e-400e-b36b-ac19429699c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="STATUS_DND5R_STARRYWISP" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d0872c9gecb1g4abfg7488g43d2eea0e3ee" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8f5cfe13g0490g8001g29d1g184fd4147d5d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MagicCircle" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_FaerieFire_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_FaerieFire_MO_Stop" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INVISIBILITY" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="9" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(3,false,0.1);StatusImmunity(SG_Invisible)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="423ef553-a009-40d0-b110-1f5398b1b774" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57cda2f1-d298-4885-837c-aeb8a6c8b316" />
+        <field name="Name" type="NameTableFieldDefinition" value="STATUS_DND5R_CRUSHER_ENHANCEDCRITICAL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc96a80edg25c1ga817gc077g7cd1cdf9aa72" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33d16eefgda11g6e77g4303g223c4bf53a2c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Dazed" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackTarget)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,192 @@
+new equipment "EQP_DnD5R_Barbarian"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_Barbarian"
+add equipmentgroup
+add equipment entry "ARM_Shoes_Barbarian"
+add equipmentgroup
+add equipment entry "WPN_Greataxe"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+add equipmentgroup
+add equipment entry "WPN_Handaxe"
+
+new equipment "EQP_DnD5R_Bard"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_Bard"
+add equipmentgroup
+add equipment entry "ARM_Boots_Leather"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+
+new equipment "EQP_DnD5R_Cleric"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_ChainShirt_Body"
+add equipmentgroup
+add equipment entry "ARM_Boots_Leather"
+add equipmentgroup
+add equipment entry "WPN_Mace"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+
+new equipment "EQP_DnD5R_Druid"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body_Druid"
+add equipmentgroup
+add equipment entry "ARM_Boots_Leather_Druid"
+add equipmentgroup
+add equipment entry "WPN_Sickle"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff_Druid"
+
+new equipment "EQP_DnD5R_Fighter"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_ChainMail_Body"
+add equipmentgroup
+add equipment entry "ARM_Boots_Metal"
+add equipmentgroup
+add equipment entry "WPN_Greatsword"
+add equipmentgroup
+add equipment entry "WPN_Flail"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+
+new equipment "EQP_DnD5R_Monk"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_Monk"
+add equipmentgroup
+add equipment entry "ARM_Shoes_Monk"
+add equipmentgroup
+add equipment entry "WPN_Spear"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+
+new equipment "EQP_DnD5R_Paladin"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_ChainMail_Body"
+add equipmentgroup
+add equipment entry "ARM_Boots_Metal"
+add equipmentgroup
+add equipment entry "WPN_Longsword"
+add equipmentgroup
+add equipment entry "ARM_Shield_C"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "WPN_Javelin"
+add equipmentgroup
+add equipment entry "OBJ_Book_Paladin"
+
+new equipment "EQP_DnD5R_Ranger"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "ARM_StuddedLeather_Body"
+add equipmentgroup
+add equipment entry "ARM_Boots_Leather"
+add equipmentgroup
+add equipment entry "WPN_Longbow"
+add equipmentgroup
+add equipment entry "WPN_Scimitar"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+
+new equipment "EQP_DnD5R_Rogue"
+add initialweaponset "Ranged"
+add equipmentgroup
+add equipment entry "ARM_Leather_Body_Rogue"
+add equipmentgroup
+add equipment entry "ARM_Boots_Leather"
+add equipmentgroup
+add equipment entry "WPN_Shortbow"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Shortsword"
+add equipmentgroup
+add equipment entry "OBJ_Kit_ThievesTools"
+
+new equipment "EQP_DnD5R_Sorcerer"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body_Sorcerer_StormSorcery"
+add equipmentgroup
+add equipment entry "ARM_Shoes"
+add equipmentgroup
+add equipment entry "WPN_Spear"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+
+new equipment "EQP_DnD5R_Warlock"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "UNI_Leather_Jaheira"
+add equipmentgroup
+add equipment entry "UNI_Jaheira_Boots"
+add equipmentgroup
+add equipment entry "WPN_Sickle"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+
+new equipment "EQP_DnD5R_Wizard"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
+add equipmentgroup
+add equipment entry "ARM_Shoes"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+add equipmentgroup
+add equipment entry "WPN_Dagger"
+

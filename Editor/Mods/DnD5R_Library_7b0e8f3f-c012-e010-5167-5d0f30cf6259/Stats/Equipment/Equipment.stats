@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="cc1701fc-f374-4681-a3ec-29a5ce8d05e8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7696489c-717e-47ae-b65b-0179e320356b" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Barbarian" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_Barbarian" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Shoes_Barbarian" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Greataxe" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="WPN_Handaxe" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="WPN_Handaxe" />
+        <field name="6" type="StatReferenceTableFieldDefinition" value="WPN_Handaxe" />
+        <field name="7" type="StatReferenceTableFieldDefinition" value="WPN_Handaxe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e4055c09-7485-45b5-8486-eadf33a08381" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Bard" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_Bard" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Boots_Leather" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="626f7eba-6a9b-4b71-9a72-e15a014598ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Cleric" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_ChainShirt_Body" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Boots_Leather" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Mace" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="ARM_Shield" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc5fd423-8b28-45d3-952b-da979435ba1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Druid" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_Leather_Body_Druid" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Boots_Leather_Druid" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Sickle" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="ARM_Shield" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="WPN_Quarterstaff_Druid" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="583352f7-5864-40d3-9229-168c0fa25394" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Fighter" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_ChainMail_Body" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Boots_Metal" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Greatsword" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="WPN_Flail" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="6" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="7" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="8" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="9" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="10" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="11" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="12" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d783c654-b0fa-4702-ad63-a1f306811895" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Monk" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_Monk" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Shoes_Monk" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Spear" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="6" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="7" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="8" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b44783a-91fa-4ab4-9a83-16430ca39a20" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Paladin" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_ChainMail_Body" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Boots_Metal" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Longsword" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="ARM_Shield_C" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="6" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="7" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="8" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="9" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="10" type="StatReferenceTableFieldDefinition" value="WPN_Javelin" />
+        <field name="11" type="StatReferenceTableFieldDefinition" value="OBJ_Book_Paladin" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ffae5fc4-06a8-4a6f-bf3c-ae74ae25e0f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Ranger" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_StuddedLeather_Body" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Boots_Leather" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Longbow" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="WPN_Scimitar" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="WPN_Shortsword" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f0d7330-0464-45b4-bc9f-34965a0ab8e3" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Rogue" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_Leather_Body_Rogue" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Boots_Leather" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Shortbow" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="6" type="StatReferenceTableFieldDefinition" value="WPN_Shortsword" />
+        <field name="7" type="StatReferenceTableFieldDefinition" value="OBJ_Kit_ThievesTools" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4620b621-e2ff-4af1-87d8-01196049c3a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Sorcerer" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_Robe_Body_Sorcerer_StormSorcery" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Shoes" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Spear" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46bcedc4-954d-4f50-8207-a86222ad526c" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Warlock" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="UNI_Leather_Jaheira" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="UNI_Jaheira_Boots" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Sickle" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa06097a-e3ea-4744-bb55-1ab06a455b66" />
+        <field name="Name" type="NameTableFieldDefinition" value="EQP_DnD5R_Wizard" />
+        <field name="InitialWeaponSet" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="WeaponSet" version="1" />
+        <field name="1" type="StatReferenceTableFieldDefinition" value="ARM_Robe_Body" />
+        <field name="2" type="StatReferenceTableFieldDefinition" value="ARM_Shoes" />
+        <field name="3" type="StatReferenceTableFieldDefinition" value="WPN_Quarterstaff" />
+        <field name="4" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+        <field name="5" type="StatReferenceTableFieldDefinition" value="WPN_Dagger" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

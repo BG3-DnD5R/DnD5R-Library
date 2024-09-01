@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="67731907-4ad8-4be6-9326-d6f5b982140e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="520743c9-7830-4e0c-bf43-949fbda4beeb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_StarryWisp" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(LM_DnD5R_D8Cantrip),Radiant,Magical);ApplyStatus(STATUS_DND5R_STARRYWISP, 100, 2)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="e1d4f276-3dff-4545-90e1-2703cd128983" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MagicCircle" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc18e8e79ge7a3ge2f7geefbg4ddb21958862" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3239d87ga55eg5898g90c5gbeaf73e863c2" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(LM_DnD5R_D8Cantrip),Radiant)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(STATUS_DND5R_STARRYWISP, 100, 2)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Radiant_GuidingBolt_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;b9bf0c36-7d07-472d-b5cc-82b0b4911e99,,;f1fe3ffe-9aec-445b-9473-0d7900b85550,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="0198563f-c48b-45e0-afb5-46ef9576adff" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b7bd64e-8c9d-446c-a9e8-f61396e1d39c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_VFX_Acid" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="aa171d97-b63a-477f-bd97-152dc33f2454" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53293d50-4f3a-4d0b-a71c-0ed57a638147" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_VFX_Acid_2" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="aa171d97-b63a-477f-bd97-152dc33f2454" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bcf7bda5-dfe0-484e-8069-bf155667306b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_VFX_Fire" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="229f6d50-a49e-4a05-b0ef-b19e5e4f049c" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="894b34f9-c7d2-4b49-b75a-82361a58fd91" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_VFX_Ice" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="123d4518-69b5-4bd6-ad8c-4ad1830acc14" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="016bc23e-0707-4aa1-a350-fed2d11df86e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_VFX_Poison" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="1c4476be-e7d3-4139-8d75-e335cbda95f6" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8a223c76-d249-4ac9-827c-df9596df72b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_VFX_Lightning" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="af6700d4-d9cd-44b7-a504-388082cf21aa" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8eb2e9e-a3b5-4270-bcb0-0073ad31fd35" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_VFX_Necrotic" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="45e67c5c-91d2-4610-9621-917dd75528e3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f02eea0-12d9-4c5b-b028-fa2b94a4cd91" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_VFX_X" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="04b75679-bd1b-4d69-b48d-ea6a192aacca" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1e91b8d-88eb-4ff3-8885-1ed41c16fa2b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Smoke" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="04a56b55-1cc4-e5e3-b2bd-35a5616a8814" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cf980b1-6df4-4a14-89af-b5a86aed45df" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fireffaslkeffect" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="263a4eb1-0255-fde2-2b27-f10b0fe2de94" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="293359dc-3700-44a9-91cd-9d5b3dbaa230" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0-magic missile" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="13cbd9e4-c391-471e-bcbd-a9384d028090" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31a69edb-46c0-43f7-a63f-7a24381c5d7a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_VFX_Wraith" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="26908cea-3340-e0bb-88c1-1e473dcab618" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d1d5c5c-584c-4743-a45f-8878b71f8112" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cd3324a-47b0-411c-b592-c0c09c27699b" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8727c6a-aa86-4dd5-88a1-4cebbc8a527d" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

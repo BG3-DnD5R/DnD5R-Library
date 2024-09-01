@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="Races">
+        <node id="root">
+            <children>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2bd9971fg0487g26d1gbe29g06c3adc9e234" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Tiefling"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="UUID" type="guid" value="67e460ce-5cf7-4bf1-8130-536ef7150d39"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="aaef5d43-c6f3-434d-b11e-c763290dbe0c"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5ab1529bga1afgaf7fga5aagea493a66c3eb" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Human"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Human"/>
+                    <attribute id="UUID" type="guid" value="5f5cf18f-435e-4cee-871f-7c47758567ba"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="69fd1443-7686-4ca9-9516-72ec0b9d94d7"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h74005ba0g181eg736fg1ccagdda5f157d64b" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Elf"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="UUID" type="guid" value="fda63715-0a28-4df4-8de8-af69fd4d4b24"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="351f4e42-1217-4c06-b47a-443dcf69b111"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="he1f531b4gbe7dg4fddgff69g7b8f5c00a60b" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Dwarf"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="UUID" type="guid" value="90ecb734-8f91-480c-87b8-1d9f77550d67"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="486a2562-31ae-437b-bf63-30393e18cbdd"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="50e7beca-4e90-43cd-b7c5-c235e236077f"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h81fe0920geab4g1109gbaf5g21ccbdf7a42b" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Dragonborn"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="UUID" type="guid" value="40e70c45-5b70-406c-bfdd-26e441fdde89"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="02e5e9ed-b6b2-4524-99cd-cb2bc84c754a"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha64ae9fcgeb7cg9a95g93b3gb96fc8c5fe75" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Gnome"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="UUID" type="guid" value="2069774f-9710-47c6-beac-7dfb77d90e85"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="1f0551f3-d769-47a9-b02b-5d3a8c51978c"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="50e7beca-4e90-43cd-b7c5-c235e236077f"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3986520ag2e6bg54e9g5bfeg43b4d181b786" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Halfling"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="UUID" type="guid" value="1d327bdc-0166-46f4-8738-279f757ba022"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="b99b6a5d-8445-44e4-ac58-81b2ee88aab1"/>
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="50e7beca-4e90-43cd-b7c5-c235e236077f"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hff27a204gf868g6fd1gcfa4g8ec3f2bc479b" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Orc"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="UUID" type="guid" value="a9d4c502-ed0b-416f-a00c-f7c9497bde3d"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="3311a9a9-cdbc-4b05-9bf6-e02ba1fc72a3"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6d562cf5gcf80gceedgb178g0625e785bd9a" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Gith"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="UUID" type="guid" value="b413e8d7-502f-46e6-922b-a238bd348740"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="677ffa76-2562-4217-873e-2253d4720ba4"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h342b6af6g0421g5e02gdc1cgcc6fd7a9dd03" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Aasimar"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="UUID" type="guid" value="59d3da62-92f4-441d-b899-e44e1430b54e"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Race">
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha2919cd2gd15bge563g7785g3faf0bc7b868" version="1"/>
+                    <attribute id="DisplayTypeUUID" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="Name" type="FixedString" value="DnD5R_Goliath"/>
+                    <attribute id="ParentGuid" type="guid" value="899d275e-9893-490a-9cd5-be856794929f"/>
+                    <attribute id="UUID" type="guid" value="3eb59948-698d-4e9f-97cb-31d20b5c6ae9"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

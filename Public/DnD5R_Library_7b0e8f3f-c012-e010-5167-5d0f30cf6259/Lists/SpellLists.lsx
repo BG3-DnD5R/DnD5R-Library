@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock"/>
+                    <attribute id="UUID" type="guid" value="4c88dfe8-babd-43db-a008-f92350c4abc8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock Slevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="f5bc9c55-e3f2-4ff4-a5b7-dc3b9eb70f45"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock Slevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="b6681fcb-2363-42e9-9305-aa52874d504f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock Slevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="11fd65e7-c96c-4fb9-a75b-8c30e5523959"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock Slevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="fddf6183-693c-436a-9083-732203fd5fd2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock Slevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoldMonster;Target_PlanarBinding;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_Bane;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Shout_SpeakWithAnimals;Target_HideousLaughter;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c09d4c9d-251d-43c5-bd29-defc9c796cd9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock Mysic Arcanum SLevel 6"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite"/>
+                    <attribute id="UUID" type="guid" value="7e9cfdd3-b560-42c5-98f9-dd3e1590596c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock Mysic Arcanum SLevel 7"/>
+                    <attribute id="UUID" type="guid" value="cd4e16c1-3666-4b3b-8021-d64262b05eac"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock Mysic Arcanum SLevel 8"/>
+                    <attribute id="UUID" type="guid" value="3582ecc3-e03e-428b-9a2c-81251bb9345b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock Mysic Arcanum SLevel 9"/>
+                    <attribute id="UUID" type="guid" value="f97f4579-1c7f-41a7-aa8e-91aff5510661"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Archfey Patron Spells 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_FaerieFire;Target_Sleep;Target_CalmEmotions;Target_PhantasmalForce"/>
+                    <attribute id="UUID" type="guid" value="0904f0b4-1117-423e-969a-54898446c176"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Archfey Patron Spells 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blink;Target_PlantGrowth"/>
+                    <attribute id="UUID" type="guid" value="4c2db375-0667-4b5c-9b8d-a71dddaf4335"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Archfey Patron Spells 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominateBeast;Target_Invisibility_Greater"/>
+                    <attribute id="UUID" type="guid" value="907f7ef5-cbd9-41e2-b634-ea576df611e0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Archfey Patron Spells 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_Seeming"/>
+                    <attribute id="UUID" type="guid" value="2a7d1347-6ef0-4d9b-9991-5d36ce20a05c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Fiend Patron Spells 3"/>
+                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;Target_Command_Container;Target_Blindness;Projectile_ScorchingRay"/>
+                    <attribute id="UUID" type="guid" value="85c4068c-c305-47ad-98aa-3345c4fe8402"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Fiend Patron Spells 5"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Fireball;Target_StinkingCloud"/>
+                    <attribute id="UUID" type="guid" value="63958af9-e5ed-443c-b41f-9c5327468bf5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Fiend Patron Spells 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Wall_WallOfFire"/>
+                    <attribute id="UUID" type="guid" value="d4bee269-d0b3-4d10-a9fe-1284ba14a6fd"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Fiend Patron Spells 9"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_FlameStrike"/>
+                    <attribute id="UUID" type="guid" value="2781a186-4ab3-4cc9-899f-6dbafb9e9368"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R GreatOldOne Patron Spells 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_DissonantWhispers;Target_HideousLaughter;Shout_DetectThoughts;Target_PhantasmalForce"/>
+                    <attribute id="UUID" type="guid" value="e0d3fc88-9180-4aa3-afb6-9aee6418dbe2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R GreatOldOne Patron Spells 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Target_Slow"/>
+                    <attribute id="UUID" type="guid" value="29585630-789c-4298-a4ff-3abb831a5d5f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R GreatOldOne Patron Spells 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominateBeast;Target_BlackTentacles"/>
+                    <attribute id="UUID" type="guid" value="6d5e8414-5280-4044-b2ec-a2f8671e0133"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R GreatOldOne Patron Spells 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Throw_Telekinesis"/>
+                    <attribute id="UUID" type="guid" value="03b078c6-21b6-4159-a51a-0d489a2e0898"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard"/>
+                    <attribute id="UUID" type="guid" value="430ecd81-a795-4acb-a6af-c6b4f8529eec"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Abjuration 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;"/>
+                    <attribute id="UUID" type="guid" value="9ba024e0-2f11-47f2-b201-b399ab6513d6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Abjuration 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_ArcaneLock;Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;"/>
+                    <attribute id="UUID" type="guid" value="13aaba28-fd2a-4a62-8ab7-60bf299a0125"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Abjuration 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Counterspell;Target_GlyphOfWarding;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;"/>
+                    <attribute id="UUID" type="guid" value="bf7e2d2d-06f7-44d4-b115-e2c39238d5a2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Abjuration 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_ResilientSphere;Target_Counterspell;Target_GlyphOfWarding;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;"/>
+                    <attribute id="UUID" type="guid" value="adc92d97-518c-40e9-a317-c05935c28f6c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Abjuration 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_PlanarBinding;Target_Banishment;Target_ResilientSphere;Target_Counterspell;Target_GlyphOfWarding;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;"/>
+                    <attribute id="UUID" type="guid" value="e6557bab-ea30-46ca-babf-f9b7994053f7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Abjuration 6"/>
+                    <attribute id="Spells" type="LSString" value="Target_GlobeOfInvulnerability;Target_PlanarBinding;Target_Banishment;Target_ResilientSphere;Target_Counterspell;Target_GlyphOfWarding;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;"/>
+                    <attribute id="UUID" type="guid" value="d6b2d079-d567-4063-8c2a-2ba646fa0eb5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Abjuration 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_GlobeOfInvulnerability;Target_PlanarBinding;Target_Banishment;Target_ResilientSphere;Target_Counterspell;Target_GlyphOfWarding;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;"/>
+                    <attribute id="UUID" type="guid" value="dfd6dc9c-e52c-49a2-971a-66867847ba4f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Abjuration 8"/>
+                    <attribute id="Spells" type="LSString" value="Target_GlobeOfInvulnerability;Target_PlanarBinding;Target_Banishment;Target_ResilientSphere;Target_Counterspell;Target_GlyphOfWarding;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;"/>
+                    <attribute id="UUID" type="guid" value="d7c6a2d5-6ced-402f-b18d-fa012cea4aac"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Abjuration 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_GlobeOfInvulnerability;Target_PlanarBinding;Target_Banishment;Target_ResilientSphere;Target_Counterspell;Target_GlyphOfWarding;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_MageArmor;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;"/>
+                    <attribute id="UUID" type="guid" value="ff3b18ce-6929-42f9-97e2-7e43a444dcc0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Conjuration 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;"/>
+                    <attribute id="UUID" type="guid" value="fc12fcaf-4d6a-41fe-9db9-4b572345023e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Conjuration 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_MistyStep;Target_Web;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;"/>
+                    <attribute id="UUID" type="guid" value="b9de7447-bc28-4aba-a6cd-4479da78596e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Conjuration 3"/>
+                    <attribute id="Spells" type="LSString" value="arget_SleetStorm;Target_StinkingCloud;Target_CloudOfDaggers;Target_MistyStep;Target_Web;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;"/>
+                    <attribute id="UUID" type="guid" value="8f106808-947a-4c48-9d65-31955ad705a6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Conjuration 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;arget_SleetStorm;Target_StinkingCloud;Target_CloudOfDaggers;Target_MistyStep;Target_Web;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;"/>
+                    <attribute id="UUID" type="guid" value="69703260-587a-4caa-9102-0c2907e3ed76"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Conjuration 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Target_ConjureElemental_Container;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;arget_SleetStorm;Target_StinkingCloud;Target_CloudOfDaggers;Target_MistyStep;Target_Web;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;"/>
+                    <attribute id="UUID" type="guid" value="3687bc10-2eff-4bf8-a600-73e7177b8bc3"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Conjuration 6"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_Cloudkill;Target_ConjureElemental_Container;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;arget_SleetStorm;Target_StinkingCloud;Target_CloudOfDaggers;Target_MistyStep;Target_Web;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;"/>
+                    <attribute id="UUID" type="guid" value="9169ccda-34f2-468e-b2d5-90df8a35cf01"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Conjuration 7"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_Cloudkill;Target_ConjureElemental_Container;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;arget_SleetStorm;Target_StinkingCloud;Target_CloudOfDaggers;Target_MistyStep;Target_Web;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;"/>
+                    <attribute id="UUID" type="guid" value="70eb8461-cbbc-4025-8929-132da151b499"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Conjuration 8"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_Cloudkill;Target_ConjureElemental_Container;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;arget_SleetStorm;Target_StinkingCloud;Target_CloudOfDaggers;Target_MistyStep;Target_Web;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;"/>
+                    <attribute id="UUID" type="guid" value="de31d98a-073c-4064-84d9-85dac8e29e09"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Conjuration 9"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_Cloudkill;Target_ConjureElemental_Container;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;arget_SleetStorm;Target_StinkingCloud;Target_CloudOfDaggers;Target_MistyStep;Target_Web;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;"/>
+                    <attribute id="UUID" type="guid" value="b5fe6286-0f78-48ff-a69f-00624a26f7dd"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Divination 1"/>
+                    <attribute id="UUID" type="guid" value="3f83fc9e-990a-43d1-bd0a-84da5e91c418"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Divination 2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Shout_SeeInvisibility;"/>
+                    <attribute id="UUID" type="guid" value="92f4a86e-c952-41ba-916d-ea45895e5df2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Divination 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Shout_SeeInvisibility;"/>
+                    <attribute id="UUID" type="guid" value="284e5961-0bc8-4d46-acb1-19850512ee9e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Divination 4"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Shout_SeeInvisibility;"/>
+                    <attribute id="UUID" type="guid" value="be445777-2c58-4b59-a6dd-5b3b4ecf3db6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Divination 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Shout_SeeInvisibility;"/>
+                    <attribute id="UUID" type="guid" value="78b646e2-7989-4224-aed6-8a776dca2e26"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Divination 6"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Shout_SeeInvisibility;"/>
+                    <attribute id="UUID" type="guid" value="3c345279-0e40-462f-a1cd-b75734100462"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Divination 7"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Shout_SeeInvisibility;"/>
+                    <attribute id="UUID" type="guid" value="677a02b6-3184-470e-9fe4-f0855f6370a5"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Divination 8"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Shout_SeeInvisibility;"/>
+                    <attribute id="UUID" type="guid" value="639ee3b4-513e-4b14-bb1d-a1ef86765ca4"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Divination 9"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DetectThoughts;Shout_SeeInvisibility;"/>
+                    <attribute id="UUID" type="guid" value="c960e281-9ce1-4f7c-9bff-10b8f41957b6"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Enchantment 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_CharmPerson;Target_Sleep;Target_HideousLaughter;"/>
+                    <attribute id="UUID" type="guid" value="6319e29f-84ea-4122-8ebf-0f7c1b130939"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Enchantment 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_CrownOfMadness;Target_HoldPerson;Target_CharmPerson;Target_Sleep;Target_HideousLaughter;"/>
+                    <attribute id="UUID" type="guid" value="407c2482-43e8-4fe6-96d0-d9de24a676aa"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Enchantment 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_CrownOfMadness;Target_HoldPerson;Target_CharmPerson;Target_Sleep;Target_HideousLaughter;"/>
+                    <attribute id="UUID" type="guid" value="f78e7fe8-34c0-4aa2-b297-1ae1cd915523"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Enchantment 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Confusion;Target_CrownOfMadness;Target_HoldPerson;Target_CharmPerson;Target_Sleep;Target_HideousLaughter;"/>
+                    <attribute id="UUID" type="guid" value="50a8e8ed-67cd-441a-837a-dfc769dbc64c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Enchantment 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_HoldMonster;Target_Confusion;Target_CrownOfMadness;Target_HoldPerson;Target_CharmPerson;Target_Sleep;Target_HideousLaughter;"/>
+                    <attribute id="UUID" type="guid" value="5f98e7e3-8e5a-4e82-89bd-88cc5681a718"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Enchantment 6"/>
+                    <attribute id="Spells" type="LSString" value="Target_IrresistibleDance;Target_DominatePerson;Target_HoldMonster;Target_Confusion;Target_CrownOfMadness;Target_HoldPerson;Target_CharmPerson;Target_Sleep;Target_HideousLaughter;"/>
+                    <attribute id="UUID" type="guid" value="59458409-0027-4263-97bf-d012e8aaf865"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Enchantment 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_IrresistibleDance;Target_DominatePerson;Target_HoldMonster;Target_Confusion;Target_CrownOfMadness;Target_HoldPerson;Target_CharmPerson;Target_Sleep;Target_HideousLaughter;"/>
+                    <attribute id="UUID" type="guid" value="1aa4421e-4c0e-446e-ace7-7733ad616b5e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Enchantment 8"/>
+                    <attribute id="Spells" type="LSString" value="Target_IrresistibleDance;Target_DominatePerson;Target_HoldMonster;Target_Confusion;Target_CrownOfMadness;Target_HoldPerson;Target_CharmPerson;Target_Sleep;Target_HideousLaughter;"/>
+                    <attribute id="UUID" type="guid" value="9bd1cf77-8e28-466e-b2a7-84deb6b43c8d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Enchantment 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_IrresistibleDance;Target_DominatePerson;Target_HoldMonster;Target_Confusion;Target_CrownOfMadness;Target_HoldPerson;Target_CharmPerson;Target_Sleep;Target_HideousLaughter;"/>
+                    <attribute id="UUID" type="guid" value="8d32b8d7-b706-4068-93be-d5279b295319"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Evocation 1"/>
+                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;Projectile_ChromaticOrb;Projectile_MagicMissile;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="9c749efd-7022-4cb2-b293-aeab5a567884"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Evocation 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Darkness;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Projectile_ScorchingRay;Target_Shatter;Zone_BurningHands;Projectile_ChromaticOrb;Projectile_MagicMissile;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="222783c3-923a-4579-8943-ffc718d6368d"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Evocation 3"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Fireball;Zone_LightningBolt;Target_Darkness;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Projectile_ScorchingRay;Target_Shatter;Zone_BurningHands;Projectile_ChromaticOrb;Projectile_MagicMissile;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="3133da07-1c0a-4761-940d-d527e65f36fc"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Evocation 4"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_IceStorm;Wall_WallOfFire;Projectile_Fireball;Zone_LightningBolt;Target_Darkness;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Projectile_ScorchingRay;Target_Shatter;Zone_BurningHands;Projectile_ChromaticOrb;Projectile_MagicMissile;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="686b470e-aa9b-4427-b410-a49b311f7175"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Evocation 5"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Wall_WallOfStone;Shout_FireShield;Target_IceStorm;Wall_WallOfFire;Projectile_Fireball;Zone_LightningBolt;Target_Darkness;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Projectile_ScorchingRay;Target_Shatter;Zone_BurningHands;Projectile_ChromaticOrb;Projectile_MagicMissile;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="084c5bd4-1d47-4e12-ad1c-e87bbfc59edb"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Evocation 6"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ChainLightning;Target_FreezingSphere;Zone_Sunbeam;Wall_WallOfIce;Zone_ConeOfCold;Wall_WallOfStone;Shout_FireShield;Target_IceStorm;Wall_WallOfFire;Projectile_Fireball;Zone_LightningBolt;Target_Darkness;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Projectile_ScorchingRay;Target_Shatter;Zone_BurningHands;Projectile_ChromaticOrb;Projectile_MagicMissile;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="95a041ac-fd57-4474-afb0-6ab62bf93883"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Evocation 7"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ChainLightning;Target_FreezingSphere;Zone_Sunbeam;Wall_WallOfIce;Zone_ConeOfCold;Wall_WallOfStone;Shout_FireShield;Target_IceStorm;Wall_WallOfFire;Projectile_Fireball;Zone_LightningBolt;Target_Darkness;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Projectile_ScorchingRay;Target_Shatter;Zone_BurningHands;Projectile_ChromaticOrb;Projectile_MagicMissile;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="831e630e-6245-42ec-960a-49594365ce63"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Evocation 8"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ChainLightning;Target_FreezingSphere;Zone_Sunbeam;Wall_WallOfIce;Zone_ConeOfCold;Wall_WallOfStone;Shout_FireShield;Target_IceStorm;Wall_WallOfFire;Projectile_Fireball;Zone_LightningBolt;Target_Darkness;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Projectile_ScorchingRay;Target_Shatter;Zone_BurningHands;Projectile_ChromaticOrb;Projectile_MagicMissile;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="d2d089f7-5d0c-4e20-afae-078752fc57a9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Evocation 9"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ChainLightning;Target_FreezingSphere;Zone_Sunbeam;Wall_WallOfIce;Zone_ConeOfCold;Wall_WallOfStone;Shout_FireShield;Target_IceStorm;Wall_WallOfFire;Projectile_Fireball;Zone_LightningBolt;Target_Darkness;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Projectile_ScorchingRay;Target_Shatter;Zone_BurningHands;Projectile_ChromaticOrb;Projectile_MagicMissile;Zone_Thunderwave;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="58a29457-7ae3-40a1-9bda-e15a1ff4e8dd"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Illusion 1"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ColorSpray;Shout_DisguiseSelf;"/>
+                    <attribute id="UUID" type="guid" value="20e50914-c5d7-4a3f-b662-9435ee31d7f2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Illusion 2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blur;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Zone_ColorSpray;Shout_DisguiseSelf;"/>
+                    <attribute id="UUID" type="guid" value="35251513-dd4d-40e7-a955-77ed4647a2a2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Illusion 3"/>
+                    <attribute id="Spells" type="LSString" value="Zone_Fear;Target_HypnoticPattern;Shout_Blur;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Zone_ColorSpray;Shout_DisguiseSelf;"/>
+                    <attribute id="UUID" type="guid" value="671536f6-48a5-419b-bc55-c70f8468f60e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Illusion 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_Blur;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Zone_ColorSpray;Shout_DisguiseSelf;"/>
+                    <attribute id="UUID" type="guid" value="53eed526-d5a1-44a8-8016-e31685b75f37"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Illusion 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_Blur;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Zone_ColorSpray;Shout_DisguiseSelf;"/>
+                    <attribute id="UUID" type="guid" value="7bfa2aff-851a-4742-af36-b2b88ecef226"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Illusion 6"/>
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_Blur;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Zone_ColorSpray;Shout_DisguiseSelf;"/>
+                    <attribute id="UUID" type="guid" value="4e3dfe3e-4f36-4fab-a86f-c17f9d73b180"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Illusion 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_Blur;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Zone_ColorSpray;Shout_DisguiseSelf;"/>
+                    <attribute id="UUID" type="guid" value="0827ed5c-0502-49f7-a115-99b929b2704a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Illusion 8"/>
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_Blur;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Zone_ColorSpray;Shout_DisguiseSelf;"/>
+                    <attribute id="UUID" type="guid" value="5a967d41-dfbf-4c63-b421-9c113f9fd9ac"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Illusion 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_Blur;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Zone_ColorSpray;Shout_DisguiseSelf;"/>
+                    <attribute id="UUID" type="guid" value="dcfd28d4-304d-4a20-a28a-a806d48b2ae2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Necromancy 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FalseLife;Projectile_RayOfSickness;"/>
+                    <attribute id="UUID" type="guid" value="65142b33-decb-47bf-a0f1-e44c544b5522"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Necromancy 2"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_RayOfEnfeeblement;Shout_FalseLife;Projectile_RayOfSickness;"/>
+                    <attribute id="UUID" type="guid" value="abef29da-099e-4e9c-b914-d3880717a71a"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Necromancy 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_BestowCurse;Target_FeignDeath;Target_SpeakWithDead;Target_VampiricTouch;Projectile_RayOfEnfeeblement;Shout_FalseLife;Projectile_RayOfSickness;"/>
+                    <attribute id="UUID" type="guid" value="4ad3a580-38f3-49f3-881f-64853bc86ca8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Necromancy 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Projectile_RayOfEnfeeblement;Shout_FalseLife;Projectile_RayOfSickness;"/>
+                    <attribute id="UUID" type="guid" value="bd2fdf65-4768-4ae7-b498-066e117a2a8c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Necromancy 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Projectile_RayOfEnfeeblement;Shout_FalseLife;Projectile_RayOfSickness;"/>
+                    <attribute id="UUID" type="guid" value="1203990f-4749-4f44-bfc4-6e018b9692d2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Necromancy 6"/>
+                    <attribute id="Spells" type="LSString" value="Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Blight;Projectile_RayOfEnfeeblement;Shout_FalseLife;Projectile_RayOfSickness;"/>
+                    <attribute id="UUID" type="guid" value="471925d7-814b-4469-b1b3-b04c18477885"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Necromancy 7"/>
+                    <attribute id="Spells" type="LSString" value="Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Blight;Projectile_RayOfEnfeeblement;Shout_FalseLife;Projectile_RayOfSickness;"/>
+                    <attribute id="UUID" type="guid" value="f0a9c1d8-e09e-46ee-b1a1-018b1d7d235b"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Necromancy 8"/>
+                    <attribute id="Spells" type="LSString" value="Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Blight;Projectile_RayOfEnfeeblement;Shout_FalseLife;Projectile_RayOfSickness;"/>
+                    <attribute id="UUID" type="guid" value="83f3e70f-859a-478a-aec9-60ff148772a7"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Necromancy 9"/>
+                    <attribute id="Spells" type="LSString" value="Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Blight;Projectile_RayOfEnfeeblement;Shout_FalseLife;Projectile_RayOfSickness;"/>
+                    <attribute id="UUID" type="guid" value="7e9a2e2f-711c-4a67-86e9-5457fde63a59"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Transmutation 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ExpeditiousRetreat;Shout_FeatherFall;Target_Jump;Target_Longstrider;"/>
+                    <attribute id="UUID" type="guid" value="57c6378d-e8f5-42ac-b9c9-42336479553e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Transmutation 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_Knock;Target_MagicWeapon;Shout_ExpeditiousRetreat;Shout_FeatherFall;Target_Jump;Target_Longstrider;"/>
+                    <attribute id="UUID" type="guid" value="28641e45-5262-48f1-b642-62ae80ac70e0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Transmutation 3"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blink;Target_Fly;Target_GaseousForm;Target_Haste;Target_Slow;Target_Blindness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_Knock;Target_MagicWeapon;Shout_ExpeditiousRetreat;Shout_FeatherFall;Target_Jump;Target_Longstrider;"/>
+                    <attribute id="UUID" type="guid" value="12585faa-762f-4781-ae56-eaaa00264ccc"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Transmutation 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Polymorph;Target_Stoneskin;Shout_Blink;Target_Fly;Target_GaseousForm;Target_Haste;Target_Slow;Target_Blindness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_Knock;Target_MagicWeapon;Shout_ExpeditiousRetreat;Shout_FeatherFall;Target_Jump;Target_Longstrider;"/>
+                    <attribute id="UUID" type="guid" value="4540d389-43eb-4744-8db7-28e1237e4717"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Transmutation 5"/>
+                    <attribute id="Spells" type="LSString" value="Throw_Telekinesis;Target_Polymorph;Target_Stoneskin;Shout_Blink;Target_Fly;Target_GaseousForm;Target_Haste;Target_Slow;Target_Blindness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_Knock;Target_MagicWeapon;Shout_ExpeditiousRetreat;Shout_FeatherFall;Target_Jump;Target_Longstrider;"/>
+                    <attribute id="UUID" type="guid" value="301b742a-b57c-4658-8370-ab5613c1ed77"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Transmutation 6"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Disintegrate;Target_FleshToStone;"/>
+                    <attribute id="UUID" type="guid" value="dd2ba7c0-c111-45f1-93d3-c24d5b3ea751"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Transmutation 7"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Disintegrate;Target_FleshToStone;Throw_Telekinesis;Target_Polymorph;Target_Stoneskin;Shout_Blink;Target_Fly;Target_GaseousForm;Target_Haste;Target_Slow;Target_Blindness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_Knock;Target_MagicWeapon;Shout_ExpeditiousRetreat;Shout_FeatherFall;Target_Jump;Target_Longstrider;"/>
+                    <attribute id="UUID" type="guid" value="092c36fb-00ca-4c01-8330-89feaed51f90"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Transmutation 8"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Disintegrate;Target_FleshToStone;Throw_Telekinesis;Target_Polymorph;Target_Stoneskin;Shout_Blink;Target_Fly;Target_GaseousForm;Target_Haste;Target_Slow;Target_Blindness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_Knock;Target_MagicWeapon;Shout_ExpeditiousRetreat;Shout_FeatherFall;Target_Jump;Target_Longstrider;"/>
+                    <attribute id="UUID" type="guid" value="7d4c569a-7e3d-439a-9565-0565f7c451c8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Savant - Transmutation 9"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Disintegrate;Target_FleshToStone;Throw_Telekinesis;Target_Polymorph;Target_Stoneskin;Shout_Blink;Target_Fly;Target_GaseousForm;Target_Haste;Target_Slow;Target_Blindness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_Knock;Target_MagicWeapon;Shout_ExpeditiousRetreat;Shout_FeatherFall;Target_Jump;Target_Longstrider;"/>
+                    <attribute id="UUID" type="guid" value="6c9e7dd0-ea1f-42d6-8808-b8b97d288f87"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Feats"/>
+                    <attribute id="UUID" type="guid" value="66679a3b-909c-4e34-8a87-9b9787c97989"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Fey Touched"/>
+                    <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Target_Command_Container;Target_CompelledDuel;Target_DissonantWhispers;Target_Heroism;Target_Hex;Target_HuntersMark;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter;"/>
+                    <attribute id="UUID" type="guid" value="480f0468-94f4-4d76-a9b6-720b87257a47"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Shadow Touched"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ColorSpray;Shout_DisguiseSelf;Shout_FalseLife;Target_InflictWounds;Projectile_RayOfSickness;Target_Smite_Wrathful;"/>
+                    <attribute id="UUID" type="guid" value="e3221089-3a9c-419d-b1fb-fede124b1d8f"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

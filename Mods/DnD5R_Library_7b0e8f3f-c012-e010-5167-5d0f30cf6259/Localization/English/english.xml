@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h30f16c99g9d05gd97bgafd9g05d2e44ef863" version="1">Dragonborn</content>
+  <content contentuid="h4d4708a6g1812gba8cgdaffg8a9f02e51db1" version="1">The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the multiverse with people created in their image. Another story claims that dragons created the first dragonborn without the gods' blessings. Whatever their origin, dragonborn have made homes for themselves on the Material Plane. Dragonborn look like wingless, bipedal dragons - scaly, bright-eyed, and thick-boned with horns on their heads - and their coloration and other features are reminiscent of their draconic ancestors.</content>
+  <content contentuid="hc72670eeg2a54g1129g0773g7609bdb1b69a" version="1">Aasimar</content>
+  <content contentuid="h21f9a106gbb46g2e2fg53f9gfb13c09d7229" version="1">Dwarf</content>
+  <content contentuid="ha61ff50dgabfbg0cc9g7a08gf8e5c41e0466" version="1">Elf</content>
+  <content contentuid="hfb72b5acg4710g382bg1b09g06315c0d9d03" version="1">Gnome</content>
+  <content contentuid="hcfbafb00g691cg09a5g27adgeebdfc326af1" version="1">Goliath</content>
+  <content contentuid="hca80a873g2078gaf06g0f9fg0a8559758d80" version="1">Halfling</content>
+  <content contentuid="h09715101g9045g208cgc807g28df9f03dc16" version="1">Human</content>
+  <content contentuid="hcf4f8a36gb7e8g1be7gabb9g1f5b7e023fa9" version="1">Orc</content>
+  <content contentuid="h5897de0bg5676ge5c8g0e00g7b1120f58f4c" version="1">Tiefling</content>
+  <content contentuid="h4482d85fg1a2dgfa67g2d74g649ab9304b00" version="1">Tieflings are either born in the Lower Planes or have fiendish ancestors who originated there . is linked by blood to a devil, a demon, or some other Fiend. This connection to the Lower Planes is the tiefling's fiendish legacy, which comes with the promise of power yet has no effect on the tiefling's moral outlook. A tiefling chooses whether to embrace or lament their fiendish legacy.</content>
+  <content contentuid="h5b21946bg8c48g0e4eg552cg1b7e9b8921c5" version="1">Githyanki</content>
+  <content contentuid="h92e0ceb8ga6f3g72eeg6000gdede5bcdcc31" version="1">Halflings possess a brave and adventurous spirit that leads them on journeys of discovery, affording them the chance to explore a bigger world and make new friends along the way. Their size - similar to that of a human child - helps them pass through crowds unnoticed and slip through tight spaces. Anyone who has spent time around halflings has likely witnessed the storied "luck of the halflings" in action. Many halflings believe in the power of luck, and they attribute their unusual gift to one or more of their benevolent gods, including Yondalla, Brandobaris, and Charmalaine. </content>
+  <content contentuid="h5f91e0daga542gfd4fgb35bgf17d36810af1" version="1">Found throughout the multiverse, humans are as varied as they are numerous, and they endeavor to achieve as much as they can in the years they are given. Their ambition and resourcefulness are commended, respected, and feared on many worlds. Scholars dispute the origin of humanity, but one of the earliest known human gatherings is said to have occurred in Sigil, the torus-shaped city at the center of the multiverse and the place where the Common language was born. From there, humans could have spread to every part of the multiverse, bringing the City of Doors' cosmopolitanism with them.</content>
+  <content contentuid="h0578b480g4389g6727gbebcg82cd7f50db40" version="1">Orcs trace their creation to Gruumsh who equipped his children with gifts to help them wander great plains, vast caverns, and churning seas and to face the monsters that lurk there. Orcs are, on average, tall and broad. They have gray skin, ears that are sharply pointed, and prominent lower canines that resemble small tusks.</content>
+  <content contentuid="h270c13cagd3e8g278fg1e9agab2d25f5509f" version="1">Gnomes are magical folk created by gods of invention, illusions, and life underground. The earliest gnomes were seldom seen by other folk due to the gnomes' secretive nature and their propensity for living in forests and burrows. What they lacked in size, they made up for in cleverness. They confounded predators with traps and labyrinthine tunnels. They also learned magic from gods like Garl Glittergold, Baervan Wildwanderer, and Baravar Cloakshadow, who visited them in disguise. Gnomes are petite folk with big eyes and pointed ears, who live around 425 years.</content>
+  <content contentuid="hff6fe23bg06cbgf4dcgfae4gce8428d134f0" version="1">Towering over most folk, goliaths are distant descendants of giants. Each goliath bears the favors of the first giants - favors that manifest in various supernatural boons, including the ability to quickly grow and temporarily approach the height of goliaths' gigantic kin. Goliaths have physical characteristics that are reminiscent of the giants in their family lines. For example, some goliaths look like stone giants, while others resemble fire giants. Whatever giants they count as kin, goliaths have forged their own path in the multiverse - unencumbered by the internecine conflicts that have ravaged giantkind for ages - and seek heights above those reached by their ancestors.</content>
+  <content contentuid="h2bd9971fg0487g26d1gbe29g06c3adc9e234" version="1">Tiefling</content>
+  <content contentuid="h5ab1529bga1afgaf7fga5aagea493a66c3eb" version="1">Human</content>
+  <content contentuid="h74005ba0g181eg736fg1ccagdda5f157d64b" version="1">Elf</content>
+  <content contentuid="he1f531b4gbe7dg4fddgff69g7b8f5c00a60b" version="1">Dwarf</content>
+  <content contentuid="h81fe0920geab4g1109gbaf5g21ccbdf7a42b" version="1">Dragonborn</content>
+  <content contentuid="ha64ae9fcgeb7cg9a95g93b3gb96fc8c5fe75" version="1">Gnome</content>
+  <content contentuid="h3986520ag2e6bg54e9g5bfeg43b4d181b786" version="1">Halfling</content>
+  <content contentuid="hff27a204gf868g6fd1gcfa4g8ec3f2bc479b" version="1">Orc</content>
+  <content contentuid="h6d562cf5gcf80gceedgb178g0625e785bd9a" version="1">Gith</content>
+  <content contentuid="h342b6af6g0421g5e02gdc1cgcc6fd7a9dd03" version="1">Aasimar</content>
+  <content contentuid="ha2919cd2gd15bge563g7785g3faf0bc7b868" version="1">Goliath</content>
+  <content contentuid="h96299209g8b5eg17c5gc6c2g492bc2bb0bcf" version="1">DnD5R - Species</content>
+  <content contentuid="hbfff0855gc3c4gc3a9g0a32g5f3e06dfa77d" version="1">DnD5R - Classes</content>
+  <content contentuid="h71ac782bg88cfgba2fg4d14g2198825fbf7d" version="1">DnD5R Warlock</content>
+  <content contentuid="h3373f7bfg65dcg0541gb9f8g6db3696f060c" version="1">Warlock</content>
+  <content contentuid="hae719252g5688g4c93g6494g88f76c2aca76" version="1">Bound by a pact to an all-powerful patron, warlocks trade their loyalty for supernatural abilities and unique magic.</content>
+  <content contentuid="h46cf7f34gcfd4g0654g48beg1de08cfd45a9" version="1">Warlock Spell Slots</content>
+  <content contentuid="h37300b4egc6f4gae65g1556g16a5ef67576c" version="1">You gain &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt;.</content>
+  <content contentuid="h46445661gd9a7g7fd1gdad7g2bec8c67e0cc" version="1">Warlock Spell Slot Gaineds</content>
+  <content contentuid="h2a8e65bag4dc4g2a02g4bbfg906bfb6ab92d" version="1">You gain a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.</content>
+  <content contentuid="h5d76f3a8gf526g586egc3a8g8cb464f18106" version="1">Improved Warlock Spells</content>
+  <content contentuid="h95d2d7fdg44a0g0accgd8b0g8ea064e76764" version="1">Most of your Warlock spells have become stronger.</content>
+  <content contentuid="h8a1dfe73g74b1g12ffg85d8g635fc99aa8c1" version="1">Eldritch Invocations</content>
+  <content contentuid="h257a491bg004age48agee17g8efd4eaa4c8d" version="1">In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical prowess.</content>
+  <content contentuid="hefc0d6dcg01c1ge7f4g02f0gc29f463f4df7" version="1">Magical Cunning</content>
+  <content contentuid="h48d40380gebcegeed0ge7bbg1bd8d6761db8" version="1">Replenish half of your expended &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; (rounded up) while out of combat. If you are an &lt;LSTag Type="Passive" Tooltip="CL_Passive_OneDnD_EldritchMaster"&gt;Eldritch Master&lt;/LSTag&gt;, replenish all of your &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; instead.</content>
+  <content contentuid="hadd1dbe3g4794g3350g88degcc9f1c4ac251" version="1">Patron Spells</content>
+  <content contentuid="h27831783g816dg7c1cg6fe3g32ae12a314e1" version="1">You gain spells from your Patron. They are &lt;LSTag Tooltip="AlwaysPrepared"&gt;Always Prepared&lt;/LSTag&gt;.</content>
+  <content contentuid="h4ee0c891g58f1gb625g4ba7gec505320d9ee" version="1">The Archfey</content>
+  <content contentuid="h2619313ag4ca2g8d14g812fgc6110cc4045b" version="1">Graced by a lady or lord of the fey, you are imbued with all the sumptuous and scary qualities of your patron's extraordinary realm.</content>
+  <content contentuid="h85dd69f4g9d55g74bfg20fage45af5eefb2b" version="1">The Fiend</content>
+  <content contentuid="h7373f225ge1ebgc346gbc0cg1c40e21e22b1" version="1">Warlocks serving fiends work towards corrupt, destructive ends and receive hellish blessings in turn.</content>
+  <content contentuid="hae421654ge871g3a51gbfbdg18f786fcfb38" version="1">The Great Old One</content>
+  <content contentuid="h85bbcd63g82c1gad4ag532ag903d1bba34ce" version="1">Warlocks bound to eldritch beings in the Far Realm work towards inscrutable goals, gaining strange powers over entropy and the mind.</content>
+  <content contentuid="hb4fca79ege449g877egd95eg20e030f27539" version="1">DnD5R Wizard</content>
+  <content contentuid="h35bb8642ge23cgcffdg6c07gb746e4000fdd" version="1">Abjuration Savant</content>
+  <content contentuid="h740d4b96g5c3agb296g10bfga0d5a0d152ee" version="1">Your specialisation in an arcane spell school lets you learn additional magic from your chosen discipline. Choose an additional spell to add to your Spellbook.</content>
+  <content contentuid="h7d2b2217g97a0g77b9g0f3fgc5a08e501db4" version="1">Conjuration Savant</content>
+  <content contentuid="h5ed66e4eg5d4cg9488g6a9cg0bc9ad14cac5" version="1">Your specialisation in an arcane spell school lets you learn additional magic from your chosen discipline. Choose an additional spell to add to your Spellbook.</content>
+  <content contentuid="h8b39e011g6f14g3e53g0d8dg43cc3b57c770" version="1">Divination Savant</content>
+  <content contentuid="hf469ee02ga15eg4286gd2d2gcc6407535126" version="1">Your specialisation in an arcane spell school lets you learn additional magic from your chosen discipline. Choose an additional spell to add to your Spellbook.</content>
+  <content contentuid="hd727c8begf548g46eag75c8gc3bba02812b6" version="1">Enchantment Savant</content>
+  <content contentuid="hdf54cc56g5ef5g4dd7gdaecge7191caf411b" version="1">Your specialisation in an arcane spell school lets you learn additional magic from your chosen discipline. Choose an additional spell to add to your Spellbook.</content>
+  <content contentuid="h86adc669gfcebg8d5agafefg2ebfef176f4c" version="1">Evocation Savant</content>
+  <content contentuid="h30f09fe7g86a7gda77g5ed0ga22d678eb394" version="1">Your specialisation in an arcane spell school lets you learn additional magic from your chosen discipline. Choose an additional spell to add to your Spellbook.</content>
+  <content contentuid="h84b1fb55g64c3gf779g17abgc9c9b60c794d" version="1">Illusion Savant</content>
+  <content contentuid="h2bff95faga2a2g1551g2787g95b65194c014" version="1">Your specialisation in an arcane spell school lets you learn additional magic from your chosen discipline. Choose an additional spell to add to your Spellbook.</content>
+  <content contentuid="h640e0d6ag0375ge134gb809g88d2ed066cf4" version="1">Necromancy Savant</content>
+  <content contentuid="hfb8d8e23g2710g786fg30b2gce9f75c80e98" version="1">Your specialisation in an arcane spell school lets you learn additional magic from your chosen discipline. Choose an additional spell to add to your Spellbook.</content>
+  <content contentuid="he791835ag5550gae74g8ef0gd9ad8fb98e6d" version="1">Transmutation Savant</content>
+  <content contentuid="h688b69f0g7119g0af8g0448g0c2e25a22915" version="1">Your specialisation in an arcane spell school lets you learn additional magic from your chosen discipline. Choose an additional spell to add to your Spellbook.</content>
+  <content contentuid="h2f8dbfbbg91e7ge373g0ab6ga3db1fb9260f" version="1">Actor</content>
+  <content contentuid="h0f707a7ege699gcc2fgc1e0ga69e99f155d7" version="1">You have become a true thespian. Your gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Deception and Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="hc2d00b4ag38e6g1d2ag4e7dg952a2a588e7f" version="1">Alert</content>
+  <content contentuid="ha9b13c38gd629gf238g0531gc5bb1a3dace1" version="1">You gain a bonus to your Initiative equalt to your Proficiency Bonus and can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
+  <content contentuid="h7e319bb5gff89g6154g9374g957ecf6e7c04" version="1">Crusher: Push</content>
+  <content contentuid="h6bb6dcfagf840g02eeg49c2g819b7958d1c9" version="1">When you deal Bludeoning damage to a creature that is Large or smaller, you can also push it up to [1].</content>
+  <content contentuid="h456db75ag9a2egb8a2g2f90gd0c545924575" version="1">Once Per Turn.</content>
+  <content contentuid="he4970ca9g52d3gae4dgfd70g5765ecc6ac4c" version="1">Crusher: Enhanced Critical</content>
+  <content contentuid="h5e09984bg7051gaf32g682ag02d312cf7b40" version="1">When you score a &lt;LSTag Tooltip="CriticalHit"&gt;critical hit&lt;/LSTag&gt; that deals Bludeoning damage to a creature, &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against this creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; until the start of your next turn.</content>
+  <content contentuid="h99867bbegc18ag348cg0e58g9fead19177e5" version="1">Lucky</content>
+  <content contentuid="hff84268cg85f6g8cd7g4902g7f2140ffb0fc" version="1">You can use a &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Point&lt;/LSTag&gt; to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, or to make an enemy reroll their Attack Roll.</content>
+  <content contentuid="ha8f79c65g7ec1g6197g26dfg70999364a066" version="1">Martial Weapon Training</content>
+  <content contentuid="h43c11834ge27ag3881g9ca8g7149e239e05b" version="1">You have gained &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with Martial Weapons.</content>
+  <content contentuid="ha70f8e62g1c6agbb2cg84e8g8cd16f5222c2" version="1">Musician</content>
+  <content contentuid="hfc79efd7g0824g3897g83fdgd76c10dc895c" version="1">You know how to play musical instruments and can perform a &lt;LSTag Type="Spell" Tooltip="Shout_DnD5R_SongOfRest_Musician"&gt;Song of Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="hd87ea4a0g6429g8febgf7f3g95e3348ca576" version="1">Tavern Brawler: Enhanced Unarmed Strikes</content>
+  <content contentuid="ha6a7f3c9g0b32ga903geb7agc2b1f3dba587" version="1">Unarmed attacks deal [1], unless their normal damage is higher. Additionally, damage rolls of a 1 are rerolled.</content>
+  <content contentuid="h0d8ea528gb260g0d25gccc9g3810e47d87c3" version="1">Tavern Brawler: Push</content>
+  <content contentuid="h54926219g9fafgbd33g0b70gb13685ce38dd" version="1">When you deal unarmed damage to a creature, you can also push it up to [1].</content>
+  <content contentuid="hde7197e6g4b81g62afgf007g47c971511a1b" version="1">Once Per Turn.</content>
+  <content contentuid="h5e4df482g885fgda8cg707dg019e1ac9eb61" version="1">Martial Arts: Enhanced Unarmed Strikes</content>
+  <content contentuid="hd6aa4b46gd613ga8dfgfd36ga09dcfb606a0" version="1">Attacks with &lt;LSTag Tooltip="MonkWeapon"&gt;Monk Weapons&lt;/LSTag&gt; and unarmed attacks deal [1], unless their normal damage is higher and scale with your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; instead of your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; if your Dexterity is higher. In addition, you can make &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_MartialArts_UnarmedStrikeBonus"&gt;Unarmed Strikes&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+  <content contentuid="h0215dd19g39fagf06bg4af0g4fd590b4bb7b" version="1">Magical Cunning</content>
+  <content contentuid="hceb1fac2g02a3gdf39g612fgc7507cb8a76e" version="1">Replenish half of your expended &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; (rounded up) while out of combat. If you are an &lt;LSTag Type="Passive" Tooltip="Passive_DnD5R_EldritchMaster"&gt;Eldritch Master&lt;/LSTag&gt;, replenish all of your &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; instead.</content>
+  <content contentuid="h11e00cc7g3391gd144gef47gd5e420021643" version="1">Eldritch Master</content>
+  <content contentuid="h2a5cb3eag3b05g2f43gc4a9gf0c403895db8" version="1">When you use your &lt;LSTag Type="Spell" Tooltip="Shout_DnD5R_MagicalCunning"&gt;Magical Cunning feature&lt;/LSTag&gt;, you replenish all of your &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt;.</content>
+  <content contentuid="h67458182g3f16g4c4fge1cfgf8ca9a106b9c" version="1">Patron Spells</content>
+  <content contentuid="ha1a90f26g2cf8g2b5fg30a2g80f0cb42d6b9" version="1">You gain spells from your Patron. They are &lt;LSTag Tooltip="AlwaysPrepared"&gt;Always Prepared&lt;/LSTag&gt;.</content>
+  <content contentuid="hd96b75b3ga411g2aaag8953g50fdaf004508" version="1">Thirsting Blade</content>
+  <content contentuid="ha748c9f3gd42fg7c69ga25cg270263d1e47b" version="1">Can make an additional free attack after making an attack with your Pact Weapon. If you gain the Extra Attack feature from more than one class, they don't add together.</content>
+  <content contentuid="he8a88b6ag17c6ga74cg642dg60431820d187" version="1">One with Shadows</content>
+  <content contentuid="h5be18f1bgc7b5g574dge902g7b3d8eb389fe" version="1">You learn how to cast &lt;LSTag Type="Spell" Tooltip="Shout_DnD5R_OneWithShadows"&gt;One with Shadows&lt;/LSTag&gt;.</content>
+  <content contentuid="h82f7da4dg5baag8a63g3f3bg96e52f3aa012" version="1">Otherworldly Leap</content>
+  <content contentuid="h8a86e40dge94ag8cf8g71dfg147fd60ac97e" version="1">You learn how to cast &lt;LSTag Type="Spell" Tooltip="Shout_DnD5R_OtherworldlyLeap"&gt;Otherworldy Leap&lt;/LSTag&gt;.</content>
+  <content contentuid="h9cc8d891g3290ge953ga8adg3fb2a63e9e2e" version="1">Scholar</content>
+  <content contentuid="h63fa9eddga99cgbef8g4ee0g3e7b7217a7ea" version="1">While studying magic, you also specialised in an academic field of study. You have Expertise in the chosen skill.</content>
+  <content contentuid="hc18e8e79ge7a3ge2f7geefbg4ddb21958862" version="1">Starry Wisp</content>
+  <content contentuid="hc3239d87ga55eg5898g90c5gbeaf73e863c2" version="1">Launch a mote of light at a target. Until the end of your next turn, the target emits dim light a [1] radius and cannot benefit from the &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; condition.</content>
+  <content contentuid="h4d0872c9gecb1g4abfg7488g43d2eea0e3ee" version="1">Starry Wisp</content>
+  <content contentuid="h8f5cfe13g0490g8001g29d1g184fd4147d5d" version="1">Shedding dim light a [1] radius and cannot benefit from the &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; condition.</content>
+  <content contentuid="hc96a80edg25c1ga817gc077g7cd1cdf9aa72" version="1">Crusher: Enhanced Critical</content>
+  <content contentuid="h33d16eefgda11g6e77g4303g223c4bf53a2c" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against this creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+  <content contentuid="hcfa8fd0fg5c46g5cf8ge6bbg7104bfa0263b" version="1">Magical Cunning</content>
+  <content contentuid="hf279dc1fg1b46g5774g8a0cg6de0e1cf2e81" version="1">Replenish half of your expended &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; (rounded up) while out of combat. If you are an &lt;LSTag Type="Passive" Tooltip="Passive_DnD5R_EldritchMaster"&gt;Eldritch Master&lt;/LSTag&gt;, replenish all of your &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; instead.</content>
+  <content contentuid="h09c0d11ega0fcg8f7dg98a7gc30116b3ad01" version="1">One with Shadows</content>
+  <content contentuid="h52d99137g8c72g0dfag017ag31e29961ce33" version="1">Vanish into the darkness and become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;. Attacks against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and you attack with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+  <content contentuid="h5159ee49geaaag9683ge2e1g1e0aa5ad1623" version="1">Otherworldly Leap</content>
+  <content contentuid="h9182abfcg260bgc477ga6f2gc334f1e22ff7" version="1">Triple your jumping distance.</content>
+  <content contentuid="h3542dcd1g1e2dgc2f0g33bbg7a56a06a7ef6" version="2">Spew forth a column of acid.</content>
+  <content contentuid="ha582e426g6e3egde58g1e3cgbdf46395d49d" version="1">Acid Breath</content>
+  <content contentuid="hc401fca2gbeddg50edg602agf0f543662c43" version="1">Spew forth a cone of acid.</content>
+</contentList>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Wizard Scholar"/>
+                    <attribute id="Skills" type="LSString" value="Arcana, History, Investigation, Medicine, Nature, Religion"/>
+                    <attribute id="UUID" type="guid" value="8c34fdbe-46c1-4932-ba29-eefafd3a9397"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

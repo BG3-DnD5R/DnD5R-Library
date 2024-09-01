@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="2d56f038-865d-492c-b434-c2b3e821cc13">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_BreathWeapon" />
+        <field name="UUID" type="IdTableFieldDefinition" value="807d4ee6-41f4-465d-9597-a77123b2660a" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level6" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level11" type="StringTableFieldDefinition" value="4d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_RageDamage" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7ed9b963-997d-4c2a-a8fd-2cd362618d59" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="2" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2" />
+        <field name="Level9" type="StringTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_SuperiorityDie" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f79f6a27-c435-48e1-93e9-b22c839ba0e5" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="721dfac3-92d4-41f5-b773-b7072a86232f" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level10" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level18" type="StringTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_BardicInspiration" />
+        <field name="UUID" type="IdTableFieldDefinition" value="65e5451c-e07b-46e0-b300-6dcacf14a8e2" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level10" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level15" type="StringTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_SneakAttack" />
+        <field name="UUID" type="IdTableFieldDefinition" value="33bf02a5-d378-4638-9281-7596634717bc" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level3" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level5" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level7" type="StringTableFieldDefinition" value="4d6" />
+        <field name="Level9" type="StringTableFieldDefinition" value="5d6" />
+        <field name="Level11" type="StringTableFieldDefinition" value="6d6" />
+        <field name="Level13" type="StringTableFieldDefinition" value="7d6" />
+        <field name="Level15" type="StringTableFieldDefinition" value="8d6" />
+        <field name="Level17" type="StringTableFieldDefinition" value="9d6" />
+        <field name="Level19" type="StringTableFieldDefinition" value="10d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_StandardProficiencyBonusScale" />
+        <field name="UUID" type="IdTableFieldDefinition" value="83b4a1ce-d504-4f1a-ae7c-593fa8711a7b" />
+        <field name="Level1" type="StringTableFieldDefinition" value="2" />
+        <field name="Level5" type="StringTableFieldDefinition" value="3" />
+        <field name="Level9" type="StringTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_EldritchBlast" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a7a18227-2806-4015-80f1-0ed42b6176be" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="1" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2" />
+        <field name="Level6" type="StringTableFieldDefinition" value="2" />
+        <field name="Level7" type="StringTableFieldDefinition" value="2" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2" />
+        <field name="Level9" type="StringTableFieldDefinition" value="2" />
+        <field name="Level10" type="StringTableFieldDefinition" value="2" />
+        <field name="Level11" type="StringTableFieldDefinition" value="3" />
+        <field name="Level12" type="StringTableFieldDefinition" value="3" />
+        <field name="Level13" type="StringTableFieldDefinition" value="3" />
+        <field name="Level14" type="StringTableFieldDefinition" value="3" />
+        <field name="Level15" type="StringTableFieldDefinition" value="3" />
+        <field name="Level16" type="StringTableFieldDefinition" value="3" />
+        <field name="Level17" type="StringTableFieldDefinition" value="4" />
+        <field name="Level18" type="StringTableFieldDefinition" value="4" />
+        <field name="Level19" type="StringTableFieldDefinition" value="4" />
+        <field name="Level20" type="StringTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_D12Cantrip" />
+        <field name="UUID" type="IdTableFieldDefinition" value="46a6d37d-0039-41f6-b123-6b4b74db3e63" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2d12" />
+        <field name="Level6" type="StringTableFieldDefinition" value="2d12" />
+        <field name="Level7" type="StringTableFieldDefinition" value="2d12" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2d12" />
+        <field name="Level9" type="StringTableFieldDefinition" value="2d12" />
+        <field name="Level10" type="StringTableFieldDefinition" value="2d12" />
+        <field name="Level11" type="StringTableFieldDefinition" value="3d12" />
+        <field name="Level12" type="StringTableFieldDefinition" value="3d12" />
+        <field name="Level13" type="StringTableFieldDefinition" value="3d12" />
+        <field name="Level14" type="StringTableFieldDefinition" value="3d12" />
+        <field name="Level15" type="StringTableFieldDefinition" value="3d12" />
+        <field name="Level16" type="StringTableFieldDefinition" value="3d12" />
+        <field name="Level17" type="StringTableFieldDefinition" value="4d12" />
+        <field name="Level18" type="StringTableFieldDefinition" value="4d12" />
+        <field name="Level19" type="StringTableFieldDefinition" value="4d12" />
+        <field name="Level20" type="StringTableFieldDefinition" value="4d12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_D10Cantrip" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2d4d18c4-cc8a-4e4d-978f-7c2952004860" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2d10" />
+        <field name="Level6" type="StringTableFieldDefinition" value="2d10" />
+        <field name="Level7" type="StringTableFieldDefinition" value="2d10" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2d10" />
+        <field name="Level9" type="StringTableFieldDefinition" value="2d10" />
+        <field name="Level10" type="StringTableFieldDefinition" value="2d10" />
+        <field name="Level11" type="StringTableFieldDefinition" value="3d10" />
+        <field name="Level12" type="StringTableFieldDefinition" value="3d10" />
+        <field name="Level13" type="StringTableFieldDefinition" value="3d10" />
+        <field name="Level14" type="StringTableFieldDefinition" value="3d10" />
+        <field name="Level15" type="StringTableFieldDefinition" value="3d10" />
+        <field name="Level16" type="StringTableFieldDefinition" value="3d10" />
+        <field name="Level17" type="StringTableFieldDefinition" value="4d10" />
+        <field name="Level18" type="StringTableFieldDefinition" value="4d10" />
+        <field name="Level19" type="StringTableFieldDefinition" value="4d10" />
+        <field name="Level20" type="StringTableFieldDefinition" value="4d10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_D8Cantrip" />
+        <field name="UUID" type="IdTableFieldDefinition" value="eb97db16-7c06-416b-ae77-c3a8126634df" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level6" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level7" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level9" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level10" type="StringTableFieldDefinition" value="2d8" />
+        <field name="Level11" type="StringTableFieldDefinition" value="3d8" />
+        <field name="Level12" type="StringTableFieldDefinition" value="3d8" />
+        <field name="Level13" type="StringTableFieldDefinition" value="3d8" />
+        <field name="Level14" type="StringTableFieldDefinition" value="3d8" />
+        <field name="Level15" type="StringTableFieldDefinition" value="3d8" />
+        <field name="Level16" type="StringTableFieldDefinition" value="3d8" />
+        <field name="Level17" type="StringTableFieldDefinition" value="4d8" />
+        <field name="Level18" type="StringTableFieldDefinition" value="4d8" />
+        <field name="Level19" type="StringTableFieldDefinition" value="4d8" />
+        <field name="Level20" type="StringTableFieldDefinition" value="4d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_D6Cantrip" />
+        <field name="UUID" type="IdTableFieldDefinition" value="25c8a89f-a53b-4885-8291-afb8d81de782" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level6" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level7" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level9" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level10" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level11" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level12" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level13" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level14" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level15" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level16" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level17" type="StringTableFieldDefinition" value="4d6" />
+        <field name="Level18" type="StringTableFieldDefinition" value="4d6" />
+        <field name="Level19" type="StringTableFieldDefinition" value="4d6" />
+        <field name="Level20" type="StringTableFieldDefinition" value="4d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_D4Cantrip" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3b9ceb43-c94a-46cc-a7b9-9e19e3df8d7f" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2d4" />
+        <field name="Level6" type="StringTableFieldDefinition" value="2d4" />
+        <field name="Level7" type="StringTableFieldDefinition" value="2d4" />
+        <field name="Level8" type="StringTableFieldDefinition" value="2d4" />
+        <field name="Level9" type="StringTableFieldDefinition" value="2d4" />
+        <field name="Level10" type="StringTableFieldDefinition" value="2d4" />
+        <field name="Level11" type="StringTableFieldDefinition" value="3d4" />
+        <field name="Level12" type="StringTableFieldDefinition" value="3d4" />
+        <field name="Level13" type="StringTableFieldDefinition" value="3d4" />
+        <field name="Level14" type="StringTableFieldDefinition" value="3d4" />
+        <field name="Level15" type="StringTableFieldDefinition" value="3d4" />
+        <field name="Level16" type="StringTableFieldDefinition" value="3d4" />
+        <field name="Level17" type="StringTableFieldDefinition" value="4d4" />
+        <field name="Level18" type="StringTableFieldDefinition" value="4d4" />
+        <field name="Level19" type="StringTableFieldDefinition" value="4d4" />
+        <field name="Level20" type="StringTableFieldDefinition" value="4d4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_TavernBrawler" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cae430de-6dc5-40fc-9b38-10e345422d9e" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_Shillelagh" />
+        <field name="UUID" type="IdTableFieldDefinition" value="822dbea1-2c54-4255-b966-ddd85579436e" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level6" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level7" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level8" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level9" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level10" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level11" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level12" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level13" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level14" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level15" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level16" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level17" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level18" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level19" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level20" type="StringTableFieldDefinition" value="2d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_TrueStrike" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3189dfab-6452-4cc5-92df-13af05a5a731" />
+        <field name="Level1" type="StringTableFieldDefinition" value="0" />
+        <field name="Level2" type="StringTableFieldDefinition" value="0" />
+        <field name="Level3" type="StringTableFieldDefinition" value="0" />
+        <field name="Level4" type="StringTableFieldDefinition" value="0" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level6" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level7" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level8" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level9" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level10" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level11" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level12" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level13" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level14" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level15" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level16" type="StringTableFieldDefinition" value="2d6" />
+        <field name="Level17" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level18" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level19" type="StringTableFieldDefinition" value="3d6" />
+        <field name="Level20" type="StringTableFieldDefinition" value="3d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_MartialArts" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7ee20e94-c39d-4ea2-9005-299d4b23f1f6" />
+        <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="1d4" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level2" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level3" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level4" type="StringTableFieldDefinition" value="1d6" />
+        <field name="Level5" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level6" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level7" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level8" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level9" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level10" type="StringTableFieldDefinition" value="1d8" />
+        <field name="Level11" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level12" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level13" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level14" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level15" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level16" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level17" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level18" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level19" type="StringTableFieldDefinition" value="1d12" />
+        <field name="Level20" type="StringTableFieldDefinition" value="1d12" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

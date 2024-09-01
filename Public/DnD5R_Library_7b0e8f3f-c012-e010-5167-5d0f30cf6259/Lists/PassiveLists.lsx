@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock Invocations L1"/>
+                    <attribute id="Passives" type="LSString" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome"/>
+                    <attribute id="UUID" type="guid" value="cb2e9ff7-1b9a-4b42-b529-d152a0d85219"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock invocations L2"/>
+                    <attribute id="Passives" type="LSString" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast"/>
+                    <attribute id="UUID" type="guid" value="db1f70ac-844e-41dd-8110-5285bb75d3d8"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock invocations L5"/>
+                    <attribute id="Passives" type="LSString" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade"/>
+                    <attribute id="UUID" type="guid" value="5c8406f3-ddb3-4fc6-9f11-58d67244944e"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock invocations L7"/>
+                    <attribute id="Passives" type="LSString" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade,BookOfAncientSecrets,WhispersOfTheGrave"/>
+                    <attribute id="UUID" type="guid" value="8aced9cd-e685-40c0-afac-0efd74191d39"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock invocations L9"/>
+                    <attribute id="Passives" type="LSString" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade,BookOfAncientSecrets,WhispersOfTheGrave,Lifedrinker"/>
+                    <attribute id="UUID" type="guid" value="76d69b10-04c8-4906-b656-33b0caf3b4cb"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock invocations L12"/>
+                    <attribute id="Passives" type="LSString" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade,BookOfAncientSecrets,WhispersOfTheGrave,Lifedrinker"/>
+                    <attribute id="UUID" type="guid" value="1eb5cdd9-2b0d-47c4-b2bb-a3e3a5cc56d7"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock invocations L15"/>
+                    <attribute id="Passives" type="LSString" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade,BookOfAncientSecrets,WhispersOfTheGrave,Lifedrinker"/>
+                    <attribute id="UUID" type="guid" value="934793ab-0eb1-4ad4-aeb9-5e35a901b82d"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Warlock invocations L18"/>
+                    <attribute id="Passives" type="LSString" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade,BookOfAncientSecrets,WhispersOfTheGrave,Lifedrinker"/>
+                    <attribute id="UUID" type="guid" value="2d0f1017-facf-497b-a3b4-0568aefe18a2"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
