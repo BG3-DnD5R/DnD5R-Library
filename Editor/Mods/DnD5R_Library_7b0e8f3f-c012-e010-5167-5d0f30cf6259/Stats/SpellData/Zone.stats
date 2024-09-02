@@ -32,7 +32,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_Acid" />
         <field name="TooltipOnSave" type="StringTableFieldDefinition" value="961753f4-c345-4bc4-b408-1d5b87a5ab0c" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateExplosion(Projectile_DnD5R_VFX_Acid)" />
-        <field name="Angle" type="IntegerTableFieldDefinition" value="75" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="60" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -41,12 +41,39 @@
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_BreathWeapon_Acid_Line" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b953a2a3-cbf4-442d-a7d8-154a7427a556" />
         <field name="Shape" type="StringTableFieldDefinition" value="Square" />
-        <field name="Base" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Base" type="IntegerTableFieldDefinition" value="2" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="dbb69154-0834-4ae7-b438-b831ba7cab45" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_FireLine" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3542dcd1g1e2dgc2f0g33bbg7a56a06a7ef6" version="2" />
-        <field name="Range" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Range" type="IntegerTableFieldDefinition" value="9" />
         <field name="Angle" type="IntegerTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4010c20b-1e15-4ed1-8e2d-00be14edecac" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_BreathWeapon_Acid_Cone_75" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b953a2a3-cbf4-442d-a7d8-154a7427a556" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h97938d9cg1919geadcgd7b8g002e34529564" version="1" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="75" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38ddd0d4-e6b4-43b2-8cd4-5b10fb8ee1c6" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_BreathWeapon_Acid_Cone_90" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b953a2a3-cbf4-442d-a7d8-154a7427a556" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h103e8b3fga99bgb096gaa92gede3cbfb4627" version="1" />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="90" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6fb408da-8164-4e2f-a5b7-3abc702d309c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_BreathWeapon_Acid_Line_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d26351e8-3ad0-4ccb-9eed-3472e001a300" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h23660d35g857cga285gfa26g76575b42b4a0" version="1" />
+        <field name="Base" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
   </stat_objects>

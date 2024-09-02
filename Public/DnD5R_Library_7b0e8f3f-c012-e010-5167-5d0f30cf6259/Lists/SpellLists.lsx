@@ -487,6 +487,11 @@
                     <attribute id="Spells" type="LSString" value="Zone_ColorSpray;Shout_DisguiseSelf;Shout_FalseLife;Target_InflictWounds;Projectile_RayOfSickness;Target_Smite_Wrathful;"/>
                     <attribute id="UUID" type="guid" value="e3221089-3a9c-419d-b1fb-fede124b1d8f"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Dragonborn Breath Tests"/>
+                    <attribute id="Spells" type="LSString" value="Zone_DnD5R_BreathWeapon_Acid_Cone;Zone_DnD5R_BreathWeapon_Acid_Cone_75;Zone_DnD5R_BreathWeapon_Acid_Cone_90;Zone_DnD5R_BreathWeapon_Acid_Line;Zone_DnD5R_BreathWeapon_Acid_Line_1"/>
+                    <attribute id="UUID" type="guid" value="50dfe586-a9b7-4547-a311-c1161f95818f"/>
+                </node>
             </children>
         </node>
     </region>
