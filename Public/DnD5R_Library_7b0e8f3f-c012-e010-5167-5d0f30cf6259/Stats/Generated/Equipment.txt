@@ -190,3 +190,9 @@ add equipment entry "WPN_Dagger"
 add equipmentgroup
 add equipment entry "WPN_Dagger"
 
+new equipment "EQ_Underwear_HalfOrcs"
+add equipmentgroup
+add equipment entry "ARM_Underwear_HalfOrcs"
+add equipmentgroup
+add equipment entry "ARM_Hat_Wizard_E"
+
