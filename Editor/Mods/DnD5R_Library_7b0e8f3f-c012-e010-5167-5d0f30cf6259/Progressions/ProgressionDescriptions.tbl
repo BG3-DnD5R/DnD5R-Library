@@ -27,18 +27,90 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
-        <field name="UUID" type="IdTableFieldDefinition" value="00729bf6-ff32-4010-a65b-2364fdc03901" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21f9a106gbb46g2e2fg53f9gfb13c09d7229" version="1" />
-        <field name="Type" type="FixedStringTableFieldDefinition" value="Dwarf" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_35" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ecad9d5f-343b-4837-a639-493f581d2183" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03f23a17gd3a5g40e4ge325gcaa3a4621a58" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="DnD5R_Dwarf" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h916e876bg825fg7827gd124g1fecb486d333" version="1" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="e93c8f3f-f45f-4c11-bfe8-bdd5705baf46" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_38" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0a9dbc91-a0a6-4cac-b688-4f1af29b36f9" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="DnD5R_Dwarf_Dwarf" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8ea6cca4g64ebg2c6bg3b10ga2d21cb4460c" version="1" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="2b6f0f43-13dd-40ca-983f-ec6eab52628c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_36" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a17b659f-33a7-43e3-99d3-bb81f2f8c3cf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7816fc9fg4196g853eg01e3g4614cf4d5780" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfe3011c7g7748gdad0gd5c7gc0c21a300b10" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="DnD5R_Dwarf_Human" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="bc6a1305-4bea-4c77-83be-4918ff8ffc80" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_37" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dc3dd62d-39b4-4df8-ab1a-9cd43c488dd9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h67ae16b2g49d7g228ag0465gad4088aabbce" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="DnD5R_Dwarf_Elf" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfdab0039ga99eg1e6age0f6ga8bd4df951f6" version="1" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="e9ac12a9-12d7-451d-b347-2fb5385f2a14" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_34" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7da73d47-ddaa-4592-9736-995371d32c28" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha4a63c11g1f22g9a67gc6d2g37073dd1440f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf49f3b18ge869ge6eag73c1ge5f7ffe69c96" version="2" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="DnD5R_Human" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="d70d2784-3711-4230-89d4-17d92be94d5d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="00729bf6-ff32-4010-a65b-2364fdc03901" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21f9a106gbb46g2e2fg53f9gfb13c09d7229" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="DnD5R_Human_Dwarf" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7181f2c7ge0f5g3d08g3d75g2926871dbdb3" version="1" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="245bb69e-bb55-4e2e-be86-a97dd02a581b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3a79428f-0746-4f76-a074-2d6e0c2718ff" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h09715101g9045g208cgc807g28df9f03dc16" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f91e0daga542gfd4fgb35bgf17d36810af1" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="DnD5R_Human_Human" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="b5ea323d-e1dc-4374-b2bc-5d5de8713359" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_39" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d6de2abc-9581-41e2-9d77-60d43ec9c090" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3e6e3376g8a83g04fcg1272gc7f9b9419a77" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="DnD5R_Human_Elf" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha7942ee7gd1a7g9dd0g7cb7g65fa9734f4fc" version="1" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="1f04d92e-9ba4-4592-80d2-5558b1b35a6c" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
         <field name="UUID" type="IdTableFieldDefinition" value="fe83b265-9466-4859-a2dd-e020a5f0e7ab" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha61ff50dgabfbg0cc9g7a08gf8e5c41e0466" version="1" />
         <field name="Type" type="FixedStringTableFieldDefinition" value="Elf" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35040892g0029geae3g7be5gd2c75eba4d91" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -66,15 +138,6 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hca80a873g2078gaf06g0f9fg0a8559758d80" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h92e0ceb8ga6f3g72eeg6000gdede5bcdcc31" version="1" />
         <field name="Type" type="FixedStringTableFieldDefinition" value="Halfling" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
-        <field name="UUID" type="IdTableFieldDefinition" value="3a79428f-0746-4f76-a074-2d6e0c2718ff" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h09715101g9045g208cgc807g28df9f03dc16" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5f91e0daga542gfd4fgb35bgf17d36810af1" version="1" />
-        <field name="Type" type="FixedStringTableFieldDefinition" value="Human" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

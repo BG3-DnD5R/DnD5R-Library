@@ -8,7 +8,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DnD5R - Species" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
         <field name="UUID" type="IdTableFieldDefinition" value="e3c82feb-031c-404f-8b26-0e56c41a24be" />
@@ -30,7 +30,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
         <field name="UUID" type="IdTableFieldDefinition" value="a2850b63-2cc5-45c2-be16-d522ef9cbd72" />
@@ -52,19 +52,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
-        <field name="UUID" type="IdTableFieldDefinition" value="9e2d96ce-631e-4170-a127-0c6f983f1d0b" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="245bb69e-bb55-4e2e-be86-a97dd02a581b" />
-        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Dwarf" />
-        <field name="Level" type="ByteTableFieldDefinition" value="1" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SuperiorDarkvision;Dwarf_DwarvenResilience" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);IncreaseMaxHP(Level)" />
-      </fields>
-    </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
         <field name="UUID" type="IdTableFieldDefinition" value="a7364ed3-34c4-402f-9f26-690474429166" />
@@ -96,7 +84,18 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_17" />
+        <field name="UUID" type="IdTableFieldDefinition" value="db13b0d9-89c6-4ac7-82b2-338d65230ce1" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1d875be6-7765-4598-98fa-25c92a16d3e1" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Gith" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
         <field name="UUID" type="IdTableFieldDefinition" value="4365fb00-69dd-484e-8e8c-17824f7dad63" />
@@ -108,7 +107,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
         <field name="UUID" type="IdTableFieldDefinition" value="2fe0b533-bf89-4047-8dea-196b8684efbb" />
@@ -129,7 +128,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
         <field name="UUID" type="IdTableFieldDefinition" value="c4fedf60-0192-48b6-9d42-d8ec07c8d322" />
@@ -141,20 +140,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
-        <field name="UUID" type="IdTableFieldDefinition" value="bfaee1b4-c841-4617-a0ae-a5dac8b83f2e" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="b5ea323d-e1dc-4374-b2bc-5d5de8713359" />
-        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Human" />
-        <field name="Level" type="ByteTableFieldDefinition" value="1" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HumanVersatility" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,HumanVersatility)" />
-      </fields>
-    </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
         <field name="UUID" type="IdTableFieldDefinition" value="f9ae1b27-0a41-4fd9-a832-8c43ae15473f" />
@@ -166,7 +152,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
         <field name="UUID" type="IdTableFieldDefinition" value="fa1cb36c-529e-4146-a60c-3fd59e17bfea" />
@@ -198,15 +184,98 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFFFA500" is_substat="false">
       <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_17" />
-        <field name="UUID" type="IdTableFieldDefinition" value="db13b0d9-89c6-4ac7-82b2-338d65230ce1" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="1d875be6-7765-4598-98fa-25c92a16d3e1" />
-        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Gith" />
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_65" />
+        <field name="UUID" type="IdTableFieldDefinition" value="92211767-68b7-4f12-a399-a8d10538cb29" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e93c8f3f-f45f-4c11-bfe8-bdd5705baf46" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Dwarf" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_64" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6ea3ba12-208c-4613-8852-0bcc5dc59654" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="2b6f0f43-13dd-40ca-983f-ec6eab52628c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Dwarf_Dwarf" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SuperiorDarkvision;Dwarf_DwarvenResilience" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);IncreaseMaxHP(Level)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_66" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d0c60457-3464-4aa9-9045-71b11a916fb0" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bc6a1305-4bea-4c77-83be-4918ff8ffc80" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Dwarf_Human" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HumanVersatility" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,HumanVersatility)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_67" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f0af01d7-108e-4988-9aaf-aa7bc380d70d" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="e9ac12a9-12d7-451d-b347-2fb5385f2a14" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Dwarf_Elf" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Darkvision;FeyAncestry" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_63" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8b9ada01-8f40-4515-9a55-9da0b9e7fd43" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="d70d2784-3711-4230-89d4-17d92be94d5d" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Human" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bfaee1b4-c841-4617-a0ae-a5dac8b83f2e" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="b5ea323d-e1dc-4374-b2bc-5d5de8713359" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Human_Human" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="HumanVersatility" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,HumanVersatility)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9e2d96ce-631e-4170-a127-0c6f983f1d0b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="245bb69e-bb55-4e2e-be86-a97dd02a581b" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Human_Dwarf" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SuperiorDarkvision;Dwarf_DwarvenResilience" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);IncreaseMaxHP(Level)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_68" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4591821d-e61e-4912-aa0b-74a8564541ad" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="1f04d92e-9ba4-4592-80d2-5558b1b35a6c" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Human_Elf" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SuperiorDarkvision;Dwarf_DwarvenResilience" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);IncreaseMaxHP(Level)" />
       </fields>
     </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">
@@ -216,7 +285,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DnD5R - Classes" />
       </fields>
     </stat_object>
-    <stat_object color="#FFE9967A" is_substat="false">
+    <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
         <field name="UUID" type="IdTableFieldDefinition" value="799b39c0-b48a-4d34-b87e-4f8c461b4ab8" />
@@ -230,7 +299,7 @@
         <field name="IsMulticlass" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
-    <stat_object color="#FFFFA500" is_substat="false">
+    <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_21" />
         <field name="UUID" type="IdTableFieldDefinition" value="8e30608f-7c2b-4f91-b298-dd243fa43889" />

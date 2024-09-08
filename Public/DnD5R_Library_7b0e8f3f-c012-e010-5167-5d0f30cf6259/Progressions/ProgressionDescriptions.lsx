@@ -5,6 +5,10 @@
         <node id="root">
             <children>
                 <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h96299209g8b5eg17c5gc6c2g492bc2bb0bcf" version="1"/>
+                    <attribute id="UUID" type="guid" value="1199235e-6aac-4d75-91a7-820be7388d81"/>
+                </node>
+                <node id="ProgressionDescription">
                     <attribute id="DisplayName" type="TranslatedString" handle="hc72670eeg2a54g1129g0773g7609bdb1b69a" version="1"/>
                     <attribute id="Type" type="FixedString" value="Aasimar"/>
                     <attribute id="UUID" type="guid" value="19032491-bea1-40e4-b04d-580bf56a849b"/>
@@ -16,11 +20,55 @@
                     <attribute id="UUID" type="guid" value="272e0ce3-6833-40f4-b1b5-ca3f8cfd40b0"/>
                 </node>
                 <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h916e876bg825fg7827gd124g1fecb486d333" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h03f23a17gd3a5g40e4ge325gcaa3a4621a58" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="e93c8f3f-f45f-4c11-bfe8-bdd5705baf46"/>
+                    <attribute id="Type" type="FixedString" value="DnD5R_Dwarf"/>
+                    <attribute id="UUID" type="guid" value="ecad9d5f-343b-4837-a639-493f581d2183"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h8ea6cca4g64ebg2c6bg3b10ga2d21cb4460c" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="2b6f0f43-13dd-40ca-983f-ec6eab52628c"/>
+                    <attribute id="Type" type="FixedString" value="DnD5R_Dwarf_Dwarf"/>
+                    <attribute id="UUID" type="guid" value="0a9dbc91-a0a6-4cac-b688-4f1af29b36f9"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hfe3011c7g7748gdad0gd5c7gc0c21a300b10" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7816fc9fg4196g853eg01e3g4614cf4d5780" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="bc6a1305-4bea-4c77-83be-4918ff8ffc80"/>
+                    <attribute id="Type" type="FixedString" value="DnD5R_Dwarf_Human"/>
+                    <attribute id="UUID" type="guid" value="a17b659f-33a7-43e3-99d3-bb81f2f8c3cf"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hfdab0039ga99eg1e6age0f6ga8bd4df951f6" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h67ae16b2g49d7g228ag0465gad4088aabbce" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="e9ac12a9-12d7-451d-b347-2fb5385f2a14"/>
+                    <attribute id="Type" type="FixedString" value="DnD5R_Dwarf_Elf"/>
+                    <attribute id="UUID" type="guid" value="dc3dd62d-39b4-4df8-ab1a-9cd43c488dd9"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hf49f3b18ge869ge6eag73c1ge5f7ffe69c96" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha4a63c11g1f22g9a67gc6d2g37073dd1440f" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="d70d2784-3711-4230-89d4-17d92be94d5d"/>
+                    <attribute id="Type" type="FixedString" value="DnD5R_Human"/>
+                    <attribute id="UUID" type="guid" value="7da73d47-ddaa-4592-9736-995371d32c28"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h7181f2c7ge0f5g3d08g3d75g2926871dbdb3" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h21f9a106gbb46g2e2fg53f9gfb13c09d7229" version="1"/>
-                    <attribute id="Type" type="FixedString" value="Dwarf"/>
+                    <attribute id="ProgressionTableId" type="guid" value="245bb69e-bb55-4e2e-be86-a97dd02a581b"/>
+                    <attribute id="Type" type="FixedString" value="DnD5R_Human_Dwarf"/>
                     <attribute id="UUID" type="guid" value="00729bf6-ff32-4010-a65b-2364fdc03901"/>
                 </node>
                 <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h5f91e0daga542gfd4fgb35bgf17d36810af1" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h09715101g9045g208cgc807g28df9f03dc16" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="b5ea323d-e1dc-4374-b2bc-5d5de8713359"/>
+                    <attribute id="Type" type="FixedString" value="DnD5R_Human_Human"/>
+                    <attribute id="UUID" type="guid" value="3a79428f-0746-4f76-a074-2d6e0c2718ff"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h35040892g0029geae3g7be5gd2c75eba4d91" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="ha61ff50dgabfbg0cc9g7a08gf8e5c41e0466" version="1"/>
                     <attribute id="Type" type="FixedString" value="Elf"/>
                     <attribute id="UUID" type="guid" value="fe83b265-9466-4859-a2dd-e020a5f0e7ab"/>
@@ -44,12 +92,6 @@
                     <attribute id="UUID" type="guid" value="dc58016c-5a11-4207-b02f-b822ac1fa142"/>
                 </node>
                 <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h5f91e0daga542gfd4fgb35bgf17d36810af1" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h09715101g9045g208cgc807g28df9f03dc16" version="1"/>
-                    <attribute id="Type" type="FixedString" value="Human"/>
-                    <attribute id="UUID" type="guid" value="3a79428f-0746-4f76-a074-2d6e0c2718ff"/>
-                </node>
-                <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h0578b480g4389g6727gbebcg82cd7f50db40" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hcf4f8a36gb7e8g1be7gabb9g1f5b7e023fa9" version="1"/>
                     <attribute id="Type" type="FixedString" value="Orc"/>
@@ -67,16 +109,8 @@
                     <attribute id="UUID" type="guid" value="c508e717-eab0-48ce-bf84-254dd16a4baf"/>
                 </node>
                 <node id="ProgressionDescription">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h96299209g8b5eg17c5gc6c2g492bc2bb0bcf" version="1"/>
-                    <attribute id="UUID" type="guid" value="1199235e-6aac-4d75-91a7-820be7388d81"/>
-                </node>
-                <node id="ProgressionDescription">
                     <attribute id="DisplayName" type="TranslatedString" handle="hbfff0855gc3c4gc3a9g0a32g5f3e06dfa77d" version="1"/>
                     <attribute id="UUID" type="guid" value="ad12ade2-b75e-4c3b-94e5-8b54aa728fe9"/>
-                </node>
-                <node id="ProgressionDescription">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h71ac782bg88cfgba2fg4d14g2198825fbf7d" version="1"/>
-                    <attribute id="UUID" type="guid" value="1f551949-aac8-4568-bb01-dcd1b49d6452"/>
                 </node>
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="hae719252g5688g4c93g6494g88f76c2aca76" version="1"/>
@@ -84,6 +118,10 @@
                     <attribute id="ProgressionTableId" type="guid" value="3c25b566-5276-4b62-95f4-340be3205d1f"/>
                     <attribute id="Type" type="FixedString" value="Warlock"/>
                     <attribute id="UUID" type="guid" value="b7a65c81-5b10-498f-ad7b-54d76122b3f6"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h71ac782bg88cfgba2fg4d14g2198825fbf7d" version="1"/>
+                    <attribute id="UUID" type="guid" value="1f551949-aac8-4568-bb01-dcd1b49d6452"/>
                 </node>
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h37300b4egc6f4gae65g1556g16a5ef67576c" version="1"/>
@@ -204,6 +242,13 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="he791835ag5550gae74g8ef0gd9ad8fb98e6d" version="1"/>
                     <attribute id="SelectorId" type="FixedString" value="WizardTransmutationSavant"/>
                     <attribute id="UUID" type="guid" value="60c0b140-e4e5-4de1-8c97-990a6c5d8e1a"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="ha7942ee7gd1a7g9dd0g7cb7g65fa9734f4fc" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3e6e3376g8a83g04fcg1272gc7f9b9419a77" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="1f04d92e-9ba4-4592-80d2-5558b1b35a6c"/>
+                    <attribute id="Type" type="FixedString" value="DnD5R_Human_Elf"/>
+                    <attribute id="UUID" type="guid" value="d6de2abc-9581-41e2-9d77-60d43ec9c090"/>
                 </node>
             </children>
         </node>
