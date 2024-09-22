@@ -21,10 +21,10 @@
                     <attribute id="Author" type="LSString" value="Team"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSString" value="Race Test - Multi Body"/>
-                    <attribute id="FileSize" type="uint64" value="363486"/>
+                    <attribute id="FileSize" type="uint64" value="363674"/>
                     <attribute id="Folder" type="LSString" value="DnD5R_Library_7b0e8f3f-c012-e010-5167-5d0f30cf6259"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="b6c451d1d111b37464c312e8c54bf5fb"/>
+                    <attribute id="MD5" type="LSString" value="c45bebcffb19454af1b4492f3aa8467f"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="DnD5R_Library"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -32,7 +32,7 @@
                     <attribute id="PublishHandle" type="uint64" value="0"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="7b0e8f3f-c012-e010-5167-5d0f30cf6259"/>
-                    <attribute id="Version64" type="int64" value="36028797018963977"/>
+                    <attribute id="Version64" type="int64" value="36028797018963978"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927717469451"/>

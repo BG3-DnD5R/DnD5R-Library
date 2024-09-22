@@ -198,6 +198,15 @@
                     <attribute id="UUID" type="guid" value="9e2d96ce-631e-4170-a127-0c6f983f1d0b"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);IncreaseMaxHP(Level)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DnD5R_Human_Elf"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SuperiorDarkvision;Dwarf_DwarvenResilience"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="1f04d92e-9ba4-4592-80d2-5558b1b35a6c"/>
+                    <attribute id="UUID" type="guid" value="4591821d-e61e-4912-aa0b-74a8564541ad"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Name" type="LSString" value="DnD5R - Classes"/>
                     <attribute id="UUID" type="guid" value="fcb2d353-8925-4545-a123-bf4a8b468f48"/>
                 </node>
@@ -575,18 +584,9 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Dwarf"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(50dfe586-a9b7-4547-a311-c1161f95818f)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(50dfe586-a9b7-4547-a311-c1161f95818f,,Constitution)"/>
                     <attribute id="TableUUID" type="guid" value="d93def5b-a2df-4675-8a33-e47c9647eeae"/>
                     <attribute id="UUID" type="guid" value="d3276065-ad40-4830-a845-192623d6b2e4"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0);IncreaseMaxHP(Level)"/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="DnD5R_Human_Elf"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SuperiorDarkvision;Dwarf_DwarvenResilience"/>
-                    <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="TableUUID" type="guid" value="1f04d92e-9ba4-4592-80d2-5558b1b35a6c"/>
-                    <attribute id="UUID" type="guid" value="4591821d-e61e-4912-aa0b-74a8564541ad"/>
                 </node>
             </children>
         </node>

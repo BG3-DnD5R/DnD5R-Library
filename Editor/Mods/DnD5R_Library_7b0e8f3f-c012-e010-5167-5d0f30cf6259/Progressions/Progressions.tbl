@@ -775,7 +775,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Dwarf" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(50dfe586-a9b7-4547-a311-c1161f95818f)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(50dfe586-a9b7-4547-a311-c1161f95818f,,Constitution)" />
       </fields>
     </stat_object>
   </stat_objects>
