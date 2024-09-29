@@ -1,0 +1,12 @@
+function DnD5R_BreathWeaponAttack()
+    local result = Dead() | Item()
+    if not result.Result then 
+        local st = ~SavingThrow(Ability.Dexterity, CalculateSpellDC(Ability.Constitution, context.Source))
+        return ConditionResult(st.Result, {}, {}, st.Chance)
+    end
+    return result
+end
+
+function ExtraWeaponAttack()
+    return ConditionResult(true)
+end
