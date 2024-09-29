@@ -529,14 +529,6 @@
                     <attribute id="TableUUID" type="guid" value="56516e8d-8f67-48a5-a794-d33f6ff13d16"/>
                     <attribute id="UUID" type="guid" value="403a64f0-a2ec-4c90-9e02-307343e15958"/>
                 </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="Dwarf"/>
-                    <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(50dfe586-a9b7-4547-a311-c1161f95818f)"/>
-                    <attribute id="TableUUID" type="guid" value="d93def5b-a2df-4675-8a33-e47c9647eeae"/>
-                    <attribute id="UUID" type="guid" value="d3276065-ad40-4830-a845-192623d6b2e4"/>
-                </node>
             </children>
         </node>
     </region>

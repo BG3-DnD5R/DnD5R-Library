@@ -32,5 +32,34 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45f8f874-81e7-414e-a4ec-75db4516e209" />
+        <field name="Name" type="NameTableFieldDefinition" value="STATUS_DND5R_BLADEWARD_OWNER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19bc8b9bg1d4ega9eag178bg3e7f890a5113" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfe1e9108g9ba8g0e51g9cbaga9b932a9a261" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_BladeWard" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="ApplyStatus(STATUS_DND5R_BLADEWARD)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d4" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLADEWARD_OWNER" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e41bce30-6ab1-482a-81bd-78d4a0bab6dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="STATUS_DND5R_BLADEWARD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h52198395gd63bg9d78gc58bg9fd825d5ec1a" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he7a6e516ga4dcg9787gd538g35e970325462" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_BladeWard" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('STATUS_DND5R_BLADEWARD_OWNER',context.Target)):RollBonus(Attack,-1d4)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLADEWARD" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

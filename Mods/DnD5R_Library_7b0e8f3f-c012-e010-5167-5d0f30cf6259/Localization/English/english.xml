@@ -84,10 +84,10 @@
   <content contentuid="h43c11834ge27ag3881g9ca8g7149e239e05b" version="1">You have gained &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with Martial Weapons.</content>
   <content contentuid="ha70f8e62g1c6agbb2cg84e8g8cd16f5222c2" version="1">Musician</content>
   <content contentuid="hfc79efd7g0824g3897g83fdgd76c10dc895c" version="1">You know how to play musical instruments and can perform a &lt;LSTag Type="Spell" Tooltip="Shout_DnD5R_SongOfRest_Musician"&gt;Song of Rest&lt;/LSTag&gt;.</content>
-  <content contentuid="hd87ea4a0g6429g8febgf7f3g95e3348ca576" version="1">Tavern Brawler: Enhanced Unarmed Strikes</content>
-  <content contentuid="ha6a7f3c9g0b32ga903geb7agc2b1f3dba587" version="1">Unarmed attacks deal [1], unless their normal damage is higher. Additionally, damage rolls of a 1 are rerolled.</content>
+  <content contentuid="hd87ea4a0g6429g8febgf7f3g95e3348ca576" version="2">Tavern Brawler: Enhanced Unarmed Strike</content>
+  <content contentuid="ha6a7f3c9g0b32ga903geb7agc2b1f3dba587" version="2">Unarmed attacks deal [1], unless their normal damage is higher.</content>
   <content contentuid="h0d8ea528gb260g0d25gccc9g3810e47d87c3" version="1">Tavern Brawler: Push</content>
-  <content contentuid="h54926219g9fafgbd33g0b70gb13685ce38dd" version="1">When you deal unarmed damage to a creature, you can also push it up to [1].</content>
+  <content contentuid="h54926219g9fafgbd33g0b70gb13685ce38dd" version="2">Once per turn when you deal unarmed damage to a creature, you can also push it up to [1].</content>
   <content contentuid="hde7197e6g4b81g62afgf007g47c971511a1b" version="1">Once Per Turn.</content>
   <content contentuid="h5e4df482g885fgda8cg707dg019e1ac9eb61" version="1">Martial Arts: Enhanced Unarmed Strikes</content>
   <content contentuid="hd6aa4b46gd613ga8dfgfd36ga09dcfb606a0" version="1">Attacks with &lt;LSTag Tooltip="MonkWeapon"&gt;Monk Weapons&lt;/LSTag&gt; and unarmed attacks deal [1], unless their normal damage is higher and scale with your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; instead of your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; if your Dexterity is higher. In addition, you can make &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_MartialArts_UnarmedStrikeBonus"&gt;Unarmed Strikes&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
@@ -123,4 +123,23 @@
   <content contentuid="h97938d9cg1919geadcgd7b8g002e34529564" version="1">Spew forth a cone of acid. (75)</content>
   <content contentuid="h103e8b3fga99bgb096gaa92gede3cbfb4627" version="1">Spew forth a cone of acid. (90)</content>
   <content contentuid="h23660d35g857cga285gfa26g76575b42b4a0" version="1">Spew forth a column of acid. (1m)</content>
+  <content contentuid="hec19d680g033cga618gc4efg5197e0b8a870" version="1">Tavern Brawler: Damage Rerolls</content>
+  <content contentuid="hc671ab01g0fc6ge107g81e4g8c016f0a8b7e" version="1">Unarmed attacks damage rolls of a 1 are rerolled.</content>
+  <content contentuid="h027809e3gb0bbg71fbg8e18g63eded6d9500" version="1">Origin Feats</content>
+  <content contentuid="hf404f127g89a8g4461gcf28g829d95976a71" version="2">You gain an origin feat.</content>
+  <content contentuid="hc3e50080g78bfg7735g1de2g49baaee1ea74" version="1">Magic Initiate: Cleric</content>
+  <content contentuid="hdd07dd51g12d7g6fcegd069ga31e4ded24f2" version="1">Magic Initiate: Druid</content>
+  <content contentuid="h06da7d0bg8d15g7e37g4af7gc437831e78d6" version="1">Magic Initiate: Wizard</content>
+  <content contentuid="hf19ad571g81f9g69bbg9c30g4b991086d3f8" version="1">Skilled</content>
+  <content contentuid="h0308b39ag3b04gec9aga045gf776d5db157a" version="1">Tavern Brawler</content>
+  <content contentuid="hbe35adcbg4faeg39adg6345g8ede22533aaf" version="1">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, it receives a -[1] penalty.</content>
+  <content contentuid="h0bbea122g843eg0445g0dd4g7e2272f0c44a" version="1">Blade Ward</content>
+  <content contentuid="hcf5b3258gadb1g183bg584agca88dcc43c7d" version="1">Blade Ward</content>
+  <content contentuid="h8ccced04ga9e7g6b37gfd89g0f4cc0386dd7" version="1">Test - Adds Blade ward</content>
+  <content contentuid="h19bc8b9bg1d4ega9eag178bg3e7f890a5113" version="1">Blade Ward</content>
+  <content contentuid="hfe1e9108g9ba8g0e51g9cbaga9b932a9a261" version="2">Whenever a creature makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you before the spell ends, it receives a -[1] penalty.</content>
+  <content contentuid="h52198395gd63bg9d78gc58bg9fd825d5ec1a" version="3">Blade Ward</content>
+  <content contentuid="he7a6e516ga4dcg9787gd538g35e970325462" version="2">In range of Blade Ward.</content>
+  <content contentuid="h5aeb1f68g0ea5g3f17ga881g8dce45973ce7" version="1">Blade Ward</content>
+  <content contentuid="h93b7b756g365fgb9d9g26f0gbec511ef8a48" version="2">Whenever a creature makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you before the spell ends, it receives a -[1] penalty.</content>
 </contentList>

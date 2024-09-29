@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="FeatDescriptions">
+        <node id="root">
+            <children>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hf404f127g89a8g4461gcf28g829d95976a71" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h027809e3gb0bbg71fbg8e18g63eded6d9500" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="DnD5R_Origin_Feats"/>
+                    <attribute id="FeatId" type="guid" value="6a8b5c08-6267-45d2-8a85-2e85474a22fb"/>
+                    <attribute id="UUID" type="guid" value="5e703c2b-bb0a-4060-89a3-6827735cd4fb"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

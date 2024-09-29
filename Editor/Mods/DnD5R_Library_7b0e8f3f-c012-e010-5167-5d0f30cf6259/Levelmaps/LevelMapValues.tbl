@@ -5,9 +5,10 @@
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_BreathWeapon" />
         <field name="UUID" type="IdTableFieldDefinition" value="807d4ee6-41f4-465d-9597-a77123b2660a" />
-        <field name="Level1" type="StringTableFieldDefinition" value="2d6" />
-        <field name="Level6" type="StringTableFieldDefinition" value="3d6" />
-        <field name="Level11" type="StringTableFieldDefinition" value="4d6" />
+        <field name="Level1" type="StringTableFieldDefinition" value="1d10" />
+        <field name="Level11" type="StringTableFieldDefinition" value="3d10" />
+        <field name="Level5" type="StringTableFieldDefinition" value="2d10" />
+        <field name="Level17" type="StringTableFieldDefinition" value="4d10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -36,7 +37,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_BardicInspiration" />
         <field name="UUID" type="IdTableFieldDefinition" value="65e5451c-e07b-46e0-b300-6dcacf14a8e2" />
         <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
-        <field name="FallbackValue" type="StringTableFieldDefinition" value="1d4" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="1d6" />
         <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
         <field name="Level5" type="StringTableFieldDefinition" value="1d8" />
         <field name="Level10" type="StringTableFieldDefinition" value="1d10" />
@@ -291,7 +292,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="LM_DnD5R_MartialArts" />
         <field name="UUID" type="IdTableFieldDefinition" value="7ee20e94-c39d-4ea2-9005-299d4b23f1f6" />
         <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
-        <field name="FallbackValue" type="StringTableFieldDefinition" value="1d4" />
+        <field name="FallbackValue" type="StringTableFieldDefinition" value="1d6" />
         <field name="Level1" type="StringTableFieldDefinition" value="1d6" />
         <field name="Level2" type="StringTableFieldDefinition" value="1d6" />
         <field name="Level3" type="StringTableFieldDefinition" value="1d6" />
