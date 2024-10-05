@@ -7,6 +7,110 @@ function DnD5R_BreathWeaponAttack()
     return result
 end
 
-function ExtraWeaponAttack()
-    return ConditionResult(true)
+local __util = require 'larian.util'
+
+function WeaponAttackRollAbility(ability)
+    return IsWeaponAttack() & ConditionResult(context.HitDescription.AttackAbility == ability)
+end
+
+function SM_WeaponAttackRollAbility(entity)
+    local SM_AAM = 15
+        if entity.IsValid and ConditionResult(context.HitDescription.AttackAbility == ability.Strength) then
+                SM_AAM = 0 + GetModifier(entity.Strength)
+            end
+        if entity.IsValid and ConditionResult(context.HitDescription.AttackAbility == ability.Dexterity) then
+                SM_AAM = 0 + GetModifier(entity.Dexterity)
+            end
+        if entity.IsValid and ConditionResult(context.HitDescription.AttackAbility == ability.Constitution) then
+                SM_AAM = 0 + GetModifier(entity.Constitution)
+            end
+        if entity.IsValid and ConditionResult(context.HitDescription.AttackAbility == ability.Intelligence) then
+                SM_AAM = 0 + GetModifier(entity.Intelligence)
+            end
+        if entity.IsValid and ConditionResult(context.HitDescription.AttackAbility == ability.Wisdom) then
+                SM_AAM = 0 + GetModifier(entity.Wisdom)
+            end
+        if entity.IsValid and ConditionResult(context.HitDescription.AttackAbility == ability.Charisma) then
+                SM_AAM = 0 + GetModifier(entity.Charisma)
+            end
+    return SM_AAM
+end
+
+function SM_ToppleSaveCheckStrength_SaveDC()
+    return 8 + context.Source.ProficiencyBonus + GetModifier(context.Source.Strength)
+end
+
+function SM_ToppleSaveCheckDexterity_SaveDC()
+    return 8 + context.Source.ProficiencyBonus + GetModifier(context.Source.Dexterity)
+end
+
+function SM_ToppleSaveCheckConstitution_SaveDC()
+    return 8 + context.Source.ProficiencyBonus + GetModifier(context.Source.Constitution)
+end
+
+function SM_ToppleSaveCheckWisdom_SaveDC()
+    return 8 + context.Source.ProficiencyBonus + GetModifier(context.Source.Wisdom)
+end
+
+function SM_ToppleSaveCheckIntelligence_SaveDC()
+    return 8 + context.Source.ProficiencyBonus + GetModifier(context.Source.Intelligence)
+end
+
+function SM_ToppleSaveCheckCharisma_SaveDC()
+    return 8 + context.Source.ProficiencyBonus + GetModifier(context.Source.Charisma)
+end
+
+function MaximumHigherStackableStatus_SM(entity, stringStatusGroupName)
+    local entity = entity or context.Source
+    return ConditionResult(GetStatusDuration(stringStatusGroupName, entity) >= 2)
+end
+
+function MaximumHigherStackableStatus_SM_Not(entity, stringStatusGroupName)
+    local entity = entity or context.Source
+    return ConditionResult(GetStatusDuration(stringStatusGroupName, entity) < 2)
+end
+
+function AttackingWithSlowWeapon()
+    result = Tagged('WPN_JAVELIN', GetAttackWeapon(context.Source)) & HasPassive('SM_Javelin_Master', context.Source) | Tagged('WPN_CLUB', GetAttackWeapon(context.Source)) & HasPassive('SM_Club_Master', context.Source) | Tagged('WPN_LIGHT_CROSSBOW', GetAttackWeapon(context.Source)) & HasPassive('SM_Light_Crossbow_Master', context.Source) | Tagged('WPN_SLING', GetAttackWeapon(context.Source)) & HasPassive('SM_Sling_Master', context.Source) | Tagged('WPN_LONGBOW', GetAttackWeapon(context.Source)) & HasPassive('SM_Longbow_Master', context.Source)
+    return result
+end
+
+function AttackingWithToppleWeapon()
+    result =  Tagged('WPN_STAVE', GetAttackWeapon(context.Source)) & HasPassive('SM_Quarterstaff_Master', context.Source) | Tagged('WPN_BATTLEAXE', GetAttackWeapon(context.Source)) & HasPassive('SM_Battleaxe_Master', context.Source) | Tagged('WPN_TRIDENT', GetAttackWeapon(context.Source)) & HasPassive('SM_Trident_Master', context.Source)
+    return result
+end
+
+function AttackingWithCleaveWeapon()
+    result =  Tagged('WPN_HALBERD', GetAttackWeapon(context.Source)) & HasPassive('SM_Halberd_Master', context.Source) | Tagged('WPN_GREATAXE', GetAttackWeapon(context.Source)) & HasPassive('SM_Greataxe_Master', context.Source)
+    return result
+end
+
+function AttackingWithNickWeapon()
+    result =  Tagged('WPN_DAGGER', GetAttackWeapon(context.Source)) & HasPassive('SM_Dagger_Master', context.Source) | Tagged('WPN_LIGHT_HAMMER', GetAttackWeapon(context.Source)) & HasPassive('SM_Light_Hammer_Master', context.Source) | Tagged('WPN_SICKLE', GetAttackWeapon(context.Source)) & HasPassive('SM_Sickle_Master', context.Source) | Tagged('WPN_SCIMITAR', GetAttackWeapon(context.Source)) & HasPassive('SM_Scimitar_Master', context.Source)
+    return result
+end
+
+function AttackingWithPushWeapon()
+    result =  Tagged('WPN_GREATCLUB', GetAttackWeapon(context.Source)) & HasPassive('SM_Greatclub_Master', context.Source) | Tagged('WPN_PIKE', GetAttackWeapon(context.Source)) & HasPassive('SM_Pike_Master', context.Source) | Tagged('WPN_WARHAMMER', GetAttackWeapon(context.Source)) & HasPassive('SM_Warhammer_Master', context.Source) | Tagged('WPN_HEAVY_CROSSBOW', GetAttackWeapon(context.Source)) & HasPassive('SM_Heavy_Crossbow_Master', context.Source)
+    return result
+end
+
+function AttackingWithGrazeWeapon()
+    result =  Tagged('WPN_GLAIVE', GetAttackWeapon(context.Source)) & HasPassive('SM_Glaive_Master', context.Source) | Tagged('WPN_GREATSWORD', GetAttackWeapon(context.Source)) & HasPassive('SM_Greatsword_Master', context.Source)
+    return result
+end
+
+function AttackingWithVexWeapon()
+    result =  Tagged('WPN_HANDAXE', GetAttackWeapon(context.Source)) & HasPassive('SM_Handaxe_Master', context.Source) | Tagged('WPN_DART', GetAttackWeapon(context.Source)) & HasPassive('SM_Dart_Master', context.Source) | Tagged('WPN_SHORTBOW', GetAttackWeapon(context.Source)) & HasPassive('SM_Shortbow_Master', context.Source) | Tagged('WPN_RAPIER', GetAttackWeapon(context.Source)) & HasPassive('SM_Rapier_Master', context.Source) | Tagged('WPN_SHORTSWORD', GetAttackWeapon(context.Source)) & HasPassive('SM_Shortsword_Master', context.Source) | Tagged('WPN_HAND_CROSSBOW', GetAttackWeapon(context.Source)) & HasPassive('SM_Hand_Crossbow_Master', context.Source)
+    return result
+end
+
+function AttackingWithSapWeapon()
+    result =  Tagged('WPN_MACE', GetAttackWeapon(context.Source)) & HasPassive('SM_Mace_Master', context.Source) | Tagged('WPN_SPEAR', GetAttackWeapon(context.Source)) & HasPassive('SM_Spear_Master', context.Source) | Tagged('WPN_FLAIL', GetAttackWeapon(context.Source)) & HasPassive('SM_Flail_Master', context.Source) | Tagged('WPN_LONGSWORD', GetAttackWeapon(context.Source)) & HasPassive('SM_Longsword_Master', context.Source) | Tagged('WPN_MORNINGSTAR', GetAttackWeapon(context.Source)) & HasPassive('SM_Morningstar_Master', context.Source) | Tagged('WPN_WAR_PICK', GetAttackWeapon(context.Source)) & HasPassive('SM_War_Pick_Master', context.Source)
+    return result
+end
+
+function AttackingWithMasteredWeapon()
+    result = Tagged('WPN_JAVELIN', GetAttackWeapon(context.Source)) & HasPassive('SM_Javelin_Master', context.Source) | Tagged('WPN_CLUB', GetAttackWeapon(context.Source)) & HasPassive('SM_Club_Master', context.Source) | Tagged('WPN_LIGHT_CROSSBOW', GetAttackWeapon(context.Source)) & HasPassive('SM_Light_Crossbow_Master', context.Source) | Tagged('WPN_SLING', GetAttackWeapon(context.Source)) & HasPassive('SM_Sling_Master', context.Source) | Tagged('WPN_LONGBOW', GetAttackWeapon(context.Source)) & HasPassive('SM_Longbow_Master', context.Source) | Tagged('WPN_STAVE', GetAttackWeapon(context.Source)) & HasPassive('SM_Quarterstaff_Master', context.Source) | Tagged('WPN_BATTLEAXE', GetAttackWeapon(context.Source)) & HasPassive('SM_Battleaxe_Master', context.Source) | Tagged('WPN_TRIDENT', GetAttackWeapon(context.Source)) & HasPassive('SM_Trident_Master', context.Source) | Tagged('WPN_HALBERD', GetAttackWeapon(context.Source)) & HasPassive('SM_Halberd_Master', context.Source) | Tagged('WPN_GREATAXE', GetAttackWeapon(context.Source)) & HasPassive('SM_Greataxe_Master', context.Source) | Tagged('WPN_DAGGER', GetAttackWeapon(context.Source)) & HasPassive('SM_Dagger_Master', context.Source) | Tagged('WPN_LIGHT_HAMMER', GetAttackWeapon(context.Source)) & HasPassive('SM_Light_Hammer_Master', context.Source) | Tagged('WPN_SICKLE', GetAttackWeapon(context.Source)) & HasPassive('SM_Sickle_Master', context.Source) | Tagged('WPN_SCIMITAR', GetAttackWeapon(context.Source)) & HasPassive('SM_Scimitar_Master', context.Source) | Tagged('WPN_GREATCLUB', GetAttackWeapon(context.Source)) & HasPassive('SM_Greatclub_Master', context.Source) | Tagged('WPN_PIKE', GetAttackWeapon(context.Source)) & HasPassive('SM_Pike_Master', context.Source) | Tagged('WPN_WARHAMMER', GetAttackWeapon(context.Source)) & HasPassive('SM_Warhammer_Master', context.Source) | Tagged('WPN_HEAVY_CROSSBOW', GetAttackWeapon(context.Source)) & HasPassive('SM_Heavy_Crossbow_Master', context.Source) | Tagged('WPN_GLAIVE', GetAttackWeapon(context.Source)) & HasPassive('SM_Glaive_Master', context.Source) | Tagged('WPN_GREATSWORD', GetAttackWeapon(context.Source)) & HasPassive('SM_Greatsword_Master', context.Source) | Tagged('WPN_HANDAXE', GetAttackWeapon(context.Source)) & HasPassive('SM_Handaxe_Master', context.Source) | Tagged('WPN_DART', GetAttackWeapon(context.Source)) & HasPassive('SM_Dart_Master', context.Source) | Tagged('WPN_SHORTBOW', GetAttackWeapon(context.Source)) & HasPassive('SM_Shortbow_Master', context.Source) | Tagged('WPN_RAPIER', GetAttackWeapon(context.Source)) & HasPassive('SM_Rapier_Master', context.Source) | Tagged('WPN_SHORTSWORD', GetAttackWeapon(context.Source)) & HasPassive('SM_Shortsword_Master', context.Source) | Tagged('WPN_HAND_CROSSBOW', GetAttackWeapon(context.Source)) & HasPassive('SM_Hand_Crossbow_Master', context.Source) | Tagged('WPN_MACE', GetAttackWeapon(context.Source)) & HasPassive('SM_Mace_Master', context.Source) | Tagged('WPN_SPEAR', GetAttackWeapon(context.Source)) & HasPassive('SM_Spear_Master', context.Source) | Tagged('WPN_FLAIL', GetAttackWeapon(context.Source)) & HasPassive('SM_Flail_Master', context.Source) | Tagged('WPN_LONGSWORD', GetAttackWeapon(context.Source)) & HasPassive('SM_Longsword_Master', context.Source) | Tagged('WPN_MORNINGSTAR', GetAttackWeapon(context.Source)) & HasPassive('SM_Morningstar_Master', context.Source) | Tagged('WPN_WAR_PICK', GetAttackWeapon(context.Source)) & HasPassive('SM_War_Pick_Master', context.Source)
+    return result
 end

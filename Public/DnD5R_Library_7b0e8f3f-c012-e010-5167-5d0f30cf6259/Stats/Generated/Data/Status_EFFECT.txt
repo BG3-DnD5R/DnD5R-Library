@@ -1,0 +1,7 @@
+new entry "PASSIVE_SM_VEX_ADVANTAGE"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "DisplayName" "h03a0eb85g2c15g42d4g50e1g6f9eec17d320;1"
+data "StatusEffect" "032de5fe-f35e-4fe3-9d23-4b41fa5eb61d"
+

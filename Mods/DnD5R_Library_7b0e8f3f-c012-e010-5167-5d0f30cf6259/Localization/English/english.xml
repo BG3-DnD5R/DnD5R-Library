@@ -142,4 +142,10 @@
   <content contentuid="he7a6e516ga4dcg9787gd538g35e970325462" version="2">In range of Blade Ward.</content>
   <content contentuid="h5aeb1f68g0ea5g3f17ga881g8dce45973ce7" version="1">Blade Ward</content>
   <content contentuid="h93b7b756g365fgb9d9g26f0gbec511ef8a48" version="2">Whenever a creature makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you before the spell ends, it receives a -[1] penalty.</content>
+  <content contentuid="h03a0eb85g2c15g42d4g50e1g6f9eec17d320" version="1">Vexed</content>
+  <content contentuid="h3fbb1e33g5a99ga69dgee78g6aaed9ff8484" version="1">Weapon Masteries Trained</content>
+  <content contentuid="h82e2a877gc106g7d36g7c55g91d9bf8c1227" version="1">This is used to determine how many Weapon Masteries you could have trained but currently do not.</content>
+  <content contentuid="h0adb2e76gc971g4cdfgd5acgd6fcd78d67ce" version="2">This property is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character.</content>
+  <content contentuid="h926ee68cgaa4dg6166g763agf8d9fe84d9f0" version="1">This property is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character.</content>
+  <content contentuid="hcc93f0ebge4fag9927g4360g6e33408f9cbd" version="2">Weapon Mastery</content>
 </contentList>

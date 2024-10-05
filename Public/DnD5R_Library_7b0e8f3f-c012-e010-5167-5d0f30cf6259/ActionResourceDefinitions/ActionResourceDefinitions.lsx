@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h82e2a877gc106g7d36g7c55g91d9bf8c1227" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3fbb1e33g5a99ga69dgee78g6aaed9ff8484" version="1"/>
+                    <attribute id="Error" type="TranslatedString" handle="h0adb2e76gc971g4cdfgd5acgd6fcd78d67ce" version="2"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SM_WeaponMasteryCharge"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="e9bcd703-a162-4424-bb79-3d58386e9fdd"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

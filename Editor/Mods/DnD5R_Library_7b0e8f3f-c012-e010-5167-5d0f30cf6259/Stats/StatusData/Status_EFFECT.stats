@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="afc508da-dd39-4821-b0af-9955e5e2f087">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="321d23da-0a89-4aa0-a12c-d3916295b0c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_SM_VEX_ADVANTAGE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03a0eb85g2c15g42d4g50e1g6f9eec17d320" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="032de5fe-f35e-4fe3-9d23-4b41fa5eb61d" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

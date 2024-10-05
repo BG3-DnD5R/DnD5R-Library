@@ -29,7 +29,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_BreathWeapon_Acid" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_BreathWeapon_Acid" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dragonborn_BreathWeapon_Acid" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Battleaxe_Icon" />
         <field name="TooltipOnSave" type="StringTableFieldDefinition" value="961753f4-c345-4bc4-b408-1d5b87a5ab0c" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateExplosion(Projectile_DnD5R_VFX_Acid)" />
         <field name="Angle" type="IntegerTableFieldDefinition" value="60" />
