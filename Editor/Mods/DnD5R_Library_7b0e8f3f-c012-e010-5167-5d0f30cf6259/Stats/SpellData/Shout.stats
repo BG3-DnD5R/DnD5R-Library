@@ -157,7 +157,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Container" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DnD5R_WeaponMastery_Battleaxe;Shout_DnD5R_WeaponMastery_Club;Shout_DnD5R_WeaponMastery_Dagger;Shout_DnD5R_WeaponMastery_Flail;Shout_DnD5R_WeaponMastery_Glaive;Shout_DnD5R_WeaponMastery_Greataxe;Shout_DnD5R_WeaponMastery_Greatclub;Shout_DnD5R_WeaponMastery_Greatsword;Shout_DnD5R_WeaponMastery_Halberd;Shout_DnD5R_WeaponMastery_Handaxe;Shout_DnD5R_WeaponMastery_HandCrossbow;Shout_DnD5R_WeaponMastery_HeavyCrossbow;Shout_DnD5R_WeaponMastery_Javelin;Shout_DnD5R_WeaponMastery_Lance;Shout_DnD5R_WeaponMastery_LightCrossbow;Shout_DnD5R_WeaponMastery_LightHammer;Shout_DnD5R_WeaponMastery_Longbow;Shout_DnD5R_WeaponMastery_Longsword;Shout_DnD5R_WeaponMastery_Mace;Shout_DnD5R_WeaponMastery_Maul;Shout_DnD5R_WeaponMastery_Morningstar;Shout_DnD5R_WeaponMastery_Pike;Shout_DnD5R_WeaponMastery_Quarterstaff;Shout_DnD5R_WeaponMastery_Rapier;Shout_DnD5R_WeaponMastery_Scimitar;Shout_DnD5R_WeaponMastery_Shortbow;Shout_DnD5R_WeaponMastery_Shortsword;Shout_DnD5R_WeaponMastery_Sickle;Shout_DnD5R_WeaponMastery_Sling;Shout_DnD5R_WeaponMastery_Spear;Shout_DnD5R_WeaponMastery_Trident;Shout_DnD5R_WeaponMastery_WarHammer;Shout_DnD5R_WeaponMastery_Warpick" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WeaponMaster" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Battleaxe" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc93f0ebge4fag9927g4360g6e33408f9cbd" version="2" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Steady" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Steady" />
@@ -171,6 +171,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="9342eaf4-6a20-44c6-a740-863b0f9c2475" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b660a683-61c5-44a0-87c6-84cac5f9201d" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="WeaponSet" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf860f4f0g4de8g92e4g606dg0c1f7308683e" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -180,7 +181,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="b73fedd7-560a-4c9e-bb36-21c4ddd9d47f" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DnD5R_WeaponMastery_Container" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Battleaxe_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Battleaxe" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsDefaultWeaponAction" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
@@ -189,7 +190,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="12921362-38f5-4811-a232-0237671a95c1" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Club" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Club_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Club" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -197,7 +198,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="66adf9aa-c5a1-4c2c-b3a0-84a9c92f1119" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Dagger" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Dagger_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Dagger" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -205,7 +206,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1d5341ee-4bca-45bd-a891-c3778650faa9" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Flail" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Flail_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Flail" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -213,7 +214,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b6717d89-1fad-4960-ae3d-e45166b82d4d" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Glaive" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Glaive_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Glaive" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -221,7 +222,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e08013c4-9225-4d7e-86d5-8eee36166e47" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Greataxe" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Greataxe_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Greataxe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -229,7 +230,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="39b23e36-ca13-4cb3-8aa2-9ec24bd7fc90" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Greatclub" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Greatclub_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Greatclub" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -237,7 +238,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7f7f6f83-f69c-4250-bbe4-2809276a418b" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Greatsword" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Greatsword_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Greatsword" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -245,7 +246,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1fb2577e-e8da-4faa-aafe-60812b1f1e8e" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Halberd" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Halberd_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Halberd" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -253,7 +254,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8752f53d-73f3-4223-ab03-70b4d324f206" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Handaxe" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Handaxe_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Handaxe" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -261,7 +262,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3ee4fb2f-1162-4a7f-806b-49da15afe751" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_HandCrossbow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_HandCrossbow_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_HandCrossbow" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -269,7 +270,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d6dbfea8-7e31-4516-b54c-cb99b9c1c0da" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_HeavyCrossbow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_HeavyCrossbow_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_HeavyCrossbow" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -277,15 +278,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ab1859af-59c3-4d55-baab-7c93ac0791a9" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Javelin" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Javelin_Icon" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="75e45857-5e66-4d2e-8c3e-589139b25c84" />
-        <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Lance" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Lance_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Javelin" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -293,7 +286,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5aa4d6e1-1215-4f6f-a02f-de9f101e6c28" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_LightCrossbow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_LightCrossbow_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_LightCrossbow" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -301,7 +294,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="30e413db-5cf1-4505-9894-4d14f0dab166" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_LightHammer" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_LightHammer_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_LightHammer" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -309,7 +302,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="758f2c1b-956f-45d4-88c9-ea702f01bcab" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Longbow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Longbow_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Longbow" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -317,7 +310,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e42ced6b-b9bf-4a0f-a7e9-fa29eda670c0" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Longsword" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Longsword_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Longsword" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -325,7 +318,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8e91d134-8038-4e3f-a1fd-2e7007ca3cdd" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Mace" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Mace_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Mace" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -333,7 +326,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="30323f3b-f9d0-455f-8664-63283490c31e" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Maul" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Maul_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Maul" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -341,7 +334,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2ea4e969-5fa4-45b2-beff-e449817f07fe" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Morningstar" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Morningstar_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Morningstar" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -349,7 +342,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3cfdff7c-0bd9-4d04-9d3c-099c758e182b" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Pike" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Pike_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Pike" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -357,7 +350,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6b798b1c-2c46-4998-8d29-71fd05328c10" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Quarterstaff" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Quarterstaff_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Quarterstaff" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -365,7 +358,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8160a558-417d-4d81-99fc-b0d00fb5096f" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Rapier" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Rapier_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Rapier" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -373,7 +366,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0c472eeb-ce91-4bc6-8296-05efdd92522d" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Scimitar" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Scimitar_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Scimitar" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -381,7 +374,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8e4ca421-e71f-4514-985d-3bed7b28e9de" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Shortbow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Shortbow_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Shortbow" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -389,7 +382,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8acf8a19-597a-4da8-a122-85d03d17d518" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Shortsword" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Shortsword_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Shortsword" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -397,7 +390,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ed0a5922-b024-4c60-83dc-3559fb3cd570" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Sickle" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Sickle_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Sickle" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -405,7 +398,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1b598d85-d81b-42a9-88e9-33837f056c03" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Sling" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Sling_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Sling" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -413,7 +406,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e8e2d886-b77d-4f74-ac72-fe09d060c9c8" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Spear" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Spear_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Spear" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -421,7 +414,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1bb2cd73-4df3-4173-8b86-323b44568425" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Trident" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Trident_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Trident" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -429,7 +422,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ab4eb192-e837-4e70-8e7e-9d29e460f7d3" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_WarHammer" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_WarHammer_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_WarHammer" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -437,7 +430,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="90efcb37-3b30-421e-892d-18a49898f8ab" />
         <field name="Name" type="NameTableFieldDefinition" value="DnD5R_WeaponMastery_Warpick" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e472acd-b520-4ed1-8e0a-56a73cc99481" />
-        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Warpick_Icon" />
+        <field name="Icon" type="StringTableFieldDefinition" value="DnD5R_WeaponMastery_Warpick" />
       </fields>
     </stat_object>
   </stat_objects>

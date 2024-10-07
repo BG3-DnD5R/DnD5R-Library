@@ -5,249 +5,452 @@
         <node id="root">
             <children>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Battleaxe_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Battleaxe"/>
                     <attribute id="U1" type="float" value="0.0009765625"/>
                     <attribute id="U2" type="float" value="0.12402344"/>
                     <attribute id="V1" type="float" value="0.0009765625"/>
                     <attribute id="V2" type="float" value="0.12402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Club_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Battleaxe_Toggle"/>
                     <attribute id="U1" type="float" value="0.12597656"/>
                     <attribute id="U2" type="float" value="0.24902344"/>
                     <attribute id="V1" type="float" value="0.0009765625"/>
                     <attribute id="V2" type="float" value="0.12402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Dagger_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Club"/>
                     <attribute id="U1" type="float" value="0.25097656"/>
                     <attribute id="U2" type="float" value="0.37402344"/>
                     <attribute id="V1" type="float" value="0.0009765625"/>
                     <attribute id="V2" type="float" value="0.12402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Flail_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Club_Toggle"/>
                     <attribute id="U1" type="float" value="0.37597656"/>
                     <attribute id="U2" type="float" value="0.49902344"/>
                     <attribute id="V1" type="float" value="0.0009765625"/>
                     <attribute id="V2" type="float" value="0.12402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Glaive_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Dagger"/>
                     <attribute id="U1" type="float" value="0.50097656"/>
                     <attribute id="U2" type="float" value="0.62402344"/>
                     <attribute id="V1" type="float" value="0.0009765625"/>
                     <attribute id="V2" type="float" value="0.12402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Greataxe_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Dagger_Toggle"/>
                     <attribute id="U1" type="float" value="0.62597656"/>
                     <attribute id="U2" type="float" value="0.74902344"/>
                     <attribute id="V1" type="float" value="0.0009765625"/>
                     <attribute id="V2" type="float" value="0.12402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Greatclub_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Flail"/>
                     <attribute id="U1" type="float" value="0.75097656"/>
                     <attribute id="U2" type="float" value="0.87402344"/>
                     <attribute id="V1" type="float" value="0.0009765625"/>
                     <attribute id="V2" type="float" value="0.12402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Greatsword_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Flail_Toggle"/>
                     <attribute id="U1" type="float" value="0.87597656"/>
                     <attribute id="U2" type="float" value="0.99902344"/>
                     <attribute id="V1" type="float" value="0.0009765625"/>
                     <attribute id="V2" type="float" value="0.12402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Halberd_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Glaive"/>
                     <attribute id="U1" type="float" value="0.0009765625"/>
                     <attribute id="U2" type="float" value="0.12402344"/>
                     <attribute id="V1" type="float" value="0.12597656"/>
                     <attribute id="V2" type="float" value="0.24902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_HandCrossbow_Icon"/>
-                    <attribute id="U1" type="float" value="0.25097656"/>
-                    <attribute id="U2" type="float" value="0.37402344"/>
-                    <attribute id="V1" type="float" value="0.12597656"/>
-                    <attribute id="V2" type="float" value="0.24902344"/>
-                </node>
-                <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Handaxe_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Glaive_Toggle"/>
                     <attribute id="U1" type="float" value="0.12597656"/>
                     <attribute id="U2" type="float" value="0.24902344"/>
                     <attribute id="V1" type="float" value="0.12597656"/>
                     <attribute id="V2" type="float" value="0.24902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_HeavyCrossbow_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Greataxe"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.12597656"/>
+                    <attribute id="V2" type="float" value="0.24902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Greataxe_Toggle"/>
                     <attribute id="U1" type="float" value="0.37597656"/>
                     <attribute id="U2" type="float" value="0.49902344"/>
                     <attribute id="V1" type="float" value="0.12597656"/>
                     <attribute id="V2" type="float" value="0.24902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Javelin_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Greatclub"/>
                     <attribute id="U1" type="float" value="0.50097656"/>
                     <attribute id="U2" type="float" value="0.62402344"/>
                     <attribute id="V1" type="float" value="0.12597656"/>
                     <attribute id="V2" type="float" value="0.24902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Lance_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Greatclub_Toggle"/>
                     <attribute id="U1" type="float" value="0.62597656"/>
                     <attribute id="U2" type="float" value="0.74902344"/>
                     <attribute id="V1" type="float" value="0.12597656"/>
                     <attribute id="V2" type="float" value="0.24902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_LightCrossbow_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Greatsword"/>
                     <attribute id="U1" type="float" value="0.75097656"/>
                     <attribute id="U2" type="float" value="0.87402344"/>
                     <attribute id="V1" type="float" value="0.12597656"/>
                     <attribute id="V2" type="float" value="0.24902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_LightHammer_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Greatsword_Toggle"/>
                     <attribute id="U1" type="float" value="0.87597656"/>
                     <attribute id="U2" type="float" value="0.99902344"/>
                     <attribute id="V1" type="float" value="0.12597656"/>
                     <attribute id="V2" type="float" value="0.24902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Longbow_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Halberd"/>
                     <attribute id="U1" type="float" value="0.0009765625"/>
                     <attribute id="U2" type="float" value="0.12402344"/>
                     <attribute id="V1" type="float" value="0.25097656"/>
                     <attribute id="V2" type="float" value="0.37402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Longsword_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Halberd_Toggle"/>
                     <attribute id="U1" type="float" value="0.12597656"/>
                     <attribute id="U2" type="float" value="0.24902344"/>
                     <attribute id="V1" type="float" value="0.25097656"/>
                     <attribute id="V2" type="float" value="0.37402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Mace_Icon"/>
-                    <attribute id="U1" type="float" value="0.25097656"/>
-                    <attribute id="U2" type="float" value="0.37402344"/>
-                    <attribute id="V1" type="float" value="0.25097656"/>
-                    <attribute id="V2" type="float" value="0.37402344"/>
-                </node>
-                <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Maul_Icon"/>
-                    <attribute id="U1" type="float" value="0.37597656"/>
-                    <attribute id="U2" type="float" value="0.49902344"/>
-                    <attribute id="V1" type="float" value="0.25097656"/>
-                    <attribute id="V2" type="float" value="0.37402344"/>
-                </node>
-                <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Morningstar_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_HandCrossbow"/>
                     <attribute id="U1" type="float" value="0.50097656"/>
                     <attribute id="U2" type="float" value="0.62402344"/>
                     <attribute id="V1" type="float" value="0.25097656"/>
                     <attribute id="V2" type="float" value="0.37402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Pike_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_HandCrossbow_Toggle"/>
                     <attribute id="U1" type="float" value="0.62597656"/>
                     <attribute id="U2" type="float" value="0.74902344"/>
                     <attribute id="V1" type="float" value="0.25097656"/>
                     <attribute id="V2" type="float" value="0.37402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Quarterstaff_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Handaxe"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.25097656"/>
+                    <attribute id="V2" type="float" value="0.37402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Handaxe_Toggle"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
+                    <attribute id="V1" type="float" value="0.25097656"/>
+                    <attribute id="V2" type="float" value="0.37402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_HeavyCrossbow"/>
                     <attribute id="U1" type="float" value="0.75097656"/>
                     <attribute id="U2" type="float" value="0.87402344"/>
                     <attribute id="V1" type="float" value="0.25097656"/>
                     <attribute id="V2" type="float" value="0.37402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Rapier_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_HeavyCrossbow_Toggle"/>
                     <attribute id="U1" type="float" value="0.87597656"/>
                     <attribute id="U2" type="float" value="0.99902344"/>
                     <attribute id="V1" type="float" value="0.25097656"/>
                     <attribute id="V2" type="float" value="0.37402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Scimitar_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Javelin"/>
                     <attribute id="U1" type="float" value="0.0009765625"/>
                     <attribute id="U2" type="float" value="0.12402344"/>
                     <attribute id="V1" type="float" value="0.37597656"/>
                     <attribute id="V2" type="float" value="0.49902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Shield_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Javelin_Toggle"/>
                     <attribute id="U1" type="float" value="0.12597656"/>
                     <attribute id="U2" type="float" value="0.24902344"/>
                     <attribute id="V1" type="float" value="0.37597656"/>
                     <attribute id="V2" type="float" value="0.49902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Shortbow_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_LightCrossbow"/>
                     <attribute id="U1" type="float" value="0.25097656"/>
                     <attribute id="U2" type="float" value="0.37402344"/>
                     <attribute id="V1" type="float" value="0.37597656"/>
                     <attribute id="V2" type="float" value="0.49902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Shortsword_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_LightCrossbow_Toggle"/>
                     <attribute id="U1" type="float" value="0.37597656"/>
                     <attribute id="U2" type="float" value="0.49902344"/>
                     <attribute id="V1" type="float" value="0.37597656"/>
                     <attribute id="V2" type="float" value="0.49902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Sickle_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_LightHammer"/>
                     <attribute id="U1" type="float" value="0.50097656"/>
                     <attribute id="U2" type="float" value="0.62402344"/>
                     <attribute id="V1" type="float" value="0.37597656"/>
                     <attribute id="V2" type="float" value="0.49902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Sling_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_LightHammer_Toggle"/>
                     <attribute id="U1" type="float" value="0.62597656"/>
                     <attribute id="U2" type="float" value="0.74902344"/>
                     <attribute id="V1" type="float" value="0.37597656"/>
                     <attribute id="V2" type="float" value="0.49902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Spear_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Longbow"/>
                     <attribute id="U1" type="float" value="0.75097656"/>
                     <attribute id="U2" type="float" value="0.87402344"/>
                     <attribute id="V1" type="float" value="0.37597656"/>
                     <attribute id="V2" type="float" value="0.49902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Trident_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Longbow_Toggle"/>
                     <attribute id="U1" type="float" value="0.87597656"/>
                     <attribute id="U2" type="float" value="0.99902344"/>
                     <attribute id="V1" type="float" value="0.37597656"/>
                     <attribute id="V2" type="float" value="0.49902344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Wand_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Longsword"/>
                     <attribute id="U1" type="float" value="0.0009765625"/>
                     <attribute id="U2" type="float" value="0.12402344"/>
                     <attribute id="V1" type="float" value="0.50097656"/>
                     <attribute id="V2" type="float" value="0.62402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_WarHammer_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Longsword_Toggle"/>
                     <attribute id="U1" type="float" value="0.12597656"/>
                     <attribute id="U2" type="float" value="0.24902344"/>
                     <attribute id="V1" type="float" value="0.50097656"/>
                     <attribute id="V2" type="float" value="0.62402344"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Warpick_Icon"/>
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Mace"/>
                     <attribute id="U1" type="float" value="0.25097656"/>
                     <attribute id="U2" type="float" value="0.37402344"/>
                     <attribute id="V1" type="float" value="0.50097656"/>
                     <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Mace_Toggle"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Maul"/>
+                    <attribute id="U1" type="float" value="0.50097656"/>
+                    <attribute id="U2" type="float" value="0.62402344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Maul_Toggle"/>
+                    <attribute id="U1" type="float" value="0.62597656"/>
+                    <attribute id="U2" type="float" value="0.74902344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Morningstar"/>
+                    <attribute id="U1" type="float" value="0.75097656"/>
+                    <attribute id="U2" type="float" value="0.87402344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Morningstar_Toggle"/>
+                    <attribute id="U1" type="float" value="0.87597656"/>
+                    <attribute id="U2" type="float" value="0.99902344"/>
+                    <attribute id="V1" type="float" value="0.50097656"/>
+                    <attribute id="V2" type="float" value="0.62402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Pike"/>
+                    <attribute id="U1" type="float" value="0.0009765625"/>
+                    <attribute id="U2" type="float" value="0.12402344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Pike_Toggle"/>
+                    <attribute id="U1" type="float" value="0.12597656"/>
+                    <attribute id="U2" type="float" value="0.24902344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Quarterstaff"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Quarterstaff_Toggle"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Rapier"/>
+                    <attribute id="U1" type="float" value="0.50097656"/>
+                    <attribute id="U2" type="float" value="0.62402344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Rapier_Toggle"/>
+                    <attribute id="U1" type="float" value="0.62597656"/>
+                    <attribute id="U2" type="float" value="0.74902344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Scimitar"/>
+                    <attribute id="U1" type="float" value="0.75097656"/>
+                    <attribute id="U2" type="float" value="0.87402344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Scimitar_Toggle"/>
+                    <attribute id="U1" type="float" value="0.87597656"/>
+                    <attribute id="U2" type="float" value="0.99902344"/>
+                    <attribute id="V1" type="float" value="0.62597656"/>
+                    <attribute id="V2" type="float" value="0.74902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Shortbow"/>
+                    <attribute id="U1" type="float" value="0.0009765625"/>
+                    <attribute id="U2" type="float" value="0.12402344"/>
+                    <attribute id="V1" type="float" value="0.75097656"/>
+                    <attribute id="V2" type="float" value="0.87402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Shortbow_Toggle"/>
+                    <attribute id="U1" type="float" value="0.12597656"/>
+                    <attribute id="U2" type="float" value="0.24902344"/>
+                    <attribute id="V1" type="float" value="0.75097656"/>
+                    <attribute id="V2" type="float" value="0.87402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Shortsword"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.75097656"/>
+                    <attribute id="V2" type="float" value="0.87402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Shortsword_Toggle"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
+                    <attribute id="V1" type="float" value="0.75097656"/>
+                    <attribute id="V2" type="float" value="0.87402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Sickle"/>
+                    <attribute id="U1" type="float" value="0.50097656"/>
+                    <attribute id="U2" type="float" value="0.62402344"/>
+                    <attribute id="V1" type="float" value="0.75097656"/>
+                    <attribute id="V2" type="float" value="0.87402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Sickle_Toggle"/>
+                    <attribute id="U1" type="float" value="0.62597656"/>
+                    <attribute id="U2" type="float" value="0.74902344"/>
+                    <attribute id="V1" type="float" value="0.75097656"/>
+                    <attribute id="V2" type="float" value="0.87402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Sling"/>
+                    <attribute id="U1" type="float" value="0.75097656"/>
+                    <attribute id="U2" type="float" value="0.87402344"/>
+                    <attribute id="V1" type="float" value="0.75097656"/>
+                    <attribute id="V2" type="float" value="0.87402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Sling_Toggle"/>
+                    <attribute id="U1" type="float" value="0.87597656"/>
+                    <attribute id="U2" type="float" value="0.99902344"/>
+                    <attribute id="V1" type="float" value="0.75097656"/>
+                    <attribute id="V2" type="float" value="0.87402344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Spear"/>
+                    <attribute id="U1" type="float" value="0.0009765625"/>
+                    <attribute id="U2" type="float" value="0.12402344"/>
+                    <attribute id="V1" type="float" value="0.87597656"/>
+                    <attribute id="V2" type="float" value="0.99902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Spear_Toggle"/>
+                    <attribute id="U1" type="float" value="0.12597656"/>
+                    <attribute id="U2" type="float" value="0.24902344"/>
+                    <attribute id="V1" type="float" value="0.87597656"/>
+                    <attribute id="V2" type="float" value="0.99902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Trident"/>
+                    <attribute id="U1" type="float" value="0.25097656"/>
+                    <attribute id="U2" type="float" value="0.37402344"/>
+                    <attribute id="V1" type="float" value="0.87597656"/>
+                    <attribute id="V2" type="float" value="0.99902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Trident_Toggle"/>
+                    <attribute id="U1" type="float" value="0.37597656"/>
+                    <attribute id="U2" type="float" value="0.49902344"/>
+                    <attribute id="V1" type="float" value="0.87597656"/>
+                    <attribute id="V2" type="float" value="0.99902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_WarHammer"/>
+                    <attribute id="U1" type="float" value="0.50097656"/>
+                    <attribute id="U2" type="float" value="0.62402344"/>
+                    <attribute id="V1" type="float" value="0.87597656"/>
+                    <attribute id="V2" type="float" value="0.99902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_WarHammer_Toggle"/>
+                    <attribute id="U1" type="float" value="0.62597656"/>
+                    <attribute id="U2" type="float" value="0.74902344"/>
+                    <attribute id="V1" type="float" value="0.87597656"/>
+                    <attribute id="V2" type="float" value="0.99902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Warpick"/>
+                    <attribute id="U1" type="float" value="0.75097656"/>
+                    <attribute id="U2" type="float" value="0.87402344"/>
+                    <attribute id="V1" type="float" value="0.87597656"/>
+                    <attribute id="V2" type="float" value="0.99902344"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="DnD5R_WeaponMastery_Warpick_Toggle"/>
+                    <attribute id="U1" type="float" value="0.87597656"/>
+                    <attribute id="U2" type="float" value="0.99902344"/>
+                    <attribute id="V1" type="float" value="0.87597656"/>
+                    <attribute id="V2" type="float" value="0.99902344"/>
                 </node>
             </children>
         </node>
