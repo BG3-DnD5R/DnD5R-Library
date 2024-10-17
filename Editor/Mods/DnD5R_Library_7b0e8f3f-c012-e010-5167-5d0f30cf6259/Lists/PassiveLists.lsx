@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fighter fighting style"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_BlindFighting,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Interception,FightingStyle_Protection,FightingStyle_TwoWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="da3203d8-750a-4de1-b8eb-1eccfccddf46"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Ranger fighting style"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_BlindFighting,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Interception,FightingStyle_Protection,FightingStyle_TwoWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="a0bdb113-1cce-45ac-94fb-72d4c3f207e9"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Hunter Hunters Prey"/>
+                    <attribute id="Passives" type="LSString" value="ColossusSlayer,GiantKiller,HordeBreaker"/>
+                    <attribute id="UUID" type="guid" value="26b53d40-13eb-4db6-80f4-bde7bd09c52d"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock invocations"/>
+                    <attribute id="Passives" type="LSString" value="AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,ThiefOfFiveFates"/>
+                    <attribute id="UUID" type="guid" value="333fb1b0-9398-4ca8-953e-6c0f9a59bbed"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Druid Land Spells"/>
+                    <attribute id="Passives" type="LSString" value="Land_Arctic,Land_Coast,Land_Desert,Land_Forest,Land_Grassland,Land_Mountain,Land_Swamp,Land_Underdark"/>
+                    <attribute id="UUID" type="guid" value="e64bc365-6037-4f82-b710-8d958d9334e6"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Metamagic All"/>
+                    <attribute id="Passives" type="LSString" value="Metamagic_Careful,Metamagic_Distant,Metamagic_Extended,Metamagic_Empowered,Metamagic_Heightened,Metamagic_Quickened,Metamagic_Seeking,Metamagic_Subtle,Metamagic_Twinned"/>
+                    <attribute id="UUID" type="guid" value="c3506532-36eb-4d18-823e-497a537a9619"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Metamagic level 2"/>
+                    <attribute id="Passives" type="LSString" value="Metamagic_Careful,Metamagic_Distant,Metamagic_Extended,Metamagic_Twinned"/>
+                    <attribute id="UUID" type="guid" value="49704931-e47b-4ce6-abc6-dfa7ba640752"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DraconicAncestry"/>
+                    <attribute id="Passives" type="LSString" value="DraconicAncestry_Red,DraconicAncestry_Black,DraconicAncestry_Blue,DraconicAncestry_White,DraconicAncestry_Green,DraconicAncestry_Gold,DraconicAncestry_Silver,DraconicAncestry_Bronze,DraconicAncestry_Copper,DraconicAncestry_Brass"/>
+                    <attribute id="UUID" type="guid" value="c69c33a2-671c-46e1-a92c-656fe64ed447"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Totem Warrior lvl 3 path"/>
+                    <attribute id="Passives" type="LSString" value="TotemSpirit_Bear,TotemSpirit_Eagle,TotemSpirit_Elk,TotemSpirit_Tiger,TotemSpirit_Wolf"/>
+                    <attribute id="UUID" type="guid" value="7f7340a0-faf3-4122-bd3f-37a5434dd6cf"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Druid Land SLevel 3"/>
+                    <attribute id="Passives" type="LSString" value="Land_Arctic_2,Land_Coast_2,Land_Desert_2,Land_Forest_2,Land_Grassland_2,Land_Mountain_2,Land_Swamp_2,Land_Underdark_2"/>
+                    <attribute id="UUID" type="guid" value="758a607c-7d6c-4b1a-a98f-c4e0885592a0"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Paladin Fighting Styles"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_BlindFighting,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Interception,FightingStyle_Protection,FightingStyle_TwoWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="f8ebba38-932a-4c64-ae55-3df23e2f60fa"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Cleric Divine Order"/>
+                    <attribute id="Passives" type="LSString" value="DivineOrder_Protector,DivineOrder_Thaumaturge"/>
+                    <attribute id="UUID" type="guid" value="01af7629-fb39-4f77-9ffe-b8a2b7d0b5a1"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Druid Primal Order"/>
+                    <attribute id="Passives" type="LSString" value="PrimalOrderWarden,PrimalOrderThaumaturge"/>
+                    <attribute id="UUID" type="guid" value="450147c2-877c-4cb2-84e3-a2deff0a7dc4"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Cleric Blessed Strikes"/>
+                    <attribute id="Passives" type="LSString" value="ClericDivineStrike,PotentSpellcasting"/>
+                    <attribute id="UUID" type="guid" value="f3a6a2d6-941f-46d0-8db7-ce54d4b7bba4"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Cleric Improved Blessed Strikes"/>
+                    <attribute id="Passives" type="LSString" value="ImprovedDivineStrike, ProtectiveCantrips"/>
+                    <attribute id="UUID" type="guid" value="3faf1706-12fc-47c6-a1fb-b5cc2d95d584"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Elemental Affinity"/>
+                    <attribute id="Passives" type="LSString" value="ElementalAffinity_Resistance_Acid, ElementalAffinity_Resistance_Cold, ElementalAffinity_Resistance_Fire, ElementalAffinity_Resistance_Lightning, ElementalAffinity_Resistance_Poison"/>
+                    <attribute id="UUID" type="guid" value="fb497358-08de-4841-8ed5-2294c73c1115"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock Pact Boon"/>
+                    <attribute id="Passives" type="LSString" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome"/>
+                    <attribute id="UUID" type="guid" value="8d8ac513-c7c8-4f8b-b67f-5a9a14741aae"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock invocations L2"/>
+                    <attribute id="Passives" type="LSString" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome,OneWithShadows,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchSpear,FiendishVigor,MaskOfManyFaces,RepellingBlast,ThiefOfFiveFates"/>
+                    <attribute id="UUID" type="guid" value="d87cf194-d0b6-4aa2-8849-691ebec8f874"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock invocations L5"/>
+                    <attribute id="Passives" type="LSString" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome,OneWithShadows,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchSpear,FiendishVigor,MaskOfManyFaces,RepellingBlast,ThiefOfFiveFates,ThirstingBlade_Blade,EldritchSmite"/>
+                    <attribute id="UUID" type="guid" value="8adab8f9-e360-4f79-851b-2c7e050ca23d"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock invocations L7"/>
+                    <attribute id="Passives" type="LSString" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome,DreadfulWord,SculptorOfFlesh,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchSpear,FiendishVigor,MaskOfManyFaces,OneWithShadows,RepellingBlast,ThiefOfFiveFates,ThirstingBlade_Blade,EldritchSmite"/>
+                    <attribute id="UUID" type="guid" value="39efef92-9987-46e2-8c43-54052c1be535"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock invocations L9"/>
+                    <attribute id="Passives" type="LSString" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome,OtherworldlyLeap,WhispersOfTheGrave,DreadfulWord,SculptorOfFlesh,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchSpear,FiendishVigor,MaskOfManyFaces,OneWithShadows,RepellingBlast,ThiefOfFiveFates,ThirstingBlade_Blade,EldritchSmite,GiftOfTheProtectors,Lifedrinker"/>
+                    <attribute id="UUID" type="guid" value="a2d72748-0792-4f1e-a798-713a66d648eb"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Warlock invocations L12"/>
+                    <attribute id="Passives" type="LSString" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome,OtherworldlyLeap,WhispersOfTheGrave,DreadfulWord,SculptorOfFlesh,MireTheMind,SignOfIllOmen,AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,EldritchSpear,FiendishVigor,MaskOfManyFaces,OneWithShadows,RepellingBlast,ThiefOfFiveFates,ThirstingBlade_Blade,EldritchSmite,GiftOfTheProtectors,Lifedrinker,DevouringBlade,WitchSight"/>
+                    <attribute id="UUID" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Druid Land types"/>
+                    <attribute id="Passives" type="LSString" value="AridLand,PolarLand,TemperateLand,TropicalLand"/>
+                    <attribute id="UUID" type="guid" value="cc80002e-7ada-4a7c-9347-f8ea84e51ba6"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

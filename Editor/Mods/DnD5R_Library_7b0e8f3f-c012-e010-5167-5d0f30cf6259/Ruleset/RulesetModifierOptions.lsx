@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="RulesetModifierOptions">
+        <node id="root">
+            <children>
+                <node id="RulesetModifierOption">
+                    <attribute id="Description" type="TranslatedString" handle="h67c42150g004fg1444ga19fge2a648b139c5" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd123a2fcg0560gc053g8093gbfc43df6d983" version="1"/>
+                    <attribute id="Modifier" type="guid" value="7d788f28-1df5-474b-b106-4f8d0b6de928"/>
+                    <attribute id="Name" type="LSString" value="STATUS_HARD"/>
+                    <attribute id="ShowInCustom" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="53303f9b-28b6-4f5a-bb47-befe7350d9db"/>
+                    <attribute id="Value" type="LSString" value="STATUS_HARD"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
