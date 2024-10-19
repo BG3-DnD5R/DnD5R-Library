@@ -10,3 +10,9 @@
   - `Data\Projects\`
   - `Data\Public\`
 - There are many ways to Symlink. I use [Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html).
+
+- There's a few goals for this project.
+  - Update BG3 to the 2024 player's handbook ruleset.
+  - Fix some minor bugs (Prone causing the players turn to end etc)
+  - Minor balancing changes
+  
