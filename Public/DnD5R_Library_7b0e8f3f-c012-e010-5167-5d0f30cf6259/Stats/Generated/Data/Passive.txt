@@ -31,6 +31,11 @@ data "Icon" "GenericIcon_DamageType_Poison"
 data "Properties" "Highlighted"
 data "Boosts" "Resistance(Poison,Resistant)"
 
+new entry "Passive_DnD5R_Barbarian_Unarmored_Defence"
+type "PassiveData"
+data "DisplayName" "h96d35eabg18a3g5e27ga891g8f6796e8ac7f;1"
+data "Description" "ha6a80292g0a8dg863cg2efcg114d6863d754;1"
+
 new entry "Feats: Origin"
 type "PassiveData"
 
