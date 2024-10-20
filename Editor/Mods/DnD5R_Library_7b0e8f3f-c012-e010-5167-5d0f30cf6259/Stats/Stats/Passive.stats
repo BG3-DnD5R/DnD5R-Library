@@ -172,6 +172,9 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h96d35eabg18a3g5e27ga891g8f6796e8ac7f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6a80292g0a8dg863cg2efcg114d6863d754" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_UnarmoredDefense" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(10,true,Dexterity,Constitution)" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
