@@ -142,4 +142,6 @@
   <content contentuid="he7a6e516ga4dcg9787gd538g35e970325462" version="2">In range of Blade Ward.</content>
   <content contentuid="h5aeb1f68g0ea5g3f17ga881g8dce45973ce7" version="1">Blade Ward</content>
   <content contentuid="h93b7b756g365fgb9d9g26f0gbec511ef8a48" version="2">Whenever a creature makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you before the spell ends, it receives a -[1] penalty.</content>
+  <content contentuid="h96d35eabg18a3g5e27ga891g8f6796e8ac7f" version="1">Unarmored Defence</content>
+  <content contentuid="ha6a80292g0a8dg863cg2efcg114d6863d754" version="1">While you aren’t wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.</content>
 </contentList>
