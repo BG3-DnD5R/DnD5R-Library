@@ -7,6 +7,24 @@
         <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_" />
       </fields>
     </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6cb1b9ef-d7e4-4f10-926f-adee130036da" />
+        <field name="Name" type="NameTableFieldDefinition" value="Species" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1033da60-9a83-421a-9035-376627eff8e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Orc_AdrenalineRush" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8abcf011gadd8g06aagc31dg080490204c5f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ec29282g7f2fg137cg4bcag99fadc3e3c82" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_RelentlessEndurance" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(KHN_DnD5R_ProficiencyBonusEqualTo(2)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,2,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(3)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,3,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(4)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,4,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(5)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,5,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(6)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,6,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(7)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,7,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(8)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,8,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(9)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,9,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(10)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,10,0)" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ccb5c5a6-668e-4714-a772-c53084f52e5d" />

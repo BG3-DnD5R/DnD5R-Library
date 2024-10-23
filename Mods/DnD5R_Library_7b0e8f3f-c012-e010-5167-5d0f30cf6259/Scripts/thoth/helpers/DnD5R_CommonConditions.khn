@@ -10,3 +10,23 @@ end
 function ExtraWeaponAttack()
     return ConditionResult(true)
 end
+
+function KHN_DnD5R_ProficiencyBonusEqualTo(value)
+    return ConditionResult(context.Source.ProficiencyBonus == value)
+end
+
+function KHN_DnD5R_ProficiencyBonusEqualOrGreaterThan(value)
+    return ConditionResult(context.Source.ProficiencyBonus >= value)
+end
+
+function KHN_DnD5R_ProficiencyBonusEqualOrLessThan(value)
+    return ConditionResult(context.Source.ProficiencyBonus <= value)
+end
+
+function KHN_DnD5R_ProficiencyBonusGreaterThan(value)
+    return ConditionResult(context.Source.ProficiencyBonus > value)
+end
+
+function KHN_DnD5R_ProficiencyBonusLessThan(value)
+    return ConditionResult(context.Source.ProficiencyBonus < value)
+end

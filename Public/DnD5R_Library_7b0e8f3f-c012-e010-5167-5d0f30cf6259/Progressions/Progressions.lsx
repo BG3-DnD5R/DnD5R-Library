@@ -119,8 +119,9 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="DnD5R_Orc"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SuperiorDarkvision;RelentlessEndurance;"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SuperiorDarkvision;RelentlessEndurance;Passive_DnD5R_Orc_AdrenalineRush"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(03c7066b-1a07-4992-b240-0ce945a419c0)"/>
                     <attribute id="TableUUID" type="guid" value="2b716e25-c8c6-4f87-add6-8322531b851c"/>
                     <attribute id="UUID" type="guid" value="f9ae1b27-0a41-4fd9-a832-8c43ae15473f"/>
                 </node>
@@ -528,6 +529,16 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="56516e8d-8f67-48a5-a794-d33f6ff13d16"/>
                     <attribute id="UUID" type="guid" value="403a64f0-a2ec-4c90-9e02-307343e15958"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="DnD5R_Orc"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SuperiorDarkvision;RelentlessEndurance;Passive_DnD5R_Orc_AdrenalineRush"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(03c7066b-1a07-4992-b240-0ce945a419c0)"/>
+                    <attribute id="TableUUID" type="guid" value="74e2e44d-e8c0-4b99-a6dc-c02f43cea8a6"/>
+                    <attribute id="UUID" type="guid" value="816fa8c7-7648-48f7-8309-cb4e7383e45f"/>
                 </node>
             </children>
         </node>

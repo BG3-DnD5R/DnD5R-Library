@@ -154,6 +154,19 @@
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,HumanVersatility)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_62" />
+        <field name="UUID" type="IdTableFieldDefinition" value="816fa8c7-7648-48f7-8309-cb4e7383e45f" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="74e2e44d-e8c0-4b99-a6dc-c02f43cea8a6" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Orc" />
+        <field name="Level" type="ByteTableFieldDefinition" value="1" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SuperiorDarkvision;RelentlessEndurance;Passive_DnD5R_Orc_AdrenalineRush" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(03c7066b-1a07-4992-b240-0ce945a419c0)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
@@ -162,8 +175,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Orc" />
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="2" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SuperiorDarkvision;RelentlessEndurance;" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="SuperiorDarkvision;RelentlessEndurance;Passive_DnD5R_Orc_AdrenalineRush" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(03c7066b-1a07-4992-b240-0ce945a419c0)" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">

@@ -492,6 +492,11 @@
                     <attribute id="Spells" type="LSString" value="Zone_DnD5R_BreathWeapon_Acid_Cone;Zone_DnD5R_BreathWeapon_Acid_Cone_75;Zone_DnD5R_BreathWeapon_Acid_Cone_90;Zone_DnD5R_BreathWeapon_Acid_Line;Zone_DnD5R_BreathWeapon_Acid_Line_1"/>
                     <attribute id="UUID" type="guid" value="50dfe586-a9b7-4547-a311-c1161f95818f"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="DnD5R Orc Adrenaline Rush"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DnD5R_Orc_AdrenalineRush"/>
+                    <attribute id="UUID" type="guid" value="03c7066b-1a07-4992-b240-0ce945a419c0"/>
+                </node>
             </children>
         </node>
     </region>

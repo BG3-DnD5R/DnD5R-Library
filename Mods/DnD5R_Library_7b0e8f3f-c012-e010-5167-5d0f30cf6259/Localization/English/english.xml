@@ -142,4 +142,12 @@
   <content contentuid="he7a6e516ga4dcg9787gd538g35e970325462" version="2">In range of Blade Ward.</content>
   <content contentuid="h5aeb1f68g0ea5g3f17ga881g8dce45973ce7" version="1">Blade Ward</content>
   <content contentuid="h93b7b756g365fgb9d9g26f0gbec511ef8a48" version="2">Whenever a creature makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you before the spell ends, it receives a -[1] penalty.</content>
+  <content contentuid="h19597d91gab0egc7bag45d3gbfe996a70c36" version="1">Adrenaline Rush Charge</content>
+  <content contentuid="hd316dd1agff1cg7a25g4c82g74f0f28c93b3" version="2">Used for Adrenaline Rush. &lt;br&gt;It is equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+  <content contentuid="hbf4c03cbg69bag1ca6g7ba3ged6e1d27bc2c" version="1">Adrenaline Rush</content>
+  <content contentuid="he5c8a936geb8fg7037g1e3eg1e4acc7d24ad" version="2">&lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; and gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="h90bed20ag3db8gf83eg8c3fg8fd5f32eab98" version="1">Adrenaline Rush</content>
+  <content contentuid="he79e447ag0913gcae1g00ceg92216fcfd12a" version="1">Gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+  <content contentuid="h8abcf011gadd8g06aagc31dg080490204c5f" version="1">Adrenaline Rush Charge</content>
+  <content contentuid="h2ec29282g7f2fg137cg4bcag99fadc3e3c82" version="1">Used for Adrenaline Rush. &lt;br&gt;It is equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 </contentList>

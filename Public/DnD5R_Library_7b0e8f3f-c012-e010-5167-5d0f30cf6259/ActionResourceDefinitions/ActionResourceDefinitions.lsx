@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hd316dd1agff1cg7a25g4c82g74f0f28c93b3" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h19597d91gab0egc7bag45d3gbfe996a70c36" version="1"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="9"/>
+                    <attribute id="MaxValue" type="uint32" value="9"/>
+                    <attribute id="Name" type="FixedString" value="AR_DnD5R_Orc_AdrenalineRush"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="6a395fd2-7ef6-4555-ba8d-29fee8bd1c80"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

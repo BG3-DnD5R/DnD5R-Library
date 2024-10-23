@@ -1,6 +1,18 @@
 new entry "Passive_DnD5R_"
 type "PassiveData"
 
+new entry "Species"
+type "PassiveData"
+
+new entry "Passive_DnD5R_Orc_AdrenalineRush"
+type "PassiveData"
+data "DisplayName" "h8abcf011gadd8g06aagc31dg080490204c5f;1"
+data "Description" "h2ec29282g7f2fg137cg4bcag99fadc3e3c82;1"
+data "Icon" "PassiveFeature_RelentlessEndurance"
+data "Properties" "IsHidden"
+data "BoostContext" "OnCreate"
+data "Boosts" "IF(KHN_DnD5R_ProficiencyBonusEqualTo(2)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,2,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(3)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,3,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(4)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,4,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(5)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,5,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(6)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,6,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(7)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,7,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(8)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,8,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(9)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,9,0);IF(KHN_DnD5R_ProficiencyBonusEqualTo(10)):ActionResource(AR_DnD5R_Orc_AdrenalineRush,10,0)"
+
 new entry "Passive_DnD5R_Dragonborn_Acid"
 type "PassiveData"
 data "Icon" "GenericIcon_DamageType_Acid"

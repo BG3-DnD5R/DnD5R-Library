@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="3f5063e7-e02b-4849-a503-9ba01dc6e2e6">
   <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03c7066b-1a07-4992-b240-0ce945a419c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R Orc Adrenaline Rush" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_DnD5R_Orc_AdrenalineRush" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4c88dfe8-babd-43db-a008-f92350c4abc8" />
