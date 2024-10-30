@@ -1,3 +1,9 @@
+# Contributing
+- Join The [Discord](https://discord.gg/kv7xjPP7bQ)
+- Message randoruda to be added to the project
+- Use the Baulder's Gate 3 Toolkit
+
+
 ## Very Basic Symlink Details
 
 - Each copy of `DnD5R_Library_7b0e8f3f-c012-e010-5167-5d0f30cf6259` should be Symlinked to your BG3 data folder.
