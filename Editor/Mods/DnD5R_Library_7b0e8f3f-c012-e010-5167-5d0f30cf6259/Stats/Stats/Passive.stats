@@ -14,6 +14,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Acid,Resistant)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h884e2c16g3609g1cc9g133fg45aac25a4c9e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3db32a8eg1dc4g7b74g04afg1c6c7224f171" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -23,6 +25,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold,Resistant)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he02f3ad2g70ccg5a20gd344g917c34305f47" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf9f0df74g12c5gc11eg696dg40ced91b34ae" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -32,6 +36,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Fire,Resistant)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd79775a1ga4e0g712ag56cegef91cbfb9397" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h27ac2978gdc4ege92ag9606gba286c43c29e" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -41,6 +47,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Lightning" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Lightning,Resistant)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h542f20b7gd6a1gcaf5gaeacg6d9be045cf74" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he4e97cb8gb902g37b4gd0acg39e8dd315128" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -50,6 +58,8 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Poison" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Poison,Resistant)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8985ad5ag169fg7fc7g43d6ge3d39255a65b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hef537fa1gf490gcff1g313fgfaed8184b3b1" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
@@ -165,18 +175,6 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="Force(2, OriginToTarget)" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="fd89f5d7-8ba9-40de-af92-d0d1006193df" />
-        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Barbarian_Unarmored_Defence" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h96d35eabg18a3g5e27ga891g8f6796e8ac7f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6a80292g0a8dg863cg2efcg114d6863d754" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_UnarmoredDefense" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(10,true,Dexterity,Constitution)" />
-      </fields>
-    </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="89248448-f36f-4c6f-a385-2c26aed66142" />
@@ -249,6 +247,18 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="MonkWeaponDamageDiceOverride(LevelMapValue(LM_DnD5R_MartialArts))" />
         <field name="ToggleGroup" type="StringTableFieldDefinition" value="DnD5R_UnarmedDamage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fd89f5d7-8ba9-40de-af92-d0d1006193df" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Barbarian_Unarmored_Defence" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h96d35eabg18a3g5e27ga891g8f6796e8ac7f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha6a80292g0a8dg863cg2efcg114d6863d754" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_UnarmoredDefense" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="BoostConditions" type="StringTableFieldDefinition" value="not WearingArmor(context.Source)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ACOverrideFormula(10,true,Dexterity,Constitution)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
