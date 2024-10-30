@@ -1,10 +1,10 @@
 ![Logo](https://i.imgur.com/h3tei9u.png "Logo")
 
 # Contributing
+
 - Join The [Discord](https://discord.gg/kv7xjPP7bQ)
 - Message randoruda to be added to the project
 - Use the Baulder's Gate 3 Toolkit
-
 
 ## Very Basic Symlink Details
 
@@ -16,3 +16,6 @@
   - `Data\Projects\`
   - `Data\Public\`
 - There are many ways to Symlink. I use [Link Shell Extension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html).
+
+
+
