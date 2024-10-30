@@ -7,4 +7,4 @@
   - Fix some minor bugs (Prone causing the players turn to end etc)
   - Minor balancing changes
 
-If you want to contribute check [Contributing](https://github.com/BG3-DnD5R/DnD5R-Library/blob/main/CONTRIBUTING.md)
+If you want to contribute check [Contributing](https://github.com/BG3-DnD5R/DnD5R-Library/blob/main/Other-Stuff/CONTRIBUTING.md)
