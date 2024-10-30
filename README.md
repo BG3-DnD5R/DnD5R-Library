@@ -1,4 +1,9 @@
 # DnD5R Library
+ ![GitHub License](https://img.shields.io/github/license/BG3-DnD5R/DnD5R-Library) ![GitHub repo size](https://img.shields.io/github/repo-size/BG3-DnD5R/DnD5R-Library) ![GitHub contributors](https://img.shields.io/github/contributors/BG3-DnD5R/DnD5R-Library) ![GitHub last commit](https://img.shields.io/github/last-commit/BG3-DnD5R/DnD5R-Library)
+
+
+
+
  
 ## Very Basic Symlink Details
 
