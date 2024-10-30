@@ -144,4 +144,22 @@
   <content contentuid="h93b7b756g365fgb9d9g26f0gbec511ef8a48" version="2">Whenever a creature makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you before the spell ends, it receives a -[1] penalty.</content>
   <content contentuid="h96d35eabg18a3g5e27ga891g8f6796e8ac7f" version="1">Unarmored Defence</content>
   <content contentuid="ha6a80292g0a8dg863cg2efcg114d6863d754" version="1">While you aren’t wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.</content>
+<<<<<<< Updated upstream
+=======
+  <content contentuid="h884e2c16g3609g1cc9g133fg45aac25a4c9e" version="1">Acid Resistance</content>
+  <content contentuid="h3db32a8eg1dc4g7b74g04afg1c6c7224f171" version="1">You have resistance agaist acid damage</content>
+  <content contentuid="he02f3ad2g70ccg5a20gd344g917c34305f47" version="1">Cold Resistance</content>
+  <content contentuid="hf9f0df74g12c5gc11eg696dg40ced91b34ae" version="1">You have resistance agaist cold damage</content>
+  <content contentuid="hd79775a1ga4e0g712ag56cegef91cbfb9397" version="1">Fire Resistance</content>
+  <content contentuid="h27ac2978gdc4ege92ag9606gba286c43c29e" version="1">You have resistance agaist fire damage</content>
+  <content contentuid="h542f20b7gd6a1gcaf5gaeacg6d9be045cf74" version="1">Lightning Resistance</content>
+  <content contentuid="he4e97cb8gb902g37b4gd0acg39e8dd315128" version="1">You have resistance agaist lightning damage</content>
+  <content contentuid="h8985ad5ag169fg7fc7g43d6ge3d39255a65b" version="1">Poison Resistance</content>
+  <content contentuid="hef537fa1gf490gcff1g313fgfaed8184b3b1" version="1">You have resistance agaist poison damage</content>
+  <content contentuid="h3870b5a8g327cgae42g47f1gba2283517f3d" version="1">Instinctive Pounce</content>
+  <content contentuid="hbdee7952ga70ag22dcgd9f4gd2ba595a3f7d" version="1">Test - Adds Instinctive Pouce</content>
+  <content contentuid="hdcb51c13g0109g613ag7a35g815dc98663d1" version="1">At the start of rage</content>
+  <content contentuid="h3248c513gbc55g6473g35bdg40059e1eb6e6" version="1">Barbs</content>
+  <content contentuid="he5aa3b4bg6dd1g7cb6gb794ga1ead6452ad1" version="1">Barbarian </content>
+>>>>>>> Stashed changes
 </contentList>

@@ -328,6 +328,19 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d1a08ac-fa13-4a19-820b-e943e2c9a914" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Instictive_Pounce" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3870b5a8g327cgae42g47f1gba2283517f3d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbdee7952ga70ag22dcgd9f4gd2ba595a3f7d" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hdcb51c13g0109g613ag7a35g815dc98663d1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dash" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement, 150, 0" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusHasStatusGroup(context.StatusId, 'SG_Rage')" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="10e2236d-dea7-4fdc-82ad-613ecad0d9ba" />
