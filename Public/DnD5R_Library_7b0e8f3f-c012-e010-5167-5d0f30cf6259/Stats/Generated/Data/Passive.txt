@@ -236,6 +236,16 @@ data "Description" "h63fa9eddga99cgbef8g4ee0g3e7b7217a7ea;1"
 data "Icon" "PassiveFeature_BlessingsOfKnowledge"
 data "Properties" "ForceShowInCC"
 
+new entry "Passive_DnD5R_Instictive_Pounce"
+type "PassiveData"
+data "DisplayName" "h3870b5a8g327cgae42g47f1gba2283517f3d;1"
+data "Description" "hbdee7952ga70ag22dcgd9f4gd2ba595a3f7d;1"
+data "ExtraDescription" "hdcb51c13g0109g613ag7a35g815dc98663d1;1"
+data "Icon" "Action_Dash"
+data "Boosts" "ActionResourceMultiplier(Movement, 150, 0"
+data "StatsFunctorContext" "OnStatusApplied"
+data "Conditions" "StatusHasStatusGroup(context.StatusId, 'SG_Rage')"
+
 new entry "Spells"
 type "PassiveData"
 
