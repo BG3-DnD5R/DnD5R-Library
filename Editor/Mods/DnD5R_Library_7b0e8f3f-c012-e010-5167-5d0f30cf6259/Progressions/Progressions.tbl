@@ -698,27 +698,5 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_62" />
-        <field name="UUID" type="IdTableFieldDefinition" value="1fec2028-a439-4d75-92e4-2a08d532664f" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
-        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Barbarian" />
-        <field name="Level" type="ByteTableFieldDefinition" value="3" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,2)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_63" />
-        <field name="UUID" type="IdTableFieldDefinition" value="2a405567-6bef-4dd0-9287-6535d3d3f73a" />
-        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
-        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Barbarian" />
-        <field name="Level" type="ByteTableFieldDefinition" value="7" />
-        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Passive_DnD5R_Instictive_Pounce" />
-      </fields>
-    </stat_object>
   </stat_objects>
 </stats>
