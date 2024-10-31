@@ -216,6 +216,28 @@
         <field name="FSName" type="StringTableFieldDefinition" value="DnD5R - Classes" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_62" />
+        <field name="UUID" type="IdTableFieldDefinition" value="17926ff6-d307-4c73-9b23-1ed65d4ae27a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Barbarian " />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Passive_DnD5R_Instinctive_Pounce" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_63" />
+        <field name="UUID" type="IdTableFieldDefinition" value="552c6fd8-4acb-49e0-a5d6-ee78283dedab" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DnD5R_Barbarian " />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,1)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFE9967A" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />

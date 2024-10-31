@@ -238,6 +238,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f1550d1-0ad9-4302-84dc-c98c9681a8bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Instinctive_Pounce" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd91aff3g096cg4c34g2980g7ad4c110b35c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h78fc9364g2e01gd681g6e35g0c5c35c66fec" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Dash" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceMultiplier(Movement, 150, 0)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApply" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusHasStatusGroup(context.StatusId, 'SG_Rage')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4f4e8c5f-5707-4c52-85c5-92dd2878f81a" />
         <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_MartialArts" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e4df482g885fgda8cg707dg019e1ac9eb61" version="1" />
