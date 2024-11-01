@@ -225,7 +225,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSkills(233793b3-838a-4d4e-9d68-1e0a1089aba5,1)" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="9422a891-70a1-4c8d-b465-ed18de0ddb68" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="DnD5R_Path_Of_The_World_Tree" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
