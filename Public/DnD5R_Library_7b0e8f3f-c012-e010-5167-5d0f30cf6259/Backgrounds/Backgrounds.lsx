@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="Backgrounds">
+        <node id="root">
+            <children>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="hc8252abag3e39g42edg8bbdg81ff077c6918" version="8"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb10c1825g27e8g47fag9e51gf79f5a8d1c2f" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Acolyte;Healer_RestoreTo1;Healer_Bonus"/>
+                    <attribute id="UUID" type="guid" value="633aa4be-365f-4358-ba56-e2b85f9a88ec"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="906d1961-e9c6-4170-b775-62797a0efe1c"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="hc2a850cbg31e7g459dgbe67g508f2cf9e34a" version="6"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4858e9a1gb81fg4335g9839gcd8e479ce0cc" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Charlatan"/>
+                    <attribute id="UUID" type="guid" value="76925f0b-3ec8-4f42-86a9-cd4f745af2ac"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="07925e5b-af3d-4743-a565-b9fee04c24ac"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="h272b6b69g45d1g46e0g94c7gdffa9d6f6977" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3da3856dg029eg4476gb757g01c7cbdc44e6" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Criminal;Alert"/>
+                    <attribute id="UUID" type="guid" value="e8c84134-5e91-4ecc-881a-efc47680129b"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="74ed9de3-fff5-419a-949b-18bd5e17944e"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="h8836d00eg7705g445dgb3ddg3267612158ad" version="7"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4aab9e83g2faeg420fg829fg4a48a1e72bed" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Entertainer;Performer"/>
+                    <attribute id="UUID" type="guid" value="229775c9-3044-4779-a3bb-532c39238e03"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="bd3cfefd-5fe2-47ea-bd3c-e99eaad9b714"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="ha2408e5ag545ag4a95ga943ge2d09c63bf81" version="5"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h23f8fc07g20e5g43a4gba1bgbb976e4c1557" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_FolkHero;InspiringLeader"/>
+                    <attribute id="UUID" type="guid" value="efcb0b57-5d5a-4a54-a7b3-a618829fe379"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="9c38904c-4aed-4d22-9038-fc7d103aaed5"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="h2423bbe6g99a3g44bcg987ag91722bdab14d" version="5"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h256017d5g3d5fg4b8dg968ega7074ce7a090" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_GuildArtisan;ExperimentalAlchemy"/>
+                    <attribute id="UUID" type="guid" value="e9aeac40-6c4e-4d81-9a24-e9eeb6208e85"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="baf9fb0e-f535-40a0-bb78-3ec289d84e66"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="hf4777470g419ag46fdgb3c2g335169065ce2" version="5"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h85c48005g524eg41acg86d6g65ea50d8c179" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Noble"/>
+                    <attribute id="UUID" type="guid" value="7e820dee-a8fc-43b2-8661-2b404454bade"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="56825486-9cfc-4ec2-87d1-c8065c41774b"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="h6eb68c6cg86e4g434bg93cegb6c1356f3337" version="3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h198c786cg54aag4408g9201g85069571dd1a" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Outlander;Lucky;Lucky_Unlock"/>
+                    <attribute id="UUID" type="guid" value="5b1e726f-52bf-4e93-a798-9f93c067ee7f"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="d81df6f9-9f6e-4146-841a-9f285e6ee879"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="h6e9c7e20g1434g4bebg841eg43b7ba040200" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h020e2f73g0065g4b18g9079g57b665eae064" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Sage;MagicInitiateSage"/>
+                    <attribute id="UUID" type="guid" value="8807a6c6-d8cf-494b-aec2-cc01d7517a56"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="dad18490-c61d-4958-805c-f017eb68f8a0"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="h8f84eff7g7d52g4a4bgb2edgc968e71cdd92" version="5"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0813c1b0gb6deg4a8cg8edag8bb1467df512" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Soldier;SavageAttacker"/>
+                    <attribute id="UUID" type="guid" value="1252a86e-9baa-4ccb-b8ce-2378ae006f0b"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="d135f265-c2e1-4077-a836-b548ee871681"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="haf35fb1ag533bg4fbfg8bb2gfacee676a28a" version="5"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfc574d04g1194g4d05gbd18g5ba690653dca" version="1"/>
+                    <attribute id="Passives" type="LSString" value="Background_Urchin;TavernBrawler"/>
+                    <attribute id="UUID" type="guid" value="ac38525a-222b-4280-9c8e-60d5533b675c"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="2faee476-d77b-42a7-a4c6-2b9ac934673c"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="Background">
+                    <attribute id="Description" type="TranslatedString" handle="h2d78e1d3g6196g9f74ge72dgea5a4ba3f5bb" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h134e56c6g8a06g99eeg2e13g4e42e8b19a90" version="1"/>
+                    <attribute id="Hidden" type="bool" value="true"/>
+                    <attribute id="Passives" type="LSString" value="Background_HauntedOne;Tough"/>
+                    <attribute id="UUID" type="guid" value="20d865ea-03bd-47bf-97d3-777e1b36b073"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="ce00b3b6-238e-4524-851b-3d1f2d2b1189"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

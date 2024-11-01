@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ConditionErrors">
+        <node id="root">
+            <children>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8e5cb333g0e66g3130g25feg828da8123173" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_Status_BRUTAL_STRIKE_False"/>
+                    <attribute id="UUID" type="guid" value="73d285d8-8c03-472b-ad77-ad1e35dc9ac7"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf6d1ad0eg1cdeg2e97gc0b6gd02c6f82352d" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_Status_RECKLESS_ATTACK_False"/>
+                    <attribute id="UUID" type="guid" value="d48948fb-46ad-4774-ac1c-017047259116"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h489565d5gdacagd50cgd89dgebb0f54ddcfa" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_Status_ELEMENTAL_ATTUNEMENT_False"/>
+                    <attribute id="UUID" type="guid" value="38b5ff83-a39c-40b2-b7c5-3669ee5233ce"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hf0cf8dbcg5642g1414gbaf9g33d40d38e2c0" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd4ef5efcg45d5g685fg1783gbb65106af19d" version="2"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SecondWind5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="1bb1edbe-bf5b-4dc2-97ee-de6ec244a084"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hfbc5161egd700ge98fga70eg8be6a41bac99" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h80b664f3g9c57g1002gff20gf4ed45fb9479" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="WeaponMastery5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="a227b4a5-90df-4cdf-84a8-1a050c3b502f"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h71fdc067g1c77g0d53g249dg748d9c4f1012" version="1"/>
+                    <attribute id="DiceType" type="uint32" value="6"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h24daf78agf42ag9948g98bcg86049e62a4da" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="PsiWarriorDie5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="8964ff89-9d24-457a-a8dd-63c1fe97a3ed"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h43946806g7c3cg25a3g80afg3b10f6a0fedb" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0a8c7782gfc33g9118gac8aga73cdef43d1f" version="2"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="KiPoint"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="46d3d228-04e0-4a43-9a2e-78137e858c14"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h5ad994c2g444fgfcb6g35bbgecb01e75f88c" version="1"/>
+                    <attribute id="DiceType" type="uint32" value="12"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbdf006e1g8fcag3cc6g4192g1dc64e6a4d9e" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ZealotDie5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="6070fb63-a11c-48e2-ab75-ff94e37366d7"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h9f25626cg239cgafa7gb24ag90352d06761f" version="1"/>
+                    <attribute id="DiceType" type="uint32" value="6"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc3b5570fg3d5bg2accg06a3g5ff3d5f6659d" version="3"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="SoulKnifeDie5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="35e3b812-5296-4963-9e33-7a1f83422dc2"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h985aa4b4gc0b7g842bg56aag5f7da881720b" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd0febe38gf007g9fd0g5db5g2df936f6def8" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="WarPriestActionPoint"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="30cca4c5-a808-4c96-bd1c-f57bbb92dc1d"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h8712c123gc04fg23cegb989g39cbdeaa9fdb" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h46775e64g0f65g7364gb52ag8e6fb12b7b5b" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ChannelOath"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="c0503ecf-c3cd-4719-9cfd-05460a1db95a"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hdd8cd609g2795gfd26g5256gd8bfecd458a1" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h13690c3dga271g4530g0e5eg12da104a9be5" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ChannelDivinity"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="028304ef-e4b7-4dfb-a7ec-cd87865cdb16"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h35c15caag764bg313fg5183g2973eb19f1aa" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfeb78cd6g0361g0d28g6c0cg2f44e76f6fca" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="FavoredEnemy5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="a7e6b808-f288-4a37-b186-071f9a2629c7"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hee854e47g3788g068dgf903g6b84ee9eb5f2" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7567f47dg8fe6g5a69g5099g0f8e18565bf1" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="2"/>
+                    <attribute id="Name" type="FixedString" value="InnateSorcery5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="706041ea-a488-4b48-ae8c-5de32f1ba26a"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h519b3c15gcfcag1d08gd1a8g7dba199eb4d0" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hdddc419fgbb37gfed7g4f0fg869d9d4c96d2" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="RestoreBalance5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="e3807d42-7cb7-4913-a464-c90ef8f25107"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h71217fc5gce69g734fgaec6g59dfb211d554" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hae2c0352g0c7cgb957g4911gb075ede6b0f0" version="2"/>
+                    <attribute id="IsHidden" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="HealingLight5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="d91ba64f-3173-4ab5-b97a-1995b3da0b7d"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hcbd80353gd721g8695ged81gbb7ec2aa88b8" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h1ba81887gb7adg04ddg7cf8g60ad88d07585" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="WildShape"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="68542019-178b-4f43-b9d3-51ab8e7b286b"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hac087e6cg2fcbgc8bdgef9cgf953a631f8f3" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hcdd6fadcg3e2eg2fa1g6076g8dc95a4b946e" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="CosmicOmen5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="58370695-82df-4e74-8a89-9adb4d74bd19"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hf810d826g4b60g99b5gc766gfc38c80f94b9" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h43181efdg61a8g8ff9g71c7gf112d747e38e" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="StunningStrike5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="7fe197fe-7922-46f5-a355-aa83f942406f"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hafc13948gca9dg341dge480ge1b8a5e1af46" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0f6c0728g2238ga70bg0b3egf462e158107e" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="PrayerOfHealing5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="289539a8-1c76-458c-a965-fd0d48e20b71"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h66bcf337geb4ag4a6ega02bg1cb998417e7f" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha94e5999g4f93gaf05gfc6ag7f2fff15cf18" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="AdrenalineRush5R"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="55f24ba6-42e7-49d4-b7cb-13fdac2a7cbd"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
