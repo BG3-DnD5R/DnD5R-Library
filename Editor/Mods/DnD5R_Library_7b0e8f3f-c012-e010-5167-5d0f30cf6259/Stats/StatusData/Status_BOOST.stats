@@ -39,7 +39,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19bc8b9bg1d4ega9eag178bg3e7f890a5113" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfe1e9108g9ba8g0e51g9cbaga9b932a9a261" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_BladeWard" />
-        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="36" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="ApplyStatus(STATUS_DND5R_BLADEWARD)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d4" />
