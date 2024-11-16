@@ -47,4 +47,3 @@ data "Description" "he7a6e516ga4dcg9787gd538g35e970325462;2"
 data "Icon" "Spell_Abjuration_BladeWard"
 data "Boosts" "IF(HasStatus('STATUS_DND5R_BLADEWARD_OWNER',context.Target)):RollBonus(Attack,-1d4)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
