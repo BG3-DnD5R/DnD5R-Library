@@ -358,7 +358,12 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0074d467-71c7-4659-90df-658016eea378" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Forgetfulness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h44be4be3g289ag1b7bg0fa1g9802a37e9bda" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfb888b1dg6909gfc79g3c87g280e3578ed4e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DangerSense" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Wisdom)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
