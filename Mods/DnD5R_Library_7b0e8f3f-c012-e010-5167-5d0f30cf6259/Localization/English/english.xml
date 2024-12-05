@@ -156,4 +156,63 @@
   <content contentuid="hef537fa1gf490gcff1g313fgfaed8184b3b1" version="1">You have resistance agaist poison damage</content>
   <content contentuid="h44be4be3g289ag1b7bg0fa1g9802a37e9bda" version="1">Forgetful</content>
   <content contentuid="hfb888b1dg6909gfc79g3c87g280e3578ed4e" version="1">You forget things</content>
+  <content contentuid="h6f1c51b1gcea0g3c45g95c9g7828a7d2cd4a" version="1">Eldritch Blast</content>
+  <content contentuid="h57cd6c47gd266g6e9ag1b0cg3aa1a6be96bf" version="1">Conjure [1] beam(s) of crackling energy.</content>
+  <content contentuid="h72402e1eg2838ge7a3gd9f0g53501e746d30" version="1">Fire Bolt</content>
+  <content contentuid="h6cb2afecgc394gb6ebge641g2de18aa7ea31" version="1">Hurl a mote of fire.</content>
+  <content contentuid="hda383c18g30e1g04d0g60c9g81ae3b4c35e1" version="1">Poison Spray</content>
+  <content contentuid="hb3ba6751gb12age7f9g657ag7adb601c2126" version="1">Project a puff of noxious gas.</content>
+  <content contentuid="hf1b660c1g28f2g2fabgf458g1669babb9916" version="1">Produce Flame: Hurl</content>
+  <content contentuid="hf0ca4c5bgce4dgf6f9ge7b3g242e25dc0973" version="1">Hurl the conjured flame in your hand at a target and let it sizzle out.</content>
+  <content contentuid="h58e97e58g5bb1ga987g6febg092e9570e1d1" version="1">Throwing the flame this turn doesn't cost an action. Throwing it on subsequent turns will cost an action.</content>
+  <content contentuid="hc147bc3ege599g06f5ge60cgfb60f9398009" version="1">Ray of Frost</content>
+  <content contentuid="h6bdc9d27gc5b8gc5b8g1c4dgc27173aceaf8" version="1">Reduces the target's &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; by [1].</content>
+  <content contentuid="h13da7981ga8d4ga246g3fb7g9575592ad24a" version="1">Acid Splash</content>
+  <content contentuid="h2e5d68c1gc2a2g9bd0gab8bg67c8271bc9ed" version="1">Throw a bubble of acid that damages each creature it hits.</content>
+  <content contentuid="he1c52df5g7b2cg7737g71c6g510644d07b85" version="1">You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage. &lt;BR&gt;&lt;BR&gt;&lt;B&gt;Cantrip Upgrade.&lt;/B&gt; The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</content>
+  <content contentuid="he9cb33cfg52efgcf6eg016eg8342d7da7b5d" version="1">You hurl a beam of crackling energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes 1d10 Force damage.&lt;BR&gt;&lt;BR&gt;&lt;B&gt;Cantrip Upgrade.&lt;/B&gt; The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</content>
+  <content contentuid="hb5553534g74d4g85f7g88aag40c65fa4addc" version="1">You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn’t being worn or carried. &lt;BR&gt;&lt;BR&gt;&lt;B&gt;Cantrip Upgrade.&lt;/B&gt; The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</content>
+  <content contentuid="h4c33ad2dge1bag138ega4e2g6d9e7e5f0604" version="1">You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.</content>
+  <content contentuid="h2bdb028fg7c08g01a6g64ebg4d1630688098" version="1">Chromatic Orb</content>
+  <content contentuid="hf35089c6g0503g5f31g7f36g0f0537d8d363" version="1">Hurl a sphere that deals [1] and possibly creates a surface on impact. Alternatively, choose a different type of damage. </content>
+  <content contentuid="hcd77850bg04b6g8414g980fgdffa4e4748d7" version="1">Chromatic Orb: Acid</content>
+  <content contentuid="h9038f638g040bg0ef2g7f75gadfd79baaf10" version="1">Hurl caustic energy that damages the target and creates an &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt; surface on impact. </content>
+  <content contentuid="h03f528b6gce94g5cd6g0197g137a28f1cb73" version="1">Chromatic Orb: Cold</content>
+  <content contentuid="h76e3a496g658dg9b8dgc121g95fc713a02c2" version="1">Hurl freezing energy that damages the target and creates a frosty surface to knock creatures &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. </content>
+  <content contentuid="h16134c1agd5c8g3545g1bd4ge47036c2de6a" version="1">Chromatic Orb: Fire</content>
+  <content contentuid="h6853c64dg3b8ega347gf356g48af73e4f8e2" version="1">Hurl fiery energy that damages the target and creates a &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; surface on impact. </content>
+  <content contentuid="h0e9488c8gb3cdgf5eag3e3cge51e2251c3fd" version="1">Chromatic Orb: Lightning</content>
+  <content contentuid="h80a69ba7g6773g84aag734agde27778382c4" version="1">Hurl lightning energy that damages the target and creates an electrified surface on impact. </content>
+  <content contentuid="hbcb04c00g7770g2310g631dge7ef41f995bb" version="1">Chromatic Orb: Poison</content>
+  <content contentuid="h00bdf688ge08eg9a49g7353g377f859c5705" version="1">Hurl poisonous energy that damages the target and creates a bubbling surface to &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; creatures. </content>
+  <content contentuid="hb093b290g0b35g24f6g47f5g1f92f939cf3a" version="1">Chromatic Orb: Thunder</content>
+  <content contentuid="hcf90a4bagc60cg3b9dgc528g35f6a6ebc3b4" version="1">Hurl a sphere of thunderous energy.</content>
+  <content contentuid="h38f95aaegfb0ag91cegd398g9e63891c6741" version="1">Guiding Bolt</content>
+  <content contentuid="ha2ab0972g7711g4b1eg85abg708d92ba6092" version="1">The next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against this target has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+  <content contentuid="h675e1b7cgf0c1ge0c1g284eg2342a4f87590" version="1">Hail of Thorns</content>
+  <content contentuid="hf5491828g8909ga9a5g2830gf424b5bedd26" version="1">The thorns deal [1] to the target and then explode. The explosion deals an additional [2] to the target and surrounding creatures.</content>
+  <content contentuid="h6ff6ca0fg3587g2a73g4b74gc7f134ab983d" version="1">Witch Bolt</content>
+  <content contentuid="h5f3cb4e3gb695g0b7fg1004ge2e4bd586e83" version="1">Link yourself to a target with a bolt of lightning. Deal an additional [1] each turn by activating it.</content>
+  <content contentuid="hf29ad5ebgbefdg4750g2172g4b49bf3b092c" version="1">Magic Missile</content>
+  <content contentuid="h9d3f2147g3969g9147gbb53g437c08410008" version="1">Shoot [2] magical darts, each dealing [1]. They always hit their target.</content>
+  <content contentuid="h6081aba9gdc96g93cbga35cg2979adb050ab" version="1">Ray of Sickness</content>
+  <content contentuid="h210d49e0gdefbg3f65gd037gb727558ca331" version="1">Possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisons&lt;/LSTag&gt; the target.</content>
+  <content contentuid="h17ca6cc8g7a22g2134g8f27g005d9fadaa13" version="1">Ice Knife</content>
+  <content contentuid="h3b661e52gb24dg9894gc0a3gc26201eb4a77" version="1">Throw a shard of ice that deals [1]. It explodes and deals [2] to anyone nearby. It leaves an ice surface.</content>
+  <content contentuid="hc808b6f4g9736g2611gd1c4g896980ef13a2" version="1">This spell can be cast while you are &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silenced&lt;/LSTag&gt;.</content>
+  <content contentuid="hc79d0376gf156gb933g3d89g383c7e206552" version="1">Ranged Attack</content>
+  <content contentuid="h807e407cgd175gf9f4g1dbbgf714dcdd0c4a" version="1">Make a ranged attack with your equipped weapon.</content>
+  <content contentuid="h7c8a0b9egd13dg567agf043g92f607136097" version="1">Ensnaring Strike</content>
+  <content contentuid="h053757a9geb76gcd83g6dbbg1badbf5cbd7b" version="1">Ensnaring Strike (Ranged)</content>
+  <content contentuid="h454cdec9gbba5ga15fgd21cg9e857a599574" version="1">Your attack summons thorny vines that possibly &lt;LSTag Type="Status" Tooltip="ENSNARING_STRIKE"&gt;Ensnare&lt;/LSTag&gt; your target.</content>
+  <content contentuid="h87be495bg995eg4550g103egeb5d58d78d9f" version="1">Branding Smite (Ranged)</content>
+  <content contentuid="ha74c35f4gbedfg5635gd578g3ae34655102e" version="1">Possibly marks your target with light, preventing it from turning &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
+  <content contentuid="h857c979eg3d97gbe2eg29e2gfdc24f4e4efc" version="1">Melf's Acid Arrow</content>
+  <content contentuid="hc9af8c9ag4590g9304gec00g0ecda74d562a" version="1">Shoot a green arrow that covers the target and the ground with acid. Deals [1] immediately and [2] at the end of the target's turn.</content>
+  <content contentuid="h06247b7cgb647g3cbbg8071gf574921fa0c8" version="1">Ray of Enfeeblement</content>
+  <content contentuid="h24e9ffeeg7fc4gb2b4g0cacg67ccdb28d63e" version="1">Weaken a foe: they deal half damage with weapon attacks using &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;.</content>
+  <content contentuid="hba729741g74bag3e8ag6a26g312517cb1c74" version="1">Scorching Ray</content>
+  <content contentuid="he35137abgf1a5g5322g99d0g873ab3d8519d" version="1">Hurl [2] rays of fire. Each ray deals [1].</content>
+  <content contentuid="hf979915cg2624g729bgb8e0g0ea8f8c45c95" version="1">Fireball</content>
+  <content contentuid="h46059c51g8082g11cbg6217g51c29293f6c9" version="1">Shoot a bright flame from your fingers that explodes upon contact, torching everything in the vicinity.</content>
 </contentList>
