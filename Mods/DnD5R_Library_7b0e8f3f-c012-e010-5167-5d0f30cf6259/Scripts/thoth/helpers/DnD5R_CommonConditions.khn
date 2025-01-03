@@ -10,3 +10,18 @@ end
 function ExtraWeaponAttack()
     return ConditionResult(true)
 end
+
+
+function DnD5R_HasPactWeapon(entity, mainHand)
+    local entity = entity or context.Source
+    local weaponEntity = GetActiveWeapon(entity, true)
+    if weaponEntity.IsValid then
+        result = Character(entity) & HasStatus('STATUS_DND5R_PACTBLADE', weaponEntity)
+        return ConditionResult(result.Result, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
+    end
+    return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
+end
+
+function DnD5R_ProficiencyBonusEqualTo(value)
+    return ConditionResult(context.Source.ProficiencyBonus == value)
+end
