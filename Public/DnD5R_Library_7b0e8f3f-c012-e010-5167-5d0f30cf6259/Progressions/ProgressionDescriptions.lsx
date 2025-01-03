@@ -5,6 +5,10 @@
         <node id="root">
             <children>
                 <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h96299209g8b5eg17c5gc6c2g492bc2bb0bcf" version="1"/>
+                    <attribute id="UUID" type="guid" value="1199235e-6aac-4d75-91a7-820be7388d81"/>
+                </node>
+                <node id="ProgressionDescription">
                     <attribute id="DisplayName" type="TranslatedString" handle="hc72670eeg2a54g1129g0773g7609bdb1b69a" version="1"/>
                     <attribute id="Type" type="FixedString" value="Aasimar"/>
                     <attribute id="UUID" type="guid" value="19032491-bea1-40e4-b04d-580bf56a849b"/>
@@ -67,16 +71,8 @@
                     <attribute id="UUID" type="guid" value="c508e717-eab0-48ce-bf84-254dd16a4baf"/>
                 </node>
                 <node id="ProgressionDescription">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h96299209g8b5eg17c5gc6c2g492bc2bb0bcf" version="1"/>
-                    <attribute id="UUID" type="guid" value="1199235e-6aac-4d75-91a7-820be7388d81"/>
-                </node>
-                <node id="ProgressionDescription">
                     <attribute id="DisplayName" type="TranslatedString" handle="hbfff0855gc3c4gc3a9g0a32g5f3e06dfa77d" version="1"/>
                     <attribute id="UUID" type="guid" value="ad12ade2-b75e-4c3b-94e5-8b54aa728fe9"/>
-                </node>
-                <node id="ProgressionDescription">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h71ac782bg88cfgba2fg4d14g2198825fbf7d" version="1"/>
-                    <attribute id="UUID" type="guid" value="1f551949-aac8-4568-bb01-dcd1b49d6452"/>
                 </node>
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="hae719252g5688g4c93g6494g88f76c2aca76" version="1"/>
@@ -84,6 +80,10 @@
                     <attribute id="ProgressionTableId" type="guid" value="3c25b566-5276-4b62-95f4-340be3205d1f"/>
                     <attribute id="Type" type="FixedString" value="Warlock"/>
                     <attribute id="UUID" type="guid" value="b7a65c81-5b10-498f-ad7b-54d76122b3f6"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h71ac782bg88cfgba2fg4d14g2198825fbf7d" version="1"/>
+                    <attribute id="UUID" type="guid" value="1f551949-aac8-4568-bb01-dcd1b49d6452"/>
                 </node>
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h37300b4egc6f4gae65g1556g16a5ef67576c" version="1"/>

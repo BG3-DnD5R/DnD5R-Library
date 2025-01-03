@@ -372,10 +372,99 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1870bac3-57a7-46e0-b4f0-dad8a606791b" />
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive__DnD5R_WIP" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="978dbd8a-fe4d-4ea0-9f38-15a17f3282e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Goliath_ActionResource" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a417616gf590gc5bcgab13g7aa526de7239" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c3a4d47gba35g8e6egf2b0g76052288ee5d" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(DnD5R_ProficiencyBonusEqualTo(2)):ActionResource(AR_DnD5R_Goliath,2,0);IF(DnD5R_ProficiencyBonusEqualTo(3)):ActionResource(AR_DnD5R_Goliath,3,0);IF(DnD5R_ProficiencyBonusEqualTo(4)):ActionResource(AR_DnD5R_Goliath,4,0);IF(DnD5R_ProficiencyBonusEqualTo(5)):ActionResource(AR_DnD5R_Goliath,5,0);IF(DnD5R_ProficiencyBonusEqualTo(6)):ActionResource(AR_DnD5R_Goliath,6,0);IF(DnD5R_ProficiencyBonusEqualTo(7)):ActionResource(AR_DnD5R_Goliath,7,0);IF(DnD5R_ProficiencyBonusEqualTo(8)):ActionResource(AR_DnD5R_Goliath,8,0);IF(DnD5R_ProficiencyBonusEqualTo(9)):ActionResource(AR_DnD5R_Goliath,9,0);IF(DnD5R_ProficiencyBonusEqualTo(10)):ActionResource(AR_DnD5R_Goliath,10,0);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="ProficiencyBonus" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="AR_DnD5R_Goliath:1" />
+        <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fcae7726-eb3c-4afe-9380-7866d4573efd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Goliath_FireGiant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h95163621g0122gb744g0c87g72ff3a1e3446" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageEffectFlag(DamageFlags.Hit) and HasActionResource('AR_DnD5R_Goliath', 1, 0, false, false, context.Source)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(SELF,AR_DnD5R_Goliath,1);DealDamage(1d10,Fire,Magical)" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('AR_DnD5R_Goliath', 1, 0, false, false, context.Source)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haeb032e9g9ee3g17abgcd43g56d68476a452" version="1" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="AR_DnD5R_Goliath:1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1632b551-b017-4047-ab4e-abd47abe623a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Goliath_FrostGiant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03e1e5f7ge6c2g3488gcaf3gd4c3447daa3e" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="AR_DnD5R_Goliath:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('AR_DnD5R_Goliath', 1, 0, false, false, context.Source)" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageEffectFlag(DamageFlags.Hit) and HasActionResource('AR_DnD5R_Goliath', 1, 0, false, false, context.Source)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(SELF,AR_DnD5R_Goliath,1);DealDamage(1d6,Cold,Magical);ApplyStatus(RAY_OF_FROST,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9a8314c-3965-4b9e-9e9b-8547416a87db" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Goliath_HillGiant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h83053b50g14aag43d0gc97bg160e0d9803cf" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="AR_DnD5R_Goliath:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Nature" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasDamageEffectFlag(DamageFlags.Hit) and HasActionResource('AR_DnD5R_Goliath', 1, 0, false, false, context.Source) and TargetSizeEqualorSmaller(Size.Large)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(SELF,AR_DnD5R_Goliath,1);ApplyStatus(Prone,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21bfc023-28e1-4af5-bda4-a63f328b845a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Goliath_StoneGiant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h85cfffe7gae08g6896g348agcfe4d2b84a53" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="AR_DnD5R_Goliath:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_ElementalEarth_SeismicStrike" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f9e486b-355a-4003-8db1-8b51de823996" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Goliath_StormGiant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he3dcae6fg4cfcg150dg63f5g36f1628dd312" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="AR_DnD5R_Goliath:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ff098fa-4e94-450c-8907-d13567b8a12d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Passive_DnD5R_Goliath_CloudGiant" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h646273abg7385gc1b2gd801g73022c351aa4" version="1" />
+        <field name="TooltipUseCosts" type="StringTableFieldDefinition" value="AR_DnD5R_Goliath:1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Ethereal" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>
