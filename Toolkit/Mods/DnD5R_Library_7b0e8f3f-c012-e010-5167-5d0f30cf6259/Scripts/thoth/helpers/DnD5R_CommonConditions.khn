@@ -7,10 +7,14 @@ function DnD5R_BreathWeaponAttack()
     return result
 end
 
-function ExtraWeaponAttack()
-    return ConditionResult(true)
+function DnD5R_UnarmedAttackShove()
+    local result = Dead() | Item() | Ally()
+    if not result.Result then
+        local skillCheck = SkillCheck(Skill.Athletics,math.max(context.Target.GetPassiveSkill(Skill.Athletics),context.Target.GetPassiveSkill(Skill.Acrobatics)), IsSneakingOrInvisible())
+        return ConditionResult(skillCheck.Result,{},{},skillCheck.Chance)
+    end
+    return result
 end
-
 
 function DnD5R_HasPactWeapon(entity, mainHand)
     local entity = entity or context.Source
