@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="RulesetModifiers">
+        <node id="root">
+            <children>
+                <node id="RulesetModifier">
+                    <attribute id="Default" type="LSString" value="true"/>
+                    <attribute id="Description" type="TranslatedString" handle="hf4e5eb88g73ceg78a0g4881ge8fae3f73112" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h27baae82ge0c4g9bf0ga8a2g9aefeb33d8e0" version="1"/>
+                    <attribute id="EditableDuringGame" type="bool" value="true"/>
+                    <attribute id="Name" type="LSString" value="SCROLL_CLASS_RESTRICTION"/>
+                    <attribute id="RulesetModifierType" type="uint8" value="4"/>
+                    <attribute id="ShowInCustom" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="33bd456b-e716-4ff7-aca7-04b61aaf5d9a"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

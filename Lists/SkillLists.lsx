@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="Observant Skills"/>
+                    <attribute id="Skills" type="LSString" value="Insight, Investigation, Perception"/>
+                    <attribute id="UUID" type="guid" value="c5220680-772b-49f4-952c-305aa6109774"/>
+                </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="Otherworldly Glamour"/>
+                    <attribute id="Skills" type="LSString" value="Deception, Performance, Persuasion"/>
+                    <attribute id="UUID" type="guid" value="6ea59ef7-82af-4b22-8e5d-267168741fc9"/>
+                </node>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="Scholar"/>
+                    <attribute id="Skills" type="LSString" value="Arcana, History, Investigation, Medicine, Nature, Religion"/>
+                    <attribute id="UUID" type="guid" value="887f7f64-48e2-4152-9ad5-051a3576e61e"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

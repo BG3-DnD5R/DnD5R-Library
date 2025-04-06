@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="FixedHotBarSlots">
+        <node id="root">
+            <children>
+                <node id="FixedHotBarSlot">
+                    <attribute id="HotBarController" type="uint8" value="1"/>
+                    <attribute id="HotBarType" type="uint8" value="0"/>
+                    <attribute id="SlotIndex" type="uint32" value="3"/>
+                    <attribute id="SpellId" type="FixedString" value="Shout_Dodge"/>
+                    <attribute id="UUID" type="guid" value="dfc2ec03-a558-40b5-8f21-73e8d22e8674"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

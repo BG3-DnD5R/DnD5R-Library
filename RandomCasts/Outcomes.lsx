@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="Outcomes">
+        <node id="root">
+            <children>
+                <node id="Outcome">
+                    <attribute id="ClassLevel" type="uint32" value="2"/>
+                    <attribute id="ClassUUID" type="guid" value="14374d37-a70e-41a8-9dc5-85a23f8b5dd2"/>
+                    <attribute id="GroupName" type="FixedString" value="WildMagic"/>
+                    <attribute id="Level" type="uint32" value="2"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_WIldMagic_Overchannel"/>
+                    <attribute id="UUID" type="guid" value="c0534940-b6ea-4017-933e-6e1a3d2c147d"/>
+                </node>
+                <node id="Outcome">
+                    <attribute id="GroupName" type="FixedString" value="WildMagic"/>
+                    <attribute id="Level" type="uint32" value="2"/>
+                    <attribute id="Spell" type="FixedString" value="Shout_WildMagic_Resistance"/>
+                    <attribute id="UUID" type="guid" value="eecd4771-69b3-4801-b0ee-e9a8d3fcc31e"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

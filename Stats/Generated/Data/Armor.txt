@@ -1,0 +1,18 @@
+new entry "MAG_Restoration_SpellSlotRestoration_Amulet"
+type "Armor"
+using "_Amulet_Magic"
+data "RootTemplate" "ba147dc7-98bc-4bfb-9fbc-efa1735d0841"
+data "ValueUUID" "ccaceafa-6dc1-41c7-bd43-db6d4da8a3d8"
+data "Rarity" "VeryRare"
+data "Boosts" "AC(1);RollBonus(SavingThrow,1)"
+data "Unique" "1"
+
+new entry "MAG_PHB_ofPower_Pearl_Amulet"
+type "Armor"
+using "ARM_Amulet_Necklace_C_Bronze_A"
+data "RootTemplate" "6b8fcc06-fa6a-4a11-8318-075d90d8e909"
+data "ValueUUID" "f0e7be35-8be4-483d-afa8-dc9a104ea758"
+data "Rarity" "Uncommon"
+data "PassivesOnEquip" "MAG_ArcaneEnchantment_Lesser_Passive"
+data "Unique" "1"
+

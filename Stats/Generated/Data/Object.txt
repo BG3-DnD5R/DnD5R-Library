@@ -1,0 +1,13 @@
+new entry "CONS_FOOD_Fruit_Goodberry"
+type "Object"
+using "CONS_GenericFoodItem"
+data "RootTemplate" "de6b186e-839e-41d0-87af-a1a9d9327785"
+data "ValueUUID" "8b2ad47c-891e-4a19-bab8-43cd5e964cb1"
+data "ValueOverride" ""
+data "Weight" "0.05"
+data "DefaultBoosts" ""
+data "ObjectCategory" ""
+data "UseCosts" "BonusActionPoint:1"
+data "ItemUseType" "Potion"
+data "SupplyValue" "10"
+
