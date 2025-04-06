@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="1d8c865f-bfa7-4f37-b0e4-2bdc12ecf6be">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e46d7897-d2c8-4b79-868e-1f6c24c61e48" />
+        <field name="Name" type="NameTableFieldDefinition" value="TURNED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he853484fg25d4g4cecga473g6c2f9a634579" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hde9b5a35g5a1dg4ebegb14dg3830e8213259" version="6" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Turned" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;OverheadOnTurn" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition;SG_Fleeing" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Feared" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Feared" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="WEAK" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(ActionPoint); ActionResourceBlock(BonusActionPoint); ActionResourceBlock(ReactionActionPoint)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="aceafbd1-c5bc-40e4-afe6-204912818878" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(LOW_GHOST_POSSESSED)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TURNED" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Turned_Remove" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a21a2b6a-9ae8-4363-a0fd-0243e49856b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="FEARED" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="FearStatusSavingCheck()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ccc63c5g0843g495bg962fg32a4eb78df70" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0865a6fdgabc6g4875gafeege38775aad23e" version="2" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Feared" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Feared" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;OverheadOnTurn" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Frightened;SG_Condition;SG_Fleeing" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="3e8e0b61-ec48-4465-86a4-49dc60986d73" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="WEAK" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="SoundVocalEnd" type="EnumerationTableFieldDefinition" value="AWAKE" enumeration_type_name="SoundVocalType" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FEARED" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67164a1b-bbfc-4342-8a0b-8df59a83ac07" />
+        <field name="Name" type="NameTableFieldDefinition" value="COMMAND_FLEE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a21a2b6a-9ae8-4363-a0fd-0243e49856b3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9dc570b1g06f6g4fa9g9721g6f60cdadcb48" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h655a79fdg6a09g4fd5g8bf8gf4fc425ce4ee" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CommandFlee" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="66787c98-d470-45a0-b82d-263de495d938" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(ActionPoint); ActionResourceBlock(BonusActionPoint); ActionResourceBlock(ReactionActionPoint)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition;SG_Fleeing" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

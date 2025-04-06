@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c777d263-6c6a-4347-9652-667e59945528">
+  <stat_objects>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="363d9fdc-ac33-4aac-b726-85293d58c627" />
+        <field name="Name" type="NameTableFieldDefinition" value="SINGLE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ea34bf3-ae66-4b6a-aed5-2c3154e4a24e" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="not Tagged('BLOCK_RESURRECTION') and not Self() and not Item() and (Dead() or HasStatus('PETRIFIED')) and Tagged('PLAYABLE')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea988d3a-a45d-4912-9022-79e4809acbe9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Revivify" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ea34bf3-ae66-4b6a-aed5-2c3154e4a24e" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Necromancy" enumeration_type_name="SpellSchool" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8bfdbd8ag235cg4183g8f39g21f193b18ece" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h992a87efg1211g44c6g8086g66b02f9277fd" version="3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_Revivify_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_Revivify_L1to3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Revivify" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="not Tagged('BLOCK_RESURRECTION') and not Self() and not Item() and (Dead() or HasStatus('PETRIFIED')) and Tagged('PLAYABLE') and HasStatus('CAN_REVIVIFY')" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="07731ae3-e88e-46da-9db3-b3362ca605a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Revivify_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ea988d3a-a45d-4912-9022-79e4809acbe9" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Teleportation_Revivify" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9e92b6c-0851-4315-8606-85c962da9e35" />
+        <field name="Name" type="NameTableFieldDefinition" value="Revivify_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ea988d3a-a45d-4912-9022-79e4809acbe9" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Teleportation_Revivify" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97bb84e4-4636-4efd-bc2e-13fa8167566f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Revivify_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ea988d3a-a45d-4912-9022-79e4809acbe9" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Teleportation_Revivify" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d5801fc-a37c-4556-ae21-527d28d88c47" />
+        <field name="Name" type="NameTableFieldDefinition" value="Revivify_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ea988d3a-a45d-4912-9022-79e4809acbe9" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f59c06a-8b34-485d-b707-62d99858ca58" />
+        <field name="Name" type="NameTableFieldDefinition" value="Revivify_Scroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ea988d3a-a45d-4912-9022-79e4809acbe9" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_Revivify_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_Revivify_L1to3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Character()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8feabb7-eb07-4457-a439-1a83d5bf9071" />
+        <field name="Name" type="NameTableFieldDefinition" value="TrueResurrection_Scroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f59c06a-8b34-485d-b707-62d99858ca58" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc5f6d321g501dg40e6g86ebg13d31c43d590" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c1a9c35g21ceg4eeaga863gffce43c34b6a" version="4" />
+        <field name="OriginSpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(100); Resurrect(100,100);RestoreResource(Movement, 100%, 0);UseActionResource(ActionPoint,100%,0);UseActionResource(BonusActionPoint,100%,0);ApplyStatus(RESURRECTING, 100, 1)" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="not Tagged('BLOCK_RESURRECTION') and not Self() and not Item() and (Dead() or HasStatus('PETRIFIED')) and Tagged('PLAYABLE')" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="391d841a-c4e2-41de-b75a-b998ab758748" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ea34bf3-ae66-4b6a-aed5-2c3154e4a24e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f48dfb67-37f1-45aa-9148-74b7c25e28fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="TravelWithFriends" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="4" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="50" />
+        <field name="TeleportSelf" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="TeleportSurface" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_DimensionDoor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3123279fg03baga7f3g4c4dg129f4568e096" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource()" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4d65f0dd-ff5e-4253-8aa1-f0e12e539a40" />
+        <field name="DisappearEffect" type="GuidObjectTableFieldDefinition" value="b214ce9c-33c2-4dfc-bfc2-3af8e4124714" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9522e37eg3b08ga92fgb517g80b0dfae7226" version="1" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="Ally() and not Grounded()" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_DimensionDoor_L4to5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_DimensionDoor_L4to5" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character()" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="LineOfSightFlags" type="EnumerationListTableFieldDefinition" value="AddSourceHeight" enumeration_type_name="LineOfSightFlags" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class_Intent" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Rage')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc046082-66ed-4845-b63d-8a23db1ccea3" />
+        <field name="Name" type="NameTableFieldDefinition" value="MistyWanderer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f48dfb67-37f1-45aa-9148-74b7c25e28fc" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="4" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="LineOfSightFlags" type="EnumerationListTableFieldDefinition" value="AddSourceHeight" enumeration_type_name="LineOfSightFlags" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource()" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character()" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25bf794dg9e17g7fbegea2bg8efe74ea5903" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea61198eg2406g916fgfa85g622a60435110" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Intent" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('SG_Rage')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="None" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ce5f313-db17-4bca-a086-929efc700287" />
+        <field name="Name" type="NameTableFieldDefinition" value="Resurrection_Spell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ea34bf3-ae66-4b6a-aed5-2c3154e4a24e" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="7" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Necromancy" enumeration_type_name="SpellSchool" version="1" />
+        <field name="OriginSpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(100); Resurrect(100,100);RestoreResource(Movement, 100%, 0);RestoreResource(ActionPoint,100%,0);RestoreResource(BonusActionPoint,100%,0);ApplyStatus(RESURRECTING, 100, 1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_Revivify" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7f8438a9g3415g459agee74g657fa55e791d" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_Revivify_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_Revivify_L1to3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:7" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="not Tagged('BLOCK_RESURRECTION') and not Self() and not Item() and (Dead() or HasStatus('PETRIFIED')) and Tagged('PLAYABLE')" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5ea8c297g4372gd796g79dcgf230671e698a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="54064e90-a62a-468c-a405-8d7df9084baa" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaiseDead" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0ce5f313-db17-4bca-a086-929efc700287" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="OriginSpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1); Resurrect(100,1);RestoreResource(Movement, 100%, 0);RestoreResource(ActionPoint,100%,0);RestoreResource(BonusActionPoint,100%,0);ApplyStatus(RESURRECTING, 100, 1)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9eebc549g5013ge24bg7c10gff0f280f88f5" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not Combat()" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="not Tagged('BLOCK_RESURRECTION') and not Self() and not Item() and (Dead() or HasStatus('PETRIFIED')) and Tagged('PLAYABLE')" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haa33e1ceg6bc4g91a0g1579g1273ec7afbb7" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05d9e200-113a-4419-8961-fcc41f3d72a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaiseDead_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54064e90-a62a-468c-a405-8d7df9084baa" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Teleportation_RaiseDead" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3ee4f5e-cb0f-4cbd-a04b-218b61324309" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaiseDead_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54064e90-a62a-468c-a405-8d7df9084baa" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:7" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Teleportation_RaiseDead" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27d24753-8885-4553-80d5-660c4db30246" />
+        <field name="Name" type="NameTableFieldDefinition" value="BranchesOfTheTree" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="LineOfSightFlags" type="EnumerationListTableFieldDefinition" value="AddSourceHeight" enumeration_type_name="LineOfSightFlags" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Character() and CanStand('')" />
+        <field name="OriginSpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Strength, SourceSpellDC())" />
+        <field name="OriginSpellSuccess" type="StringTableFieldDefinition" value="IF(not Ally()):ApplyStatus(SENTINEL,100,1)" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not Item()" />
+        <field name="TeleportSelf" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="TeleportSurface" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_GraspingVine" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbba1d8c8g3e8dgd8edga4f2g94db8aeb4f3c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0c8b0d47gc207g5d95g9b98g8b25b6cf86ee" version="1" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Strength" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SENTINEL,100,1)" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;605d49b4-03b9-47f6-96e9-7f80e6be7514,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;AbortOnSpellRollFail;AbortOnSecondarySpellRollFail;Temporary;HasSomaticComponent;TargetClosestEqualGroundSurface" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="1fda2f97-d303-4c64-9af4-346ec7d05675" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="67a63b4c-18ad-4f81-906f-d0beed59ca06" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="9649b735-d119-49ec-8955-93b1e34176e8" />
+        <field name="DisappearEffect" type="GuidObjectTableFieldDefinition" value="b214ce9c-33c2-4dfc-bfc2-3af8e4124714" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Rage')" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d020fb3-ba8f-4dd7-b72f-7aebf68f3c3c" />
+        <field name="Name" type="NameTableFieldDefinition" value="InvokeDuplicitySwap" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="LineOfSightFlags" type="EnumerationListTableFieldDefinition" value="AddSourceHeight" enumeration_type_name="LineOfSightFlags" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(Tagged('HUMAN',context.Source) and Tagged('MALE',context.Source)):Summon(99812de4-8dfc-4a78-80af-9c342c023ade, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('ELF',context.Source) and Tagged('MALE',context.Source)):Summon(e8169a2a-e140-407b-aa4f-1fc0e5d57a5d, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('DROWELF',context.Source) and Tagged('MALE',context.Source)):Summon(d726d0f6-370c-4642-908d-f76e6619998e, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('DWARF',context.Source) and Tagged('MALE',context.Source)):Summon(f33a4f90-f94e-4ed9-a6b1-0912e6b36c59, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('HALFELF',context.Source) and Tagged('MALE',context.Source)):Summon(fe8c3f06-cc26-4f72-baa8-5706fb0140bb, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('GNOME',context.Source) and Tagged('MALE',context.Source)):Summon(37ad50dd-f6fd-4962-a32d-15481bacab6d, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('HALFLING',context.Source) and Tagged('MALE',context.Source)):Summon(c9d74a0f-4022-4113-ac06-05828dfa85a1, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('TIEFLING',context.Source) and Tagged('MALE',context.Source)):Summon(f2c424e6-86e6-44e2-b04e-928482e9a76f, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('GITHYANKI',context.Source) and Tagged('MALE',context.Source)):Summon(c7f03941-b89c-4aa3-b74a-ad358b000331, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('DRAGONBORN',context.Source) and Tagged('MALE',context.Source)):Summon(6c737cbd-3a0a-4ac9-a1d2-7794291e9951, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('HALFORC',context.Source) and Tagged('MALE',context.Source)):Summon(f1b30e64-6f44-484f-8f90-f9d0c34a6e8c, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('HUMAN',context.Source) and Tagged('FEMALE',context.Source)):Summon(39240785-d534-47fd-85c4-f4a80c00c98b, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('ELF',context.Source) and Tagged('FEMALE',context.Source)):Summon(d58976d5-ab26-41e5-a87a-26b3e27278ba, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('DROWELF',context.Source) and Tagged('FEMALE',context.Source)):Summon(73874d46-00e5-4bd1-91cc-49baf95a8226, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('DWARF',context.Source) and Tagged('FEMALE',context.Source)):Summon(011a64ae-8e3c-40b8-890d-67ae115af451, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('HALFELF',context.Source) and Tagged('FEMALE',context.Source)):Summon(93bca9b7-7817-4899-9376-3665bd95d822, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('GNOME',context.Source) and Tagged('FEMALE',context.Source)):Summon(01051ea7-1980-448f-9e24-9951f8b39670, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('HALFLING',context.Source) and Tagged('FEMALE',context.Source)):Summon(9e9fb855-135b-423f-a7ce-0e9c98e6d06f, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('TIEFLING',context.Source) and Tagged('FEMALE',context.Source)):Summon(5f3c0946-affb-4e95-a5b3-fd0a78d2dec8, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('GITHYANKI',context.Source) and Tagged('FEMALE',context.Source)):Summon(bdefb0d5-4cec-4878-9230-7d7dba7b62cf, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('DRAGONBORN',context.Source) and Tagged('FEMALE',context.Source)):Summon(cc908c12-5f3f-42ae-b28c-c215c396b4bf, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(Tagged('HALFORC',context.Source) and Tagged('FEMALE',context.Source)):Summon(4a54b4a2-8500-4207-964f-4ecfb9cdb778, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL);GROUND:IF(not PlayableRace(context.Source)):Summon(c05c1aa3-da26-4d73-acbd-adc66f7df6af, 10,,,InvokeDuplicityStack,INVOKE_DUPLICITY_TECHNICAL)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="HasStatus('INVOKE_DUPLICITY_AURA')  and not Item()" />
+        <field name="TeleportSelf" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="TeleportSurface" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Warlock_OneWithShadows" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h82b1d96fg40fcg4042g4a79g64f5d5870e96" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h221f6801gebf6g2b74gf82fg8284ec393f7b" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_DimensionDoor_L4to5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_DimensionDoor_L4to5" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4d65f0dd-ff5e-4253-8aa1-f0e12e539a40" />
+        <field name="DisappearEffect" type="GuidObjectTableFieldDefinition" value="b214ce9c-33c2-4dfc-bfc2-3af8e4124714" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8da88881-cfb1-46e6-bf85-683c23af330d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SharedMoonlight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7488fe19gd64cg30e4ga2aeg6e57a9daebc6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd44a6dbcgb5c1g2dccgd3c8g8887b015f6e8" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;FeySteps5R:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CannotTargetItems;Temporary;Wildshape" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="1326ab01-fa41-4bff-8a76-c34b3916571c" />
+        <field name="DisappearEffect" type="GuidObjectTableFieldDefinition" value="74a72379-c655-4f4d-bb23-ddae742beaa3" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="4" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="LineOfSightFlags" type="EnumerationListTableFieldDefinition" value="AddSourceHeight" enumeration_type_name="LineOfSightFlags" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:ApplyStatus(SELF,MOONLIGHT_STEP,100,1)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character()" />
+        <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="Ally() and not Grounded()" />
+        <field name="TeleportSelf" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="TeleportSurface" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_DimensionDoor" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_DimensionDoor_L4to5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_DimensionDoor_L4to5" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally()" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class_Intent" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4d65f0dd-ff5e-4253-8aa1-f0e12e539a40" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

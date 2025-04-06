@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c5fef72f-f776-419b-a5a2-a6e9d3e0926c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcef77e1-138f-4646-b5e6-09e7743bde25" />
+        <field name="Name" type="NameTableFieldDefinition" value="HEAL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7437226fg8ac0g4b49gb3eeg96bb2965f2fa" version="1" />
+        <field name="HealStat" type="EnumerationTableFieldDefinition" value="Vitality" enumeration_type_name="StatusHealType" version="1" />
+        <field name="HealType" type="EnumerationTableFieldDefinition" value="Qualifier" enumeration_type_name="HealValueType" version="1" />
+        <field name="HealValue" type="DiceTableFieldDefinition" value="100" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="BringIntoCombat;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="AWAKE" enumeration_type_name="SoundVocalType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ac31c03f-eeaa-4f11-bb48-5b686d912eea" />
+        <field name="Name" type="NameTableFieldDefinition" value="RESURRECT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dcef77e1-138f-4646-b5e6-09e7743bde25" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6d39c86gd32cg4433ga52dg4058c7ea1737" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="SoundVocalStart" type="EnumerationTableFieldDefinition" value="NONE" enumeration_type_name="SoundVocalType" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce390d92-f2da-4526-af9b-2ced1dd6c796" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Restoration_SpellSlotRestoration_Amulet" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de6ea8d3-aa21-483a-8718-cc39684fd6d3" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ba147dc7-98bc-4bfb-9fbc-efa1735d0841" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="VeryRare" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(1);RollBonus(SavingThrow,1)" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="ccaceafa-6dc1-41c7-bd43-db6d4da8a3d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ecff7206-874c-48c5-9e5d-ced3f6719a1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_PHB_ofPower_Pearl_Amulet" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="81c42569-0142-47c0-93f4-4d034df32b43" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6b8fcc06-fa6a-4a11-8318-075d90d8e909" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="f0e7be35-8be4-483d-afa8-dc9a104ea758" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Uncommon" enumeration_type_name="Rarity" version="1" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_ArcaneEnchantment_Lesser_Passive" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

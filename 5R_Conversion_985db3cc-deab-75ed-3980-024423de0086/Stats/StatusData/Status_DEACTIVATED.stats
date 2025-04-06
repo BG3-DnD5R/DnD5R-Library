@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3873c3e6-e410-44d9-ba5b-ea26e276e6fe">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c8e27f6-5177-4fca-b7b9-b6b80d843d56" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEACTIVATED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5a4780a6g4b0ag46ecg8a27g74d4d26129f1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8616cf9gc838g4a0dga211g1b29d1a1f95c" version="1" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="White" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="MaterialType" type="EnumerationTableFieldDefinition" value="Replacement" enumeration_type_name="MaterialType" version="1" />
+        <field name="MaterialApplyBody" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyArmor" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyWeapon" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyNormalMap" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Control" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

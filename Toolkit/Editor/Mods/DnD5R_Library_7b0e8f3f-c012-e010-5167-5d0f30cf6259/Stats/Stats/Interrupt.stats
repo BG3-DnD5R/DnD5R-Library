@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dfc7715f-5fa0-4af9-8e9b-75fbe491ca37" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DnD5R_BladeWard" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8f9dd0e3-bccc-4a28-a136-a5eb04c6ab1f" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbe35adcbg4faeg39adg6345g8ede22533aaf" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and (not Self(context.Source,context.Observer) and HasInterruptedAttack() and Enemy(context.Source, context.Observer) and IsFlatValueInterruptInteresting(4, context.Source))  and not AnyEntityIsItem()" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(-1d4)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0bbea122g843eg0445g0dd4g7e2272f0c44a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_BladeWard" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Cost" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Stack" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

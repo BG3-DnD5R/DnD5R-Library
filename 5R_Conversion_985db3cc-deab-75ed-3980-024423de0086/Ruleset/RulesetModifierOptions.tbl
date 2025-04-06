@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="b4ccd747-d510-4763-bdd3-31077f986bbb">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="STATUS_HARD" />
+        <field name="UUID" type="IdTableFieldDefinition" value="53303f9b-28b6-4f5a-bb47-befe7350d9db" />
+        <field name="Value" type="StringTableFieldDefinition" value="STATUS_HARD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd123a2fcg0560gc053g8093gbfc43df6d983" version="1" />
+        <field name="Modifier" type="GuidObjectTableFieldDefinition" value="7d788f28-1df5-474b-b106-4f8d0b6de928" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h67c42150g004fg1444ga19fge2a648b139c5" version="1" />
+        <field name="ShowInCustom" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

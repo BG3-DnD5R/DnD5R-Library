@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="afc508da-dd39-4821-b0af-9955e5e2f087">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4705239-3190-4c8c-a015-5b9a7ce3a31f" />
+        <field name="Name" type="NameTableFieldDefinition" value="REFLECTION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff69f73dgf748g4079g9ed9g87ab138900e8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="habbcb5cfg8e2dg4b9dg869eg98a6f6610fa3" version="1" />
+        <field name="PlayerHasTag" type="StringTableFieldDefinition" value="AVATAR" />
+        <field name="PeaceOnly" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="PeaceOnly;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ff6b84b3-e35a-4347-bfff-f93f36332b75" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53a3a522-a0f2-4595-85ec-0167d41c0b97" />
+        <field name="Name" type="NameTableFieldDefinition" value="WITCH_BOLT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe64bd75g503eg42dbga02dgfe99dd7a8eb3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WitchBolt" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h919c207cg5860g40bcg8309g803cf3eef0af" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,WITCH_BOLT_OWNER)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="869aaa90-c2da-40d3-856a-9730df79c4ba" />
+        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="5bbedd95-2d56-4974-ab7a-ccfa0a9e36fd" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WITCH_BOLT_DELAY,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7bb5ef7-3889-4aa7-8947-0c8a869bec94" />
+        <field name="Name" type="NameTableFieldDefinition" value="WITCH_BOLT_DELAY" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h70bd78a6g585bg5aaeg8331g25327e4b88d2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WitchBolt" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,WITCH_BOLT_OWNER,100,2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f130dce3-15c9-43b3-a933-3bfe635a3e36" />
+        <field name="Name" type="NameTableFieldDefinition" value="EXPLODE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb20152afg1ffdg41e3gb1c1ge56ab2f7b892" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f710e78d-58ac-45df-bdfc-09a56a1c19ac" />
+        <field name="Name" type="NameTableFieldDefinition" value="DISINTEGRATE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he7b41e61g167cg448agafe0gd627dbfbae56" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Disintegrate" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="986cf2be-a7ea-4bcb-a04b-950e6fbb1d9b" />
+        <field name="Name" type="NameTableFieldDefinition" value="GB_FUGITIVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5299dab1g14f0g43bcg8cb1gba883bad1677" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd61dfb4ag1d05g4aceg8841g9c5165ea18da" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Fugitive" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0312d334-862d-4f47-b412-29bdf8a14715" />
+        <field name="Name" type="NameTableFieldDefinition" value="GB_GUARDKILLER_WITNESS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ba04984gf0abg489ega28dgc51f926d2317" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2854ee7fg6f05g49b3ga80fgfd570f5f498f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Witness" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="51f577cf-dd41-4cdf-b217-b9d303600338" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9cf8ab4f-6c3f-4a34-80ed-75d8397c55be" />
+        <field name="Name" type="NameTableFieldDefinition" value="GB_GUARDKILLER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha686248bg819bg48f1g8064g6e8705936851" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7ca8abbagf593g4043g9e1fg1a31aca78df2" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_EnemyOfJustice" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b04dc01-6c54-4df9-ab61-bad0cf13c35a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRIME_DISTRACTED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha42c1d69g6968g44c2gbe4dg8b43e789a9d5" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b20512fa-f561-40f8-a1b0-75702947db9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_SHIMMER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4693fb91gef40g4c5bg87c6g7fc2ab3811db" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="80bb6496-2013-47be-87ae-75bbc30cb18b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="61905735-7dc1-4d69-8e2b-fac39c7d2b6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_SHIMMER_DISARMED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b20512fa-f561-40f8-a1b0-75702947db9f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="9a250bf2-1919-421d-9994-428735913479" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0dfe603b-ff3f-4a02-8a04-bff09a1729cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_PUZ_DRUID_RUNE_ACTIVATED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf578d810g0b47g4c51g9403g2436b05af044" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="0aa9a327-3ebd-4298-8cb9-feb97ef67fc7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="420c101b-cec6-4a83-a0f3-b728e474f2b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="GLOWING" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2be88ae7ge361g499cg97dbg4b1a72c3e617" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="decc8d53-43f9-4e32-99cd-bee688c65998" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLOOD_COVERED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h353202c5gf145g4fb2g8b75g177296382f06" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="SplatterBloodAmount" type="FloatTableFieldDefinition" value="0.5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fdd1eacd-58c1-4a3c-bdce-9960f34c9cb0" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLOOD_COVERED_SLIGHT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="decc8d53-43f9-4e32-99cd-bee688c65998" />
+        <field name="SplatterBloodAmount" type="FloatTableFieldDefinition" value="0.2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5179c345-120e-4824-acc9-2fd4d45c5905" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLOOD_COVERED_FULL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="decc8d53-43f9-4e32-99cd-bee688c65998" />
+        <field name="SplatterBloodAmount" type="FloatTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="950fd75c-6ec3-4e76-b2d5-41434c2c3fc5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DIRT_COVERED" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9f888bcbgbe6dg4344g9331gf054b5ee7e11" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="SplatterDirtAmount" type="FloatTableFieldDefinition" value="0.5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b20abbc4-9d94-403a-a0a8-7cb448958735" />
+        <field name="Name" type="NameTableFieldDefinition" value="DIRT_COVERED_SLIGHT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="950fd75c-6ec3-4e76-b2d5-41434c2c3fc5" />
+        <field name="SplatterDirtAmount" type="FloatTableFieldDefinition" value="0.2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="753f64b3-306e-4248-9bfc-854421b9d955" />
+        <field name="Name" type="NameTableFieldDefinition" value="DIRT_COVERED_FULL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="950fd75c-6ec3-4e76-b2d5-41434c2c3fc5" />
+        <field name="SplatterDirtAmount" type="FloatTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ae9ea43-1a0e-48e8-84eb-903a022454d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="SWEATY" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99add3c5g8988g44deg99afg7924135e5d09" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="SplatterSweatAmount" type="FloatTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee4cbc07-b79c-4b33-9a89-f83e23726547" />
+        <field name="Name" type="NameTableFieldDefinition" value="SWEATY_LIGHT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ae9ea43-1a0e-48e8-84eb-903a022454d1" />
+        <field name="SplatterSweatAmount" type="FloatTableFieldDefinition" value="0.5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47ba859d-986d-42ef-b922-91d92f599fc0" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOOT_CORPSE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h96b56d79g7d27g4ffega211g4180327ab1b2" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="60198d81-60be-4a7c-82f1-dfa3c2a89310" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e074dfee-f919-40fe-8617-fb15092dacef" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOOT_CORPSE_MAJOR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="47ba859d-986d-42ef-b922-91d92f599fc0" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="3f868e51-f72a-42bc-a3ca-b44ae2608ed1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF6A5ACD" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="Name" type="NameTableFieldDefinition" value="_PASSIVES" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9270cc4eg2f0fg41a9g8332g6ea50e086ad7" version="3" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26ec5f5c-e061-44cb-a8f9-d913e797046f" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_AGONIZING_BLAST" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4abc4cf7g675fg4ebcgac63g47ef89e95153" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="768bd17b-e59d-458b-b6ad-187db5b72313" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f7dfc24-47d1-48ca-9626-03d32b7066c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_ARMOR_OF_AGATHYS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="80570845-6ee0-43e7-9b22-e61129d02c86" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f604bc62-a338-490a-912c-b06ca3229a79" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_ARMOR_OF_AGATHYS_ATTACKER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75541ec9gc94dg4785g8014gb8b695bb9d30" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="b881b4ad-5a86-4f45-9ec4-be4933d53242" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5e0029b-aceb-4f6d-bd4a-053793d6c412" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_BANE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6683044agb8ecg4149gad9bg06a288bd973c" version="1" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_Passive_Bane" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="9af78b8a-7dcb-49d7-b6ef-592b54c16410" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73bc0d5b-94b5-4aff-bac2-9baa38465bfe" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_BLESS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h590f317fg92fcg464bga6efg77ed8fe53e4b" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="07096e02-546b-4c9d-9c64-36471ba210e4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64a2726c-1db9-4416-a8b2-e03da91023ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_DARK_ONES_BLESSING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hacbdac87g0dc9g4772g93f3ge99c49e14915" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="54420b48-840e-49f3-a458-f524a4efaffa" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2bd5ee7d-f89b-48a5-98be-d38070aaaca9" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_DEFENSIVE_DUELIST" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfbc96220gdb07g4ff7gbb33g3c8cc40a1cf7" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83acd4d3-832b-4b2f-9b3d-e2cb8b21d966" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_DISCIPLE_OF_LIFE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1d9ad3dgd63bg460dg8f78g52812230929f" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="8b2264af-fec8-42cf-873e-9262dd73ff01" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68dd2385-7681-41f8-bebb-2ce8f92b8a12" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_FIGHTING_STYLE_PROTECTION" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="793ac84c-ce7c-42ef-873f-f4d0a928de21" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_HEX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a4c5f27g33d6g46bdg9983ge2f8829fa457" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="16b6baae-fd4e-44fc-a98d-e52122c58c24" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f6fc047-3883-4bb6-85d0-7da50df8907e" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_HUNTERS_MARK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="261e14a4-755d-4091-a7c7-9b75ce65dd2c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="106d79fc-bcad-4a25-878f-c96ddc4cdfcb" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_REPELLING_BLAST" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="541e982b-4f40-4311-9b7e-f1507899b93b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f66c8986-3818-4af3-96cd-355b835972f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_STAGE_FRIGHT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="89175233-d967-4a27-b6e7-666ed7fcec70" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20e95a3a-a369-4540-8e4d-ade6e1382372" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_TRUE_STRIKE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha62b7693gf5c1g4ca0ga5a8g4e48e7b82f41" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="032de5fe-f35e-4fe3-9d23-4b41fa5eb61d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="285482cb-054d-4ebf-ad16-c7cefc18d13b" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_WARDING_FLARE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf8438356gd79ag46fegaea9gabdebf2f4d74" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="7b812fa7-f5ee-4940-9fbf-15358f3490c2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e4b664c-8827-4d45-81f3-5aa6d5be727a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_STEADY_ATTACK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="07096e02-546b-4c9d-9c64-36471ba210e4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cde9d69-6dc0-4e6a-b049-b0b322120e2a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_FULL_SWING_ATTACK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="07096e02-546b-4c9d-9c64-36471ba210e4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ccf0a8d8-c636-42cf-9e2e-50fe8c138bb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_GAPING_WOUND_ATTACK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="896e0788-ffbd-4c9e-aaf7-cc4c42bccb1e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53b53054-66e4-4ec1-b09d-50f2cf38d3d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="PASSIVE_OVERWHELM_ATTACK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="07096e02-546b-4c9d-9c64-36471ba210e4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3168d54d-b150-4a4e-930e-0aa1e4dac704" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_SMITE_DIVINE_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Radiant_DivineSmite_L1to3" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="5e94d23c-0377-418f-8fc0-6358dee7cdce" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b2bcf4ad-c053-4307-8e1c-3179d926d382" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_BARDIC_INSPIRATION_ATTACK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="3955fa6e-1867-4825-99b2-c5c2d373148c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="078cc9d6-fd7b-448e-83d3-876b9eb28a99" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_BARDIC_INSPIRATION_SAVINGTHROW" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="4e59a7dd-079d-44cf-bc9c-660048cc575a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ffd34ba5-bfa2-4757-b8b6-318ba060a137" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_BARDIC_INSPIRATION_COMBAT_ATTACK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="989a16f3-5612-408c-80ab-4a7a1c854b66" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9db978c-62af-4d12-b3ba-4849f21e5372" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_BARDIC_INSPIRATION_COMBAT_DEFENSE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="fadf4d08-82e3-4d67-af8b-cdd0490d0457" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d63cf14-9ea1-4539-9110-203099a220cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_BARDIC_INSPIRATION_COMBAT_DAMAGE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="2b4f4f1c-e6a9-44c6-b305-03dff0fb8239" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6feb163c-f8a8-4cf9-ad06-c420d0eeb52e" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_CUTTING_WORDS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Cast_Bard_CuttingWords_L1to3" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="4dd1bc13-5d02-45f5-bc6b-2fb8035521ac" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fd9bfeb9-3cce-4197-8f5b-938256c99efe" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_CUTTING_WORDS_TARGET" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6feb163c-f8a8-4cf9-ad06-c420d0eeb52e" />
+        <field name="SoundStart" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec999733-b7f6-44a6-b1d9-808ed61fe991" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_DEFENSIVE_DUELIST" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f85102ce-d1b1-4a85-825a-3e7cfa1a5ead" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90f44982-932d-4d93-b9f1-419821357f3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_GIANTKILLER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ec81657b-9e78-49d9-83a0-47a7ad2a1753" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="303bbeb7-9f39-4044-b765-b80e0e853a75" />
+        <field name="Name" type="NameTableFieldDefinition" value="INTERRUPT_RIPOSTE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2284b28-f8b1-4f51-abb7-55692e6cec0f" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="04e49f47-cceb-4026-a2b2-a14c03f321ef" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF008000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ed73d1b-47aa-4948-a3a0-3382c8003f80" />
+        <field name="Name" type="NameTableFieldDefinition" value="_CREATURES" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf94b9598g72a0g4a6eg8ea5g85ef4b8106fa" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5bd3c43-183b-4d1e-be1a-700825433c0c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEVOUR_INTELLECT_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ed73d1b-47aa-4948-a3a0-3382c8003f80" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="cdbfe79d-da09-4789-97a6-f4a8ad75a8a0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="475bc730-8e9e-49fa-9def-4c2bb934917d" />
+        <field name="Name" type="NameTableFieldDefinition" value="CREATURE_INT_DEV" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ed73d1b-47aa-4948-a3a0-3382c8003f80" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="a43222c0-5d2c-4307-9f59-182c451ba545" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF9370DB" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a813ff7-f2b2-4bba-be24-da56924b64a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="_WILDSHAPE_REMOVAL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ed73d1b-47aa-4948-a3a0-3382c8003f80" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3791b71a-1b04-4341-b0d0-cf634ec3a71e" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BADGER_REMOVE_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a813ff7-f2b2-4bba-be24-da56924b64a1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="ecdb8775-6b88-4110-8169-2af42278525e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04d94337-90ab-4360-b125-1e0c5464ca13" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_BEAR_POLAR_REMOVE_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a813ff7-f2b2-4bba-be24-da56924b64a1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="4aa53232-59c4-4858-a4b4-080fa78cccba" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44fc537b-9ca9-466b-8f1e-8b8fc50dd6fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_CAT_REMOVE_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a813ff7-f2b2-4bba-be24-da56924b64a1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="b45a209e-856b-4b6a-8f09-a809d6c722b6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3149e01-45a2-497d-866e-0c9b525a8700" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_DEEP_ROTHE_REMOVE_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a813ff7-f2b2-4bba-be24-da56924b64a1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="c644ef3d-a43f-403d-b4ec-d9155a53c85d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7bc8068-7794-4fed-a5ef-8c769fb75a42" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_RAVEN_REMOVE_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a813ff7-f2b2-4bba-be24-da56924b64a1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="10b37e2a-5815-4b18-b7a8-4c6aef3adff0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="037ca5f6-f1ff-4cea-98bb-a6dd26d1e026" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SPIDER_GIANT_REMOVE_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a813ff7-f2b2-4bba-be24-da56924b64a1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="d7966d49-5c2b-4a3b-bada-307a94166668" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19ce96d9-ae85-44c1-b7ff-1168649f11f7" />
+        <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_WOLF_DIRE_REMOVE_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a813ff7-f2b2-4bba-be24-da56924b64a1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="99187cfd-1a10-4996-ad3a-74d49a79daa4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57d8e3c4-33ed-4a25-93eb-0c361053e147" />
+        <field name="Name" type="NameTableFieldDefinition" value="ABERRANT_SHAPE_REMOVE_VFX" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6a813ff7-f2b2-4bba-be24-da56924b64a1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="951953e0-98f9-45be-af66-e63f9d946a60" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="17f81fa8-cb8c-45bc-85bc-425224235fa9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONTROL_UNDEAD_OWNER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h53077ebbg843eg4fadga972g63ac4d459a49" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc495dde6g53a9g4ea3ga02cg849240042739" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="75a9f3f8-68b3-48a3-8fd1-90ff91ed2b5e" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_ControlUndead" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ec49215-8dea-4c16-981d-c20e5d6d9f02" />
+        <field name="Name" type="NameTableFieldDefinition" value="FLEE_BREAK_CONCENTRATION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1eef98a0g4e25g4226g82edg5648c5295f11" version="2" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="BreakConcentration();RemoveStatus(FLEE_BREAK_CONCENTRATION)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c30adff-dcdc-42d9-b683-c2fc7a7a0588" />
+        <field name="Name" type="NameTableFieldDefinition" value="Lightsource_Quest_CMB_StalkBulb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2ae34802g8edeg4d0bg8624g0eed546970b1" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="03c88da9-1daf-4c91-9dcf-bde2f95b9698" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ccb1e0a5-9a56-4aeb-8e73-38f3675084f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="HOUSEOFHOPE_CHAMBERPOT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf1b086bdga935g418dg9d23g7e05a8c2efb3" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="40fe9999-bec5-4992-928d-a3f3a0ca2170" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="95b2e0ef-e921-4ed2-8a7f-428d30c673bf">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c129080f-8961-4c84-ac3d-56e366923850" />
+        <field name="Name" type="NameTableFieldDefinition" value="Placeholder" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Spawn(278271f9-3fbc-4cf7-a5dc-b36527f521b2,,)" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="6" />
+        <field name="Template" type="StringTableFieldDefinition" value="b3d955f2-33d7-4146-98e8-8b953cbc060d" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="b3d955f2-33d7-4146-98e8-8b953cbc060d,48c3ebe8-ac38-da5b-ede4-ed0bb706ab2d" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1895c263g0210g4fedg9c88g473818ccb864" version="1" />
+        <field name="ProjectileType" type="EnumerationTableFieldDefinition" value="Grenade" enumeration_type_name="ProjectileType" version="1" />
+        <field name="Distribution" type="EnumerationTableFieldDefinition" value="Normal" enumeration_type_name="ProjectileDistribution" version="1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="73afb4e5-8cfe-4479-95cf-16889597fee3,,;7e67bfd0-2fc2-4d10-bed5-cfda9e660de5,,;eb054308-7fce-4b85-bf4c-7a0031fda7ac,,;0b0dc35b-4953-45c0-a9eb-8d3fef5e798a,,;6ec808e1-e128-44ef-9361-a713bf86de8f,,;b2e9c771-3497-444c-b360-23b4441985a1,,;,,;,,;,," />
+        <field name="Angle" type="IntegerTableFieldDefinition" value="90" />
+        <field name="Height" type="IntegerTableFieldDefinition" value="8" />
+        <field name="ProjectileDelay" type="IntegerTableFieldDefinition" value="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="TargetProjectiles" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsTrap" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

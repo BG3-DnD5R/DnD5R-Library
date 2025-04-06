@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ec75be5-e14d-4855-8676-91a26abfba4e" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONS_FOOD_Fruit_Goodberry" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5b7d5fb-6519-46a3-b5ef-fdf380b00220" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="de6b186e-839e-41d0-87af-a1a9d9327785" />
+        <field name="Value" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ItemUseType" type="EnumerationTableFieldDefinition" value="Potion" enumeration_type_name="ItemUseTypes" version="1" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="8b2ad47c-891e-4a19-bab8-43cd5e964cb1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.05" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SupplyValue" type="IntegerTableFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

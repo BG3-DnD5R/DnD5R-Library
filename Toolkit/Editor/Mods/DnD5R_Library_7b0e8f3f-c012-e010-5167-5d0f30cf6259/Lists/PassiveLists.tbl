@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="11fa382c-a1d2-45ba-913c-b13062365ce8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb2e9ff7-1b9a-4b42-b529-d152a0d85219" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R Warlock Invocations L1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db1f70ac-844e-41dd-8110-5285bb75d3d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R Warlock invocations L2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c8406f3-ddb3-4fc6-9f11-58d67244944e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R Warlock invocations L5" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8aced9cd-e685-40c0-afac-0efd74191d39" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R Warlock invocations L7" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade,BookOfAncientSecrets,WhispersOfTheGrave" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="76d69b10-04c8-4906-b656-33b0caf3b4cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R Warlock invocations L9" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade,BookOfAncientSecrets,WhispersOfTheGrave,Lifedrinker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1eb5cdd9-2b0d-47c4-b2bb-a3e3a5cc56d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R Warlock invocations L12" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade,BookOfAncientSecrets,WhispersOfTheGrave,Lifedrinker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="934793ab-0eb1-4ad4-aeb9-5e35a901b82d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R Warlock invocations L15" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade,BookOfAncientSecrets,WhispersOfTheGrave,Lifedrinker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d0f1017-facf-497b-a3b4-0568aefe18a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DnD5R Warlock invocations L18" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfShadows,PactOfTheBlade,PactOfTheChain,PactOfTheTome,AgonizingBlast,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,Passive_DnD5R_OneWithShadows,Passive_DnD5R_OtherworldlyLeap,Passive_DnD5R_ThirstingBlade,BookOfAncientSecrets,WhispersOfTheGrave,Lifedrinker" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

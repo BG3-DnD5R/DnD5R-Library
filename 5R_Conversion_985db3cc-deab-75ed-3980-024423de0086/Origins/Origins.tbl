@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="b923d561-af5a-47d5-b34a-f4c4fb8c4dcc">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a4b56492-d5ac-4a84-8e45-5437cd9da7f3" />
+        <field name="AppearanceLocked" type="BoolTableFieldDefinition" value="False" />
+        <field name="BodyType" type="EnumerationTableFieldDefinition" value="Max" enumeration_type_name="BodyType" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he7b2baecg7683g43acga5b0gb168078ec60f" version="1" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Generic" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6a745207gc5e9g4d27gab7eg3358b5b76cdd" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DeathSavingThrows" />
+        <field name="VoiceTableUUID" type="GuidTableFieldDefinition" value="5ee56242-d07c-482e-9260-24529d1473a3" />
+        <field name="AvailableInCharacterCreation" type="EnumerationTableFieldDefinition" value="Available" enumeration_type_name="CharacterCreatorAvailabilityType" version="1" />
+        <field name="AppearanceTags" type="GuidObjectListTableFieldDefinition" value="730e82f3-c067-44a4-985b-0dfe079d4fea" />
+        <field name="ReallyTags" type="GuidObjectListTableFieldDefinition" value="264a6880-9a51-429c-a9fc-97f8952baf90" />
+        <field name="BodyShape" type="EnumerationTableFieldDefinition" value="Max" enumeration_type_name="BodyShape" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

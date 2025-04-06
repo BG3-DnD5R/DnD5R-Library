@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="11fa382c-a1d2-45ba-913c-b13062365ce8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da3203d8-750a-4de1-b8eb-1eccfccddf46" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fighter fighting style" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_BlindFighting,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Interception,FightingStyle_Protection,FightingStyle_TwoWeaponFighting" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0bdb113-1cce-45ac-94fb-72d4c3f207e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Ranger fighting style" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_BlindFighting,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Interception,FightingStyle_Protection,FightingStyle_TwoWeaponFighting" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8ebba38-932a-4c64-ae55-3df23e2f60fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="Paladin Fighting Styles" />
+        <field name="Passives" type="StringTableFieldDefinition" value="FightingStyle_Archery,FightingStyle_BlindFighting,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Interception,FightingStyle_Protection,FightingStyle_TwoWeaponFighting" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26b53d40-13eb-4db6-80f4-bde7bd09c52d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hunter Hunters Prey" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ColossusSlayer,GiantKiller,HordeBreaker" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="333fb1b0-9398-4ca8-953e-6c0f9a59bbed" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,ThiefOfFiveFates" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e64bc365-6037-4f82-b710-8d958d9334e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid Land Spells" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Land_Arctic,Land_Coast,Land_Desert,Land_Forest,Land_Grassland,Land_Mountain,Land_Swamp,Land_Underdark" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3506532-36eb-4d18-823e-497a537a9619" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic All" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Metamagic_Careful,Metamagic_Distant,Metamagic_Extended,Metamagic_Empowered,Metamagic_Heightened,Metamagic_Quickened,Metamagic_Seeking,Metamagic_Subtle,Metamagic_Twinned" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="49704931-e47b-4ce6-abc6-dfa7ba640752" />
+        <field name="Name" type="NameTableFieldDefinition" value="Metamagic level 2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Metamagic_Careful,Metamagic_Distant,Metamagic_Extended,Metamagic_Twinned" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c69c33a2-671c-46e1-a92c-656fe64ed447" />
+        <field name="Name" type="NameTableFieldDefinition" value="DraconicAncestry" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DraconicAncestry_Red,DraconicAncestry_Black,DraconicAncestry_Blue,DraconicAncestry_White,DraconicAncestry_Green,DraconicAncestry_Gold,DraconicAncestry_Silver,DraconicAncestry_Bronze,DraconicAncestry_Copper,DraconicAncestry_Brass" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f7340a0-faf3-4122-bd3f-37a5434dd6cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Totem Warrior lvl 3 path" />
+        <field name="Passives" type="StringTableFieldDefinition" value="TotemSpirit_Bear,TotemSpirit_Eagle,TotemSpirit_Elk,TotemSpirit_Tiger,TotemSpirit_Wolf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="758a607c-7d6c-4b1a-a98f-c4e0885592a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid Land SLevel 3" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Land_Arctic_2,Land_Coast_2,Land_Desert_2,Land_Forest_2,Land_Grassland_2,Land_Mountain_2,Land_Swamp_2,Land_Underdark_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01af7629-fb39-4f77-9ffe-b8a2b7d0b5a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Divine Order" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DivineOrder_Protector,DivineOrder_Thaumaturge" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="450147c2-877c-4cb2-84e3-a2deff0a7dc4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid Primal Order" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PrimalOrderWarden,PrimalOrderThaumaturge" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f3a6a2d6-941f-46d0-8db7-ce54d4b7bba4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Blessed Strikes" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ClericDivineStrike,PotentSpellcasting" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3faf1706-12fc-47c6-a1fb-b5cc2d95d584" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric Improved Blessed Strikes" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ImprovedDivineStrike, ProtectiveCantrips" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb497358-08de-4841-8ed5-2294c73c1115" />
+        <field name="Name" type="NameTableFieldDefinition" value="Elemental Affinity" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ElementalAffinity_Resistance_Acid, ElementalAffinity_Resistance_Cold, ElementalAffinity_Resistance_Fire, ElementalAffinity_Resistance_Lightning, ElementalAffinity_Resistance_Poison" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d8ac513-c7c8-4f8b-b67f-5a9a14741aae" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Pact Boon" />
+        <field name="Passives" type="StringTableFieldDefinition" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d87cf194-d0b6-4aa2-8849-691ebec8f874" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome,OtherworldlyLeap,AgonizingBlast,ArmorOfShadows,BeguilingInfluence,DevilsSight,EldritchSpear,FiendishVigor,MaskOfManyFaces,RepellingBlast,Alert,Performer,SavageAttacker,TavernBrawler,Tough" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8adab8f9-e360-4f79-851b-2c7e050ca23d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L5" />
+        <field name="Passives" type="StringTableFieldDefinition" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome,OtherworldlyLeap,OneWithShadows,AgonizingBlast,ArmorOfShadows,DevilsSight,EldritchSpear,FiendishVigor,MaskOfManyFaces,RepellingBlast,ThirstingBlade_Blade,EldritchSmite,Alert,Performer,SavageAttacker,TavernBrawler,Tough" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39efef92-9987-46e2-8c43-54052c1be535" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L7" />
+        <field name="Passives" type="StringTableFieldDefinition" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome,AgonizingBlast,ArmorOfShadows,DevilsSight,EldritchSpear,FiendishVigor,MaskOfManyFaces,OtherworldlyLeap,OneWithShadows,RepellingBlast,WhispersOfTheGrave,ThirstingBlade_Blade,EldritchSmite,Alert,Performer,SavageAttacker,TavernBrawler,Tough" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2d72748-0792-4f1e-a798-713a66d648eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L9" />
+        <field name="Passives" type="StringTableFieldDefinition" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome,OtherworldlyLeap,AgonizingBlast,ArmorOfShadows,DevilsSight,EldritchSpear,FiendishVigor,MaskOfManyFaces,OneWithShadows,RepellingBlast,WhispersOfTheGrave,ThirstingBlade_Blade,EldritchSmite,GiftOfTheProtectors,Lifedrinker,Alert,Performer,SavageAttacker,TavernBrawler,Tough" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock invocations L12" />
+        <field name="Passives" type="StringTableFieldDefinition" value="EldritchMind,PactOfTheChain,PactOfTheBlade,PactOfTheTome,OtherworldlyLeap,AgonizingBlast,ArmorOfShadows,BeastSpeech,DevilsSight,EldritchSpear,FiendishVigor,MaskOfManyFaces,OneWithShadows,RepellingBlast,WhispersOfTheGrave,ThirstingBlade_Blade,EldritchSmite,GiftOfTheProtectors,Lifedrinker,DevouringBlade,WitchSight,Alert,Performer,SavageAttacker,TavernBrawler,Tough" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc80002e-7ada-4a7c-9347-f8ea84e51ba6" />
+        <field name="Name" type="NameTableFieldDefinition" value="Druid Land types" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AridLand,PolarLand,TemperateLand,TropicalLand" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

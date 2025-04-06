@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="4ac2c440-9b43-40ae-9b3d-a0fe0ef0443e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="adeb86b6-9102-42af-9ed2-98015d6cd406" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level12" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="20000" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Update ExtraData.Data.MaximumXPCap value when changing the sum of XP to get to max level" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb4453aa-4a0f-4501-bf4e-122a5f341631" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level13" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="20000" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3187c7fc-7b64-4f7b-b395-9624769be2bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level14" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="25000" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24faf655-576c-4785-9eb1-292e55be0412" />
+        <field name="Name" type="NameTableFieldDefinition" value="MaxXPLevel" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Important: update this accordingly! Should always be equal to the last (highest entered) level." />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

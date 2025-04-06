@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="47014da6-a81c-40a9-9f3c-4a74b6ddc574">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb5cc1b1-a593-4ba5-882e-2d6ce450053b" />
+        <field name="Name" type="NameTableFieldDefinition" value="INVISIBLE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfbb59857g081eg4da0gbcf0gaa2432cd7a28" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haabf0a81ge2d4g43a8gac70g95c1a7a6fc29" version="4" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Invisible" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="White" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="MaterialType" type="EnumerationTableFieldDefinition" value="Replacement" enumeration_type_name="MaterialType" version="1" />
+        <field name="MaterialApplyBody" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyArmor" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyWeapon" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="MaterialApplyNormalMap" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INVISIBILITY" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="UnavailableInActiveRoll;ExcludeFromPortraitRendering" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange; Invisibility(); Advantage(AttackRoll); DetectDisturbancesBlock(true);" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Invisible;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnLockpickingFinished;OnDisarmingFinished" enumeration_type_name="StatusEvent" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="d26436d4-d019-4dfc-b2f1-da0ac195575f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47b8f655-42f2-4f1e-a8ec-dc9eda29eb3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="INVISIBLE_MAGEHAND" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb5cc1b1-a593-4ba5-882e-2d6ce450053b" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="UnavailableInActiveRoll;ExcludeFromPortraitRendering;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(MAGEHAND_REST,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="054f65fc-e741-4222-9668-39bf86941cd9" />
+        <field name="Name" type="NameTableFieldDefinition" value="INVISIBILITY" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d8bf77cg9365g4f6eg920ag4ee1d1cdcfbd" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9000689eg9754g4481g9074ga513f6613ec9" version="6" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Invisibility" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INVISIBILITY" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange; Invisibility(); Advantage(AttackRoll); DetectDisturbancesBlock(true);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Invisible;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnLockpickingFinished;OnDisarmingFinished" enumeration_type_name="StatusEvent" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="84be28b3-6fdf-4b62-86e2-1f3b333aab81" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="UnavailableInActiveRoll;ExcludeFromPortraitRendering" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9036224b-3c4e-4fa9-8d51-0a26874c87eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="ONE_WITH_SHADOWS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="054f65fc-e741-4222-9668-39bf86941cd9" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Warlock_OneWithShadows" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnMove;OnLockpickingFinished;OnDisarmingFinished" enumeration_type_name="StatusEvent" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h10b8a77dg19abg47ecgb719g3d87a8e95922" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb01c86c1g1965g4573gad00gd8889a725e6e" version="2" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage)) or SpellId('Projectile_Jump') or SpellId('Projectile_Fly') or SpellId('Projectile_Fly_Spell')" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="UnavailableInActiveRoll;ExcludeFromPortraitRendering" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bdc7ec88-8609-4118-947b-f4f751dc5227" />
+        <field name="Name" type="NameTableFieldDefinition" value="POTION_OF_INVISIBILITY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb5cc1b1-a593-4ba5-882e-2d6ce450053b" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="c1d6d710-16eb-46b6-9de7-73c1a0470503" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="UnavailableInActiveRoll;ExcludeFromPortraitRendering" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="245a831a-fb83-4158-8f23-96c48e69e013" />
+        <field name="Name" type="NameTableFieldDefinition" value="INVOKE_DUPLICITY_TECHNICAL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb5cc1b1-a593-4ba5-882e-2d6ce450053b" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(INVOKE_DUPLICITY_AURA,100,-1)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="UnavailableInActiveRoll;DisableCombatlog;DisableOverhead;DisablePortraitIndicator;ExcludeFromPortraitRendering" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b002600a-a129-405c-90ab-4f9ca54086fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOAK_OF_SHADOWS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="054f65fc-e741-4222-9668-39bf86941cd9" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="6cfae2c8-0b32-487e-b1ce-616f8243ddfa" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Cleric_ChannelDivinity_CloakOfShadows" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a61dc72ga4aag8ab9g5350gf9c38cf6e6a6" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="UnavailableInActiveRoll;ExcludeFromPortraitRendering" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="GreaterInvisibilityCheck_InvisSpellOrRoll()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e12f6f7-8e71-4a63-8f14-c22179df2bc3" />
+        <field name="Name" type="NameTableFieldDefinition" value="PERFECT_INVISIBILITY" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heaebb1ceg65a6gccd4g9aa2g81851af9fdda" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1bc7e39fg64d7g6b63gbbd5g3d19f60724ee" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Invisible" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INVISIBILITY" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange; Invisibility(); Advantage(AttackRoll); DetectDisturbancesBlock(true);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="UnavailableInActiveRoll;ExcludeFromPortraitRendering" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Invisible;SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="84be28b3-6fdf-4b62-86e2-1f3b333aab81" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnRemove" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

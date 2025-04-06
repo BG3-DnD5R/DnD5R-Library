@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3b69d463-991a-40f2-b31e-e0c167865610">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="59d3da62-92f4-441d-b899-e44e1430b54e" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Aasimar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h342b6af6g0421g5e02gdc1cgcc6fd7a9dd03" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="40e70c45-5b70-406c-bfdd-26e441fdde89" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Dragonborn" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81fe0920geab4g1109gbaf5g21ccbdf7a42b" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="02e5e9ed-b6b2-4524-99cd-cb2bc84c754a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="90ecb734-8f91-480c-87b8-1d9f77550d67" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Dwarf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1f531b4gbe7dg4fddgff69g7b8f5c00a60b" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="486a2562-31ae-437b-bf63-30393e18cbdd;50e7beca-4e90-43cd-b7c5-c235e236077f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fda63715-0a28-4df4-8de8-af69fd4d4b24" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Elf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h74005ba0g181eg736fg1ccagdda5f157d64b" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="351f4e42-1217-4c06-b47a-443dcf69b111" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2069774f-9710-47c6-beac-7dfb77d90e85" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Gnome" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha64ae9fcgeb7cg9a95g93b3gb96fc8c5fe75" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="1f0551f3-d769-47a9-b02b-5d3a8c51978c;50e7beca-4e90-43cd-b7c5-c235e236077f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1d327bdc-0166-46f4-8738-279f757ba022" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Halfling" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3986520ag2e6bg54e9g5bfeg43b4d181b786" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="b99b6a5d-8445-44e4-ac58-81b2ee88aab1;50e7beca-4e90-43cd-b7c5-c235e236077f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5f5cf18f-435e-4cee-871f-7c47758567ba" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Human" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5ab1529bga1afgaf7fga5aagea493a66c3eb" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="69fd1443-7686-4ca9-9516-72ec0b9d94d7" />
+        <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Human" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a9d4c502-ed0b-416f-a00c-f7c9497bde3d" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Orc" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hff27a204gf868g6fd1gcfa4g8ec3f2bc479b" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="3311a9a9-cdbc-4b05-9bf6-e02ba1fc72a3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="67e460ce-5cf7-4bf1-8130-536ef7150d39" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Tiefling" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2bd9971fg0487g26d1gbe29g06c3adc9e234" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="aaef5d43-c6f3-434d-b11e-c763290dbe0c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b413e8d7-502f-46e6-922b-a238bd348740" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Gith" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d562cf5gcf80gceedgb178g0625e785bd9a" version="1" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="677ffa76-2562-4217-873e-2253d4720ba4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3eb59948-698d-4e9f-97cb-31d20b5c6ae9" />
+        <field name="ParentUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="DisplayTypeUUID" type="GuidTableFieldDefinition" value="899d275e-9893-490a-9cd5-be856794929f" />
+        <field name="RaceName" type="FixedStringTableFieldDefinition" value="DnD5R_Goliath" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2919cd2gd15bge563g7785g3faf0bc7b868" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

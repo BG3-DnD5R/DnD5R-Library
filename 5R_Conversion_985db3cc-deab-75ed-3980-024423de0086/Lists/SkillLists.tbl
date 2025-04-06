@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="7b3e5d55-79e7-4c79-a045-65832047778a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5220680-772b-49f4-952c-305aa6109774" />
+        <field name="Name" type="NameTableFieldDefinition" value="Observant Skills" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Insight, Investigation, Perception" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ea59ef7-82af-4b22-8e5d-267168741fc9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Otherworldly Glamour" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Deception, Performance, Persuasion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="887f7f64-48e2-4152-9ad5-051a3576e61e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Scholar" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Arcana, History, Investigation, Medicine, Nature, Religion" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

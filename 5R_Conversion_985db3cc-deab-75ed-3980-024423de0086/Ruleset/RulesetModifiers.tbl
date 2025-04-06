@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="b14c5900-3b6e-4612-aa7b-63444c8c39ab">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="SCROLL_CLASS_RESTRICTION" />
+        <field name="UUID" type="IdTableFieldDefinition" value="33bd456b-e716-4ff7-aca7-04b61aaf5d9a" />
+        <field name="ModifierType" type="EnumerationTableFieldDefinition" value="Bool" enumeration_type_name="RulesetModifierType" version="1" />
+        <field name="Default" type="StringTableFieldDefinition" value="true" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h27baae82ge0c4g9bf0ga8a2g9aefeb33d8e0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4e5eb88g73ceg78a0g4881ge8fae3f73112" version="1" />
+        <field name="ShowInCustom" type="BoolTableFieldDefinition" value="True" />
+        <field name="EditableDuringGame" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
